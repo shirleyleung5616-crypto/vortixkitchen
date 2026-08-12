@@ -1,0 +1,2069 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vortix Kitchen - Professional Induction & Infrared Cooker Manufacturer | OEM/ODM Factory</title>
+    <meta name="description" content="Leading manufacturer of induction cookers and infrared cookers since 2010. Factory direct, OEM/ODM supported, CE/CB/RoHS certified. Get factory pricing today.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a1a2e;
+            --primary-light: #16213e;
+            --accent: #c9a227;
+            --accent-hover: #d4af37;
+            --text-dark: #1a1a1a;
+            --text-medium: #4a4a4a;
+            --text-light: #6b6b6b;
+            --bg-white: #ffffff;
+            --bg-light: #f8f9fa;
+            --bg-dark: #0f0f23;
+            --border-color: #e5e5e5;
+            --success: #2d7a4f;
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 20px rgba(0,0,0,0.08);
+            --shadow-lg: 0 10px 40px rgba(0,0,0,0.12);
+            --radius-sm: 6px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Navigation */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(255,255,255,0.98);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .navbar.scrolled {
+            box-shadow: var(--shadow-md);
+        }
+
+        .nav-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--primary);
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .logo-text {
+            font-weight: 700;
+            font-size: 20px;
+            letter-spacing: -0.5px;
+        }
+
+        .logo-text span {
+            color: var(--accent);
+        }
+
+        .nav-menu {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: var(--text-medium);
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.2s;
+            position: relative;
+        }
+
+        .nav-menu a:hover {
+            color: var(--primary);
+        }
+
+        .nav-menu a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+        }
+
+        .nav-menu a:hover::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            background: var(--accent);
+            color: white !important;
+            padding: 10px 24px;
+            border-radius: var(--radius-sm);
+            font-weight: 600 !important;
+            transition: all 0.3s ease !important;
+        }
+
+        .nav-cta:hover {
+            background: var(--accent-hover);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(201,162,39,0.3);
+        }
+
+        .nav-cta::after {
+            display: none !important;
+        }
+
+        .mobile-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        .mobile-toggle span {
+            width: 24px;
+            height: 2px;
+            background: var(--text-dark);
+            transition: all 0.3s;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--primary) 50%, var(--primary-light) 100%);
+            position: relative;
+            overflow: hidden;
+            padding-top: 72px;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -20%;
+            width: 80%;
+            height: 150%;
+            background: radial-gradient(circle, rgba(201,162,39,0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            padding: 60px 24px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-content {
+            color: white;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(201,162,39,0.15);
+            border: 1px solid rgba(201,162,39,0.3);
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 13px;
+            color: var(--accent);
+            margin-bottom: 24px;
+            font-weight: 500;
+        }
+
+        .hero-badge::before {
+            content: '';
+            width: 6px;
+            height: 6px;
+            background: var(--accent);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 52px;
+            line-height: 1.15;
+            font-weight: 700;
+            margin-bottom: 24px;
+            letter-spacing: -1px;
+        }
+
+        .hero h1 span {
+            color: var(--accent);
+        }
+
+        .hero-subtitle {
+            font-size: 18px;
+            line-height: 1.7;
+            color: rgba(255,255,255,0.75);
+            margin-bottom: 36px;
+            max-width: 520px;
+        }
+
+        .hero-features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .hero-feature {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            color: rgba(255,255,255,0.85);
+        }
+
+        .hero-feature svg {
+            width: 18px;
+            height: 18px;
+            color: var(--accent);
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: var(--accent);
+            color: white;
+            padding: 16px 32px;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(201,162,39,0.35);
+        }
+
+        .btn-secondary {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: transparent;
+            color: white;
+            padding: 16px 32px;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 15px;
+            border: 1px solid rgba(255,255,255,0.3);
+            transition: all 0.3s ease;
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255,255,255,0.1);
+            border-color: rgba(255,255,255,0.5);
+        }
+
+        .hero-image {
+            position: relative;
+        }
+
+        .hero-image-main {
+            width: 100%;
+            max-width: 550px;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            object-fit: cover;
+        }
+
+        .hero-floating-card {
+            position: absolute;
+            background: white;
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            box-shadow: var(--shadow-lg);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        .hero-floating-card.card-1 {
+            bottom: 40px;
+            left: -30px;
+            animation-delay: 0s;
+        }
+
+        .hero-floating-card.card-2 {
+            top: 30px;
+            right: -20px;
+            animation-delay: 2s;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        .floating-stat {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .floating-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+
+        .floating-icon.green {
+            background: rgba(45,122,79,0.1);
+            color: var(--success);
+        }
+
+        .floating-icon.gold {
+            background: rgba(201,162,39,0.1);
+            color: var(--accent);
+        }
+
+        .floating-text strong {
+            display: block;
+            font-size: 18px;
+            color: var(--text-dark);
+        }
+
+        .floating-text span {
+            font-size: 13px;
+            color: var(--text-light);
+        }
+
+        /* Stats Section */
+        .stats-section {
+            background: var(--bg-white);
+            padding: 60px 24px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .stats-grid {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 42px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 8px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .stat-number span {
+            color: var(--accent);
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        /* Products Section */
+        .products-section {
+            padding: 100px 24px;
+            background: var(--bg-light);
+        }
+
+        .section-header {
+            max-width: 800px;
+            margin: 0 auto 60px;
+            text-align: center;
+        }
+
+        .section-tag {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent);
+            margin-bottom: 16px;
+        }
+
+        .section-title {
+            font-size: 38px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 16px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .section-desc {
+            font-size: 17px;
+            color: var(--text-medium);
+            line-height: 1.7;
+        }
+
+        .product-categories {
+            max-width: 1280px;
+            margin: 0 auto;
+        }
+
+        .category-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 48px;
+            flex-wrap: wrap;
+        }
+
+        .category-tab {
+            padding: 12px 28px;
+            border-radius: 50px;
+            border: 1px solid var(--border-color);
+            background: white;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-medium);
+            transition: all 0.3s ease;
+        }
+
+        .category-tab:hover,
+        .category-tab.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 28px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+            border-color: transparent;
+        }
+
+        .product-image-wrapper {
+            position: relative;
+            padding: 24px;
+            background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 240px;
+        }
+
+        .product-image {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover .product-image {
+            transform: scale(1.05);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 16px;
+            left: 16px;
+            padding: 6px 14px;
+            border-radius: 50px;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .badge-hot {
+            background: #fee2e2;
+            color: #dc2626;
+        }
+
+        .badge-new {
+            background: #dbeafe;
+            color: #2563eb;
+        }
+
+        .badge-eco {
+            background: #dcfce7;
+            color: #16a34a;
+        }
+
+        .product-info {
+            padding: 20px 24px 24px;
+        }
+
+        .product-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+
+        .product-desc {
+            font-size: 13px;
+            color: var(--text-medium);
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+
+        .product-model {
+            font-size: 13px;
+            color: var(--text-light);
+            margin-bottom: 12px;
+            font-family: monospace;
+        }
+
+        .product-specs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .spec-tag {
+            font-size: 12px;
+            padding: 4px 10px;
+            background: var(--bg-light);
+            border-radius: 4px;
+            color: var(--text-medium);
+        }
+
+        .product-action {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            text-align: center;
+            background: transparent;
+            border: 1px solid var(--primary);
+            color: var(--primary);
+            border-radius: var(--radius-sm);
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .product-action:hover {
+            background: var(--primary);
+            color: white;
+        }
+
+        /* Solution Sections */
+        .solution-section {
+            padding: 100px 24px;
+            background: white;
+        }
+
+        .solution-section:nth-child(even) {
+            background: var(--bg-light);
+        }
+
+        .solution-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .solution-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .solution-grid.reverse {
+            direction: rtl;
+        }
+
+        .solution-grid.reverse > * {
+            direction: ltr;
+        }
+
+        .solution-content {
+            padding-right: 20px;
+        }
+
+        .solution-number {
+            font-size: 64px;
+            font-weight: 800;
+            color: rgba(201,162,39,0.15);
+            font-family: 'Playfair Display', serif;
+            line-height: 1;
+            margin-bottom: 16px;
+        }
+
+        .solution-title {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .solution-desc {
+            font-size: 16px;
+            color: var(--text-medium);
+            line-height: 1.8;
+            margin-bottom: 32px;
+        }
+
+        .solution-points {
+            list-style: none;
+        }
+
+        .solution-point {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: var(--bg-light);
+            border-radius: var(--radius-md);
+            transition: all 0.3s ease;
+        }
+
+        .solution-point:hover {
+            background: white;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .point-icon {
+            width: 48px;
+            height: 48px;
+            min-width: 48px;
+            background: linear-gradient(135deg, var(--accent) 0%, var(--accent-hover) 100%);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+        }
+
+        .point-content h4 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 4px;
+        }
+
+        .point-content p {
+            font-size: 14px;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        .solution-visual {
+            position: relative;
+        }
+
+        .solution-image {
+            width: 100%;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .certification-badges {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            margin-top: 24px;
+        }
+
+        .cert-badge {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 16px 20px;
+            background: white;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+        }
+
+        .cert-icon {
+            width: 44px;
+            height: 44px;
+            background: var(--success);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+        }
+
+        .cert-info strong {
+            display: block;
+            font-size: 14px;
+            color: var(--text-dark);
+        }
+
+        .cert-info span {
+            font-size: 12px;
+            color: var(--text-light);
+        }
+
+        /* CTA Section */
+        .cta-section {
+            padding: 100px 24px;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--primary) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(201,162,39,0.15) 0%, transparent 70%);
+        }
+
+        .cta-container {
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-title {
+            font-size: 42px;
+            font-weight: 700;
+            color: white;
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .cta-desc {
+            font-size: 18px;
+            color: rgba(255,255,255,0.75);
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        /* Contact Section */
+        .contact-section {
+            padding: 100px 24px;
+            background: var(--bg-light);
+        }
+
+        .contact-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+        }
+
+        .contact-info h3 {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        .contact-info p {
+            font-size: 16px;
+            color: var(--text-medium);
+            line-height: 1.7;
+            margin-bottom: 32px;
+        }
+
+        .contact-methods {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            padding: 20px;
+            background: white;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color);
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--bg-light);
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+        }
+
+        .contact-detail label {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-light);
+        }
+
+        .contact-detail a,
+        .contact-detail span {
+            font-size: 15px;
+            color: var(--text-dark);
+            font-weight: 500;
+            text-decoration: none;
+        }
+
+        .contact-detail a:hover {
+            color: var(--accent);
+        }
+
+        .contact-form-wrapper {
+            background: white;
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            box-shadow: var(--shadow-md);
+        }
+
+        .form-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 14px 16px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-sm);
+            font-size: 15px;
+            font-family: inherit;
+            transition: all 0.3s ease;
+            background: var(--bg-light);
+        }
+
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+            background: white;
+            box-shadow: 0 0 0 3px rgba(201,162,39,0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 16px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .submit-btn:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(201,162,39,0.3);
+        }
+
+        .submit-btn-email {
+            background: transparent;
+            color: var(--accent);
+            border: 2px solid var(--accent);
+            margin-top: 12px;
+        }
+
+        .submit-btn-email:hover {
+            background: var(--accent);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--bg-dark);
+            color: rgba(255,255,255,0.7);
+            padding: 60px 24px 30px;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 48px;
+            margin-bottom: 48px;
+        }
+
+        .footer-brand .logo-text {
+            color: white;
+            font-size: 24px;
+            margin-bottom: 16px;
+            display: block;
+        }
+
+        .footer-brand p {
+            font-size: 14px;
+            line-height: 1.7;
+            margin-bottom: 20px;
+        }
+
+        .footer-social {
+            display: flex;
+            gap: 12px;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: var(--accent);
+        }
+
+        .footer-column h4 {
+            color: white;
+            font-size: 15px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .footer-links {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.65);
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.2s;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 24px;
+            text-align: center;
+            font-size: 13px;
+        }
+
+        /* WhatsApp Float */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 999;
+            background: #25D366;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 28px;
+            box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 6px 30px rgba(37,211,102,0.5);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .hero-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-content {
+                order: 1;
+            }
+
+            .hero-image {
+                order: 2;
+                display: none;
+            }
+
+            .hero-subtitle {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .hero-features {
+                justify-content: center;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px;
+            }
+
+            .solution-grid {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .solution-grid.reverse {
+                direction: ltr;
+            }
+
+            .contact-container {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+                position: absolute;
+                top: 72px;
+                left: 0;
+                right: 0;
+                background: white;
+                flex-direction: column;
+                padding: 24px;
+                gap: 20px;
+                border-bottom: 1px solid var(--border-color);
+                box-shadow: var(--shadow-md);
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .mobile-toggle {
+                display: flex;
+            }
+
+            .hero h1 {
+                font-size: 36px;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .stat-number {
+                font-size: 32px;
+            }
+
+            .products-grid {
+                grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            }
+
+            .solution-title {
+                font-size: 26px;
+            }
+
+            .cta-title {
+                font-size: 30px;
+            }
+
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-floating-card {
+                display: none;
+            }
+        }
+
+        /* Animation */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    /* FAQ Section */
+    .faq-section { padding: 80px 24px; background: var(--bg-light); }
+    .faq-container { max-width: 900px; margin: 0 auto; }
+    .faq-list { margin-top: 40px; display: flex; flex-direction: column; gap: 12px; }
+    .faq-item { background: #fff; border: 1px solid var(--border-color); border-radius: var(--radius-md); overflow: hidden; }
+    .faq-item summary { cursor: pointer; padding: 20px 24px; font-weight: 600; font-size: 16px; color: var(--text-dark); list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-toggle { color: var(--accent); font-size: 24px; font-weight: 700; line-height: 1; transition: transform 0.3s ease; }
+    .faq-item[open] .faq-toggle { transform: rotate(45deg); }
+    .faq-answer { padding: 0 24px 22px; color: var(--text-medium); line-height: 1.75; }
+    .faq-answer p { margin: 0; }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Foshan Vortix Co., LTD",
+      "alternateName": "Vortix Kitchen",
+      "url": "https://vortixkitchen.com",
+      "description": "Professional induction cooker and infrared cooker manufacturer in Foshan, China. OEM/ODM private-label service, exporting to 100+ global brands since 2010.",
+      "email": "Shirley20193@163.com",
+      "telephone": "+86 137 9009 3901",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Foshan",
+        "addressRegion": "Guangdong",
+        "addressCountry": "CN"
+      },
+      "areaServed": ["Europe","North America","Middle East","Southeast Asia","Africa","South America"],
+      "keywords": "induction cooker manufacturer, infrared cooker, OEM ODM China, cooker factory"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What types of cookers does Vortix Kitchen manufacture?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Vortix Kitchen produces induction cookers (single and double burner), infrared ceramic cookers, ultra-slim portable models, and heavy-duty commercial-grade units, with power from 1800W to 5000W across multiple series for home, retail, and restaurant use." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you build cookers under our own brand (OEM / ODM)?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Vortix Kitchen provides full private-label OEM/ODM service including custom logo, packaging, body color, power specifications, and function settings, with low minimum order quantities." }
+        },
+        {
+          "@type": "Question",
+          "name": "What is your minimum order quantity (MOQ)?",
+          "acceptedAnswer": { "@type": "Answer", "text": "For standard models the MOQ starts from 100 units. For custom OEM/ODM projects the MOQ is confirmed case by case. Mixed models in one container are welcome." }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is your factory located?",
+          "acceptedAnswer": { "@type": "Answer", "text": "The factory is in Ronggui, Shunde, Foshan, Guangdong, China, the center of the Chinese kitchen-appliance manufacturing cluster. Factory tours are welcome by appointment." }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does production and delivery take?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Standard orders usually ship within 15 to 30 days after deposit confirmation. Custom OEM/ODM projects typically need 30 to 45 days including sampling." }
+        },
+        {
+          "@type": "Question",
+          "name": "Which markets do you export to?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Vortix Kitchen has supplied 100+ global brands across Europe, North America, the Middle East, Southeast Asia, Africa, and South America." }
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <div class="logo-icon">V</div>
+                <div class="logo-text">Vortix<span>Kitchen</span></div>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#quality">Quality</a></li>
+                <li><a href="#oem">OEM/ODM</a></li>
+                <li><a href="blog/index.html">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#contact" class="nav-cta">Get Quote</a></li>
+            </ul>
+            <div class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+                <div class="hero-content">
+                <div class="hero-badge">Factory Direct from Foshan, China</div>
+                <h1>Premium <span>Induction & Infrared</span> Cooker Manufacturer</h1>
+                <p class="hero-subtitle">
+                    Professional-grade kitchen appliances with cutting-edge technology. 
+                    15+ years of manufacturing excellence, serving global brands with OEM/ODM solutions.
+                </p>
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+                        9,000 sqm Factory
+                    </div>
+                    <div class="hero-feature">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        Export to 50+ Countries
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn-primary">
+                        Get Factory Pricing
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                    </a>
+                    <a href="#products" class="btn-secondary">
+                        View Products
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="product_images/page2_img8.jpeg" alt="Induction Cooker Collection" class="hero-image-main">
+                <div class="hero-floating-card card-1">
+                    <div class="floating-stat">
+                        <div class="floating-icon green">&#10003;</div>
+                        <div class="floating-text">
+                            <strong>CE Certified</strong>
+                            <span>Quality Assured</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-floating-card card-2">
+                    <div class="floating-stat">
+                        <div class="floating-icon gold">&#9733;</div>
+                        <div class="floating-text">
+                            <strong>500+ Models</strong>
+                            <span>Wide Selection</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-grid">
+            <div class="stat-item fade-in">
+                <div class="stat-number">15<span>+</span></div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number">500<span>+</span></div>
+                <div class="stat-label">Product Models</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number">50<span>+</span></div>
+                <div class="stat-label">Export Countries</div>
+            </div>
+            <div class="stat-item fade-in">
+                <div class="stat-number">9<span>K</span></div>
+                <div class="stat-label">sqm Factory Area</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section" id="products">
+        <div class="section-header fade-in">
+            <div class="section-tag">Our Products</div>
+            <h2 class="section-title">Complete Induction & Infrared Cooker Range</h2>
+            <p class="section-desc">
+                From compact portable models to professional-grade built-in solutions, 
+                we offer the most comprehensive selection of induction and infrared cooking appliances.
+            </p>
+        </div>
+
+        <div class="product-categories">
+            <button class="category-tab active" data-category="all">All Products</button>
+            <button class="category-tab" data-category="induction">Induction Cooker</button>
+            <button class="category-tab" data-category="infrared">Infrared Cooker</button>
+            <button class="category-tab" data-category="dual">Dual/Twin Burner</button>
+            <button class="category-tab" data-category="commercial">Commercial Series</button>
+        </div>
+
+        <div class="products-grid product_images">
+            <!-- D Series - Push Button Induction -->
+            <div class="product-card fade-in" data-category="induction">
+                <div class="product-image-wrapper">
+                    <img src="product_images/page2_img8.jpeg" alt="D Series Induction Cooker" class="product-image">
+                    <span class="product-badge badge-hot">Bestseller</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Push Button Induction Cooker</h3>
+                    <p class="product-desc">Our most popular push-button induction cooker series, featuring intuitive mechanical controls and robust construction. Perfect for everyday home cooking with reliable performance and easy operation. Available in multiple power options from 2000W to 3500W to suit different cooking needs.</p>
+                    <div class="product-specs">
+                        <span class="spec-tag">2000W-3500W</span>
+                        <span class="spec-tag">Push Button Control</span>
+                        <span class="spec-tag">Multiple Sizes</span>
+                        <span class="spec-tag">Overheat Protection</span>
+                    </div>
+                    <a href="#contact" class="product-action">Request Quote</a>
+                </div>
+            </div>
+
+            <!-- A Series - Advanced Induction -->
+            <div class="product-card fade-in" data-category="induction">
+                <div class="product-image-wrapper">
+                    <img src="product_images/page3_img11.jpeg" alt="A Series Induction Cooker" class="product-image">
+                    <span class="product-badge badge-new">Popular</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Advanced Touch Induction Cooker</h3>
+                    <p class="product-desc">Elegant slim-body design with crystal glass panel and sensitive touch control. Features bright LED display for precise temperature and power level indication. The modern aesthetic makes it a perfect match for contemporary kitchens while delivering powerful 2200W heating performance.</p>
+                    <div class="product-specs">
+                        <span class="spec-tag">2200W Power</span>
+                        <span class="spec-tag">LED Display</span>
+                        <span class="spec-tag">Crystal Glass Panel</span>
+                        <span class="spec-tag">Slim Body Design</span>
+                    </div>
+                    <a href="#contact" class="product-action">Request Quote</a>
+                </div>
+            </div>
+
+            <!-- B Series - Classic Series -->
+            <div class="product-card fade-in" data-category="induction">
+                <div class="product-image-wrapper">
+                    <img src="product_images/page4_img1.jpeg" alt="B Series Induction Cooker" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Classic Induction Cooker Series</h3>
+                    <p class="product-desc">A versatile collection of classic induction cookers offering excellent value without compromising quality. With over 12 design variations ranging from compact portable units to larger countertop models, this series provides flexible solutions for diverse market segments and budget requirements.</p>
+                    <div class="product-specs">
+                        <span class="spec-tag">1800W-3200W</span>
+                        <span class="spec-tag">12+ Design Options</span>
+                        <span class="spec-tag">Cost Effective</span>
+                        <span class="spec-tag">Wide Voltage Range</span>
+                    </div>
+                    <a href="#contact" class="product-action">Request Quote</a>
+                </div>
+            </div>
+
+            <!-- SY Series - Slim Design -->
+            <div class="product-card fade-in" data-category="induction">
+                <div class="product-image-wrapper">
+                    <img src="product_images/page5_img1.jpeg" alt="SY Series Slim Induction" class="product-image">
+                    <span class="product-badge badge-eco">Slim</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Ultra-Slim Portable Induction Cooker</h3>
+                    <p class="product-desc">Engineered for portability and space-saving convenience. This ultra-thin series combines lightweight construction with full-power cooking capability. Ideal for small apartments, RVs, camping, or as a secondary cooktop. Easy to store and carry without sacrificing cooking power.</p>
+                    <div class="product-specs">
+                        <span class="spec-tag">Ultra Thin Body</span>
+                        <span class="spec-tag">Lightweight & Portable</span>
+                        <span class="spec-tag">Compact Storage</span>
+                        <span class="spec-tag">Travel Friendly</span>
+                    </div>
+                    <a href="#contact" class="product-action">Request Quote</a>
+                </div>
+            </div>
+
+            <!-- ST Series - Standard -->
+            <div class="product-card fade-in" data-category="induction">
+                <div class="product-image-wrapper">
+                    <img src="product_images/page6_img1.jpeg" alt="ST Series Induction" class="product-image">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Standard Touch Control Induction</h3>
+                    <p class="product-desc">Reliable workhorse of our product line with user-friendly touch controls and essential safety features. Includes convenient timer function, child safety lock, and multiple preset cooking modes. Built for daily reliability in both household and light commercial environments.</p>
+                    <div class="product-specs">
+                        <span class="spec-tag">Touch Control</span>
+                        <span class="spec-tag">Timer Function</span>
+                        <span class="spec-tag">Child Safety Lock</span>
+                        <span class="spec-tag">Preset Cooking Modes</span>
+                    </div>
+                    <a href="#contact" class="product-action">Request Quote</a>
+                </div>
+            </div>
+
+            <!-- T Series - Commercial -->
+            <div class="product-card fade-in" data-category="commercial">
+                <div class="product-image-wrapper">
+                    <img src="product_images/page7_img1.jpeg" alt="T Series Commercial" class="product-image">
+                    <span class="product-badge badge-hot">Commercial</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Commercial Grade Heavy-Duty Induction</h3>
+                    <p class="product-desc">Built for the demands of professional kitchens, restaurants, and catering services. With powerful 3500W-5000W output and heavy-duty components designed for continuous all-day operation. Superior heat dissipation ensures stable performance even during extended high-intensity use.</p>
+                    <div class="product-specs">
+                        <span class="spec-tag">3500W-5000W</span>
+                        <span class="spec-tag">Heavy Duty Build</span>
+                        <span class="spec-tag">Restaurant Grade</span>
+                        <span class="spec-tag">All-Day Operation</span>
+                    </div>
+                    <a href="#contact" class="product-action">Request Quote</a>
+                </div>
+            </div>
+
+            <!-- DCL Series - Dual Burner -->
+            <div class="product-card fade-in" data-category="dual">
+                <div class="product-image-wrapper">
+                    <img src="product_images/page8_img1.jpeg" alt="DCL Dual Burner" class="product-image">
+                    <span class="product-badge badge-new">New Arrival</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Dual/Twin Burner Built-in Cooktop</h3>
+                    <p class="product-desc">Premium dual-burner solution for modern kitchen installations. Two independent heating zones with separate touch controls allow simultaneous cooking at different power levels. Available in built-in countertop format perfect for new kitchen projects and renovations.</p>
+                    <div class="product-specs">
+                        <span class="spec-tag">Dual Independent Burners</span>
+                        <span class="spec-tag">Separate Controls</span>
+                        <span class="spec-tag">Built-in Format</span>
+                        <span class="spec-tag">Simultaneous Cooking</span>
+                    </div>
+                    <a href="#contact" class="product-action">Request Quote</a>
+                </div>
+            </div>
+
+            <!-- C Series - Infrared -->
+            <div class="product-card fade-in" data-category="infrared">
+                <div class="product-image-wrapper">
+                    <img src="product_images/page3_img2.jpeg" alt="C Series Infrared" class="product-image">
+                    <span class="product-badge badge-eco">Infrared</span>
+                </div>
+                <div class="product-info">
+                    <h3 class="product-name">Infrared Ceramic Cooker</h3>
+                    <p class="product-desc">The versatile alternative to traditional induction - works with ALL types of cookware including aluminum, copper, ceramic, and glass. Infrared heating technology provides fast, even heat distribution without electromagnetic radiation concerns. Great for customers who want flexibility in cookware choice.</p>
+                    <div class="product-specs">
+                        <span class="spec-tag">Infrared Heating</span>
+                        <span class="spec-tag">All Cookware Types</span>
+                        <span class="spec-tag">No EM Radiation</span>
+                        <span class="spec-tag">Fast Even Heating</span>
+                    </div>
+                    <a href="#contact" class="product-action">Request Quote</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution 1: Quality & Certification -->
+    <section class="solution-section" id="quality">
+        <div class="solution-container">
+            <div class="solution-grid">
+                <div class="solution-content fade-in">
+                    <div class="solution-number">01</div>
+                    <h2 class="solution-title">How Do We Ensure Product Quality & Safety Compliance?</h2>
+                    <p class="solution-desc">
+                        Quality is the foundation of everything we do. Every induction cooker and infrared cooker 
+                        that leaves our factory undergoes rigorous testing to ensure it meets the highest safety and performance standards your customers expect.
+                    </p>
+                    <ul class="solution-points">
+                        <li class="solution-point">
+                            <div class="point-icon">&#127919;</div>
+                            <div class="point-content">
+                                <h4>Rigorous Testing Protocol</h4>
+                                <p>Every batch undergoes 100% function testing, temperature rise testing, and comprehensive safety inspections before shipment.</p>
+                            </div>
+                        </li>
+                        <li class="solution-point">
+                            <div class="point-icon">&#128202;</div>
+                            <div class="point-content">
+                                <h4>Traceable Quality System</h4>
+                                <p>Certified production process with full traceability. Each unit has complete QC records from component sourcing through final assembly and packaging.</p>
+                            </div>
+                        </li>
+                        <li class="solution-point">
+                            <div class="point-icon">&#128176;</div>
+                            <div class="point-content">
+                                <h4>Warranty & After-Sales Support</h4>
+                                <p>1 year warranty on all products. Our dedicated technical support team is ready to assist you with any questions or service needs.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="solution-visual fade-in">
+                    <img src="product_images/page2_img1.jpeg" alt="Quality Certified Products" class="solution-image">
+                    <div class="certification-badges">
+                        <div class="cert-badge">
+                            <div class="cert-icon">&#9889;</div>
+                            <div class="cert-info">
+                                <strong>Lightning-Fast Heating</strong>
+                                <span>Up to 3500W power, boil water in under 2 minutes</span>
+                            </div>
+                        </div>
+                        <div class="cert-badge">
+                            <div class="cert-icon">&#128293;</div>
+                            <div class="cert-info">
+                                <strong>Energy Efficient</strong>
+                                <span>90%+ thermal efficiency vs 60% for gas stoves</span>
+                            </div>
+                        </div>
+                        <div class="cert-badge">
+                            <div class="cert-icon">&#128274;</div>
+                            <div class="cert-info">
+                                <strong>Multi-Layer Safety</strong>
+                                <span>Overheat, overvoltage, auto-shutoff & child lock protection</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution 2: OEM/ODM Capabilities -->
+    <section class="solution-section" id="oem">
+        <div class="solution-container">
+            <div class="solution-grid reverse">
+                <div class="solution-content fade-in">
+                    <div class="solution-number">02</div>
+                    <h2 class="solution-title">Can We Customize Products for Your Brand? (OEM/ODM)</h2>
+                    <p class="solution-desc">
+                        Building your own appliance brand? We provide end-to-end OEM/ODM services 
+                        from design to delivery, helping you launch products that stand out in the market.
+                    </p>
+                    <ul class="solution-points">
+                        <li class="solution-point">
+                            <div class="point-icon">&#127912;</div>
+                            <div class="point-content">
+                                <h4>Custom Design & Branding</h4>
+                                <p>Your logo, colors, packaging design, user manual language. We offer full customization of appearance and branding elements.</p>
+                            </div>
+                        </li>
+                        <li class="solution-point">
+                            <div class="point-icon">&#9881;&#65039;</div>
+                            <div class="point-content">
+                                <h4>Flexible Specification Tuning</h4>
+                                <p>Power output adjustment, control panel customization (touch/button/knob), size modifications, voltage adaptation for any region.</p>
+                            </div>
+                        </li>
+                        <li class="solution-point">
+                            <div class="point-icon">&#128230;</div>
+                            <div class="point-content">
+                                <h4>Low MOQ for Starters</h4>
+                                <p>MOQ as low as 100-300 units per model for initial orders. Scale up seamlessly as your business grows.</p>
+                            </div>
+                        </li>
+                        <li class="solution-point">
+                            <div class="point-icon">&#128337;</div>
+                            <div class="point-content">
+                                <h4>Fast Lead Time</h4>
+                                <p>15-25 days for standard orders. Rush orders available. Real-time production updates with photos/videos during manufacturing.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="solution-visual fade-in">
+                    <img src="product_images/page5_img6.jpeg" alt="Custom OEM ODM Production" class="solution-image">
+                    <div style="background: white; border-radius: var(--radius-md); padding: 28px; margin-top: 24px; border: 1px solid var(--border-color);">
+                        <h4 style="font-size: 16px; margin-bottom: 16px; color: var(--text-dark);">OEM/ODM Process Flow</h4>
+                        <div style="display: flex; flex-direction: column; gap: 12px;">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 32px; height: 32px; background: var(--accent); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 600;">1</div>
+                                <span style="font-size: 14px;">Requirement Discussion</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 32px; height: 32px; background: var(--accent); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 600;">2</div>
+                                <span style="font-size: 14px;">Design & Quotation</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 32px; height: 32px; background: var(--accent); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 600;">3</div>
+                                <span style="font-size: 14px;">Sample Production (7-10 days)</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 32px; height: 32px; background: var(--accent); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 600;">4</div>
+                                <span style="font-size: 14px;">Sample Approval & Mass Production</span>
+                            </div>
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <div style="width: 32px; height: 32px; background: var(--success); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 600;">&#10003;</div>
+                                <span style="font-size: 14px; font-weight: 500;">QC Inspection & Shipping</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-container fade-in">
+            <h2 class="cta-title">Ready to Source Premium Kitchen Appliances?</h2>
+            <p class="cta-desc">
+                Join 100+ global brands who trust Vortix Kitchen for their induction and infrared cooker needs. 
+                Get factory-direct pricing and dedicated support.
+            </p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn-primary">
+                    Request Free Quote
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+                </a>
+                <a href="https://wa.me/8613790093901" target="_blank" class="btn-secondary" style="border-color: #25D366;">
+                    Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="faq-container">
+            <div class="section-header fade-in">
+                <div class="section-badge">Common Questions</div>
+                <h2 class="section-title">Frequently Asked by Importers &amp; Distributors</h2>
+                <p class="section-subtitle">Straight answers to the questions buyers ask us most before placing an order.</p>
+            </div>
+            <div class="faq-list fade-in">
+                <details class="faq-item">
+                    <summary>What types of cookers does Vortix Kitchen manufacture?<span class="faq-toggle">+</span></summary>
+                    <div class="faq-answer">
+                        <p>We produce a complete range of induction cookers (single and double burner), infrared ceramic cookers, ultra-slim portable models, and heavy-duty commercial-grade units. Power spans 1800W to 5000W across multiple series, covering home, retail, and restaurant applications.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary>Can you build cookers under our own brand (OEM / ODM)?<span class="faq-toggle">+</span></summary>
+                    <div class="faq-answer">
+                        <p>Yes. We provide full private-label service: custom logo, packaging, body color, power specifications, and function settings. Our engineering team supports both OEM (your design) and ODM (our design, your brand) projects with low minimum order quantities.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary>What is your minimum order quantity (MOQ)?<span class="faq-toggle">+</span></summary>
+                    <div class="faq-answer">
+                        <p>For standard models the MOQ starts from 100 units. For custom OEM / ODM projects the MOQ is confirmed case by case depending on tooling and printing requirements. Mixed models in one container are welcome.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary>Where is your factory, and can we visit it?<span class="faq-toggle">+</span></summary>
+                    <div class="faq-answer">
+                        <p>Our factory is in Ronggui, Shunde, Foshan, Guangdong, China &mdash; the heart of the Chinese kitchen-appliance manufacturing cluster. Factory tours and video calls are welcome by appointment.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary>How long does production and delivery take?<span class="faq-toggle">+</span></summary>
+                    <div class="faq-answer">
+                        <p>Standard orders usually ship within 15&ndash;30 days after deposit confirmation. Custom OEM / ODM projects typically need 30&ndash;45 days including sampling. We work with major freight forwarders for sea and air shipment worldwide.</p>
+                    </div>
+                </details>
+                <details class="faq-item">
+                    <summary>Which markets do you export to?<span class="faq-toggle">+</span></summary>
+                    <div class="faq-answer">
+                        <p>We have supplied 100+ global brands across Europe, North America, the Middle East, Southeast Asia, Africa, and South America. Our products are built to meet the safety and quality standards required by major export markets.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-info fade-in">
+                <h3>Get in Touch With Us</h3>
+                <p>
+                    Whether you're looking for standard products or custom OEM/ODM solutions, 
+                    our team is ready to help you find the perfect fit for your business.
+                </p>
+                <div class="contact-methods">
+                    <div class="contact-item">
+                        <div class="contact-icon">&#128222;</div>
+                        <div class="contact-detail">
+                            <label>Phone / WhatsApp</label>
+                            <a href="https://wa.me/8613790093901" target="_blank">+86 137 9009 3901</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">&#9993;</div>
+                        <div class="contact-detail">
+                            <label>Email</label>
+                            <a href="mailto:Shirley20193@163.com">Shirley20193@163.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">&#128205;</div>
+                        <div class="contact-detail">
+                            <label>Factory Address</label>
+                            <span>Ronggui, Shunde, Foshan, Guangdong, China</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-wrapper fade-in">
+                <h3 class="form-title">Send Us Your Inquiry</h3>
+                <form id="inquiryForm" action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Full Name *</label>
+                            <input type="text" name="name" required placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label>Company Name</label>
+                            <input type="text" name="company" placeholder="Company Name">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Email Address *</label>
+                            <input type="email" name="email" required placeholder="email@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label>Phone / WhatsApp *</label>
+                            <input type="tel" name="phone" required placeholder="+1 234 567 8900">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Product Interest</label>
+                        <select name="product">
+                            <option value="">Select Product Category...</option>
+                            <option value="induction">Induction Cooker (Single Burner)</option>
+                            <option value="dual">Dual/Twin Burner Cooktop</option>
+                            <option value="infrared">Infrared Ceramic Cooker</option>
+                            <option value="commercial">Commercial Grade Series</option>
+                            <option value="oem">OEM/ODM Customization</option>
+                            <option value="other">Other / Not Sure</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Order Quantity (Estimated)</label>
+                        <select name="quantity">
+                            <option value="">Select Quantity Range...</option>
+                            <option value="100-300">100 - 300 units</option>
+                            <option value="300-500">300 - 500 units</option>
+                            <option value="500-1000">500 - 1,000 units</option>
+                            <option value="1000-5000">1,000 - 5,000 units</option>
+                            <option value="5000+">5,000+ units</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Message / Requirements *</label>
+                        <textarea name="message" required placeholder="Tell us about your requirements: target market, specifications needed, custom requests..."></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Submit via WhatsApp</button>
+                    <button type="button" class="submit-btn submit-btn-email" id="emailBtn">Or Email Us Directly</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <span class="logo-text">Vortix<span>Kitchen</span></span>
+                <p>Professional induction cooker and infrared cooker manufacturer based in Foshan, China. Delivering quality kitchen appliances to global partners since 2010.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link" title="WhatsApp">&#128172;</a>
+                    <a href="mailto:Shirley20193@163.com" class="social-link" title="Email">&#9993;</a>
+                    <a href="#" class="social-link" title="WeChat">&#128241;</a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h4>Products</h4>
+                <ul class="footer-links">
+                    <li><a href="#products">Induction Cookers</a></li>
+                    <li><a href="#products">Infrared Cookers</a></li>
+                    <li><a href="#products">Dual Burner Series</a></li>
+                    <li><a href="#products">Commercial Grade</a></li>
+                    <li><a href="#oem">OEM/ODM Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#quality">About Us</a></li>
+                    <li><a href="#quality">Certifications</a></li>
+                    <li><a href="#quality">Quality Control</a></li>
+                    <li><a href="#oem">Manufacturing</a></li>
+                    <li><a href="#contact">Factory Tour</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Contact</h4>
+                <ul class="footer-links">
+                    <li><a href="mailto:Shirley20193@163.com">Shirley20193@163.com</a></li>
+                    <li><a href="https://wa.me/8613790093901">WhatsApp: +86 137 9009 3901</a></li>
+                    <li><a href="#contact">Foshan, Guangdong, China</a></li>
+                    <li><a href="#contact">Get Quote</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Foshan Vortix Co., LTD. All Rights Reserved. | Professional Kitchen Appliance Manufacturer</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/8613790093901" target="_blank" class="whatsapp-float" title="Chat on WhatsApp">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+        </svg>
+    </a>
+
+    <script>
+        // Navbar scroll effect
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navMenu = document.getElementById('navMenu');
+        
+        mobileToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Category tabs filter
+        const categoryTabs = document.querySelectorAll('.category-tab');
+        const productCards = document.querySelectorAll('.product-card');
+
+        categoryTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs
+                categoryTabs.forEach(t => t.classList.remove('active'));
+                // Add active class to clicked tab
+                tab.classList.add('active');
+
+                const category = tab.dataset.category;
+
+                productCards.forEach(card => {
+                    if (category === 'all' || card.dataset.category === category) {
+                        card.style.display = 'block';
+                        setTimeout(() => card.style.opacity = '1', 10);
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Form submission handling
+        document.getElementById('inquiryForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Create WhatsApp message
+            const formData = new FormData(this);
+            let message = `*New Inquiry from Website*\n\n`;
+            message += `*Name:* ${formData.get('name')}\n`;
+            message += `*Company:* ${formData.get('company') || 'N/A'}\n`;
+            message += `*Email:* ${formData.get('email')}\n`;
+            message += `*Phone:* ${formData.get('phone')}\n`;
+            message += `*Product Interest:* ${formData.get('product') || 'N/A'}\n`;
+            message += `*Quantity:* ${formData.get('quantity') || 'N/A'}\n\n`;
+            message += `*Message:*\n${formData.get('message')}`;
+
+            // Open WhatsApp with pre-filled message
+            const whatsappUrl = `https://wa.me/8613790093901?text=${encodeURIComponent(message)}`;
+            window.open(whatsappUrl, '_blank');
+
+            // Show success feedback
+            alert('Thank you for your inquiry! We will contact you within 24 hours.');
+            this.reset();
+        });
+
+        // Email fallback (secondary inquiry channel)
+        const emailBtn = document.getElementById('emailBtn');
+        if (emailBtn) {
+            emailBtn.addEventListener('click', function() {
+                const form = document.getElementById('inquiryForm');
+                const formData = new FormData(form);
+                const subject = `New Inquiry from ${formData.get('name') || 'Website'} - ${formData.get('company') || 'Company'}`;
+                let body = `Hello Vortix Kitchen,\n\n`;
+                body += `Name: ${formData.get('name')}\n`;
+                body += `Company: ${formData.get('company') || 'N/A'}\n`;
+                body += `Email: ${formData.get('email')}\n`;
+                body += `Phone: ${formData.get('phone')}\n`;
+                body += `Product Interest: ${formData.get('product') || 'N/A'}\n`;
+                body += `Quantity: ${formData.get('quantity') || 'N/A'}\n\n`;
+                body += `Message:\n${formData.get('message')}\n`;
+                const mailto = `mailto:Shirley20193@163.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+                window.location.href = mailto;
+            });
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

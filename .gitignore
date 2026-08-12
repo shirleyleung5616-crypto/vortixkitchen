@@ -1,0 +1,4 @@
+.workbuddy/
+pdf_images/
+*.pdf
+.DS_Store
