@@ -537,13 +537,15 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 240px;
+            height: 260px;
+            overflow: hidden;
         }
 
         .product-image {
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: contain;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
             transition: transform 0.3s ease;
         }
 
@@ -1304,11 +1306,6 @@
           "@type": "Question",
           "name": "How long does production and delivery take?",
           "acceptedAnswer": { "@type": "Answer", "text": "Standard orders usually ship within 15 to 30 days after deposit confirmation. Custom OEM/ODM projects typically need 30 to 45 days including sampling." }
-        },
-        {
-          "@type": "Question",
-          "name": "Which markets do you export to?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Vortix Kitchen has supplied 100+ global brands across Europe, North America, the Middle East, Southeast Asia, Africa, and South America." }
         }
       ]
     }
@@ -1384,33 +1381,11 @@
                     <div class="floating-stat">
                         <div class="floating-icon gold">&#9733;</div>
                         <div class="floating-text">
-                            <strong>500+ Models</strong>
+                            <strong>50+ Models</strong>
                             <span>Wide Selection</span>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Stats Section -->
-    <section class="stats-section">
-        <div class="stats-grid">
-            <div class="stat-item fade-in">
-                <div class="stat-number">15<span>+</span></div>
-                <div class="stat-label">Years Experience</div>
-            </div>
-            <div class="stat-item fade-in">
-                <div class="stat-number">500<span>+</span></div>
-                <div class="stat-label">Product Models</div>
-            </div>
-            <div class="stat-item fade-in">
-                <div class="stat-number">50<span>+</span></div>
-                <div class="stat-label">Export Countries</div>
-            </div>
-            <div class="stat-item fade-in">
-                <div class="stat-number">9<span>K</span></div>
-                <div class="stat-label">sqm Factory Area</div>
             </div>
         </div>
     </section>
@@ -1438,7 +1413,7 @@
             <!-- D Series - Push Button Induction -->
             <div class="product-card fade-in" data-category="induction">
                 <div class="product-image-wrapper">
-                    <img src="product_images/page2_img8.jpeg" alt="D Series Induction Cooker" class="product-image">
+                    <img src="product_images/page2_img1.jpeg" alt="D Series Induction Cooker" class="product-image">
                     <span class="product-badge badge-hot">Bestseller</span>
                 </div>
                 <div class="product-info">
@@ -1531,7 +1506,7 @@
             <!-- T Series - Commercial -->
             <div class="product-card fade-in" data-category="commercial">
                 <div class="product-image-wrapper">
-                    <img src="product_images/page5_img1.jpeg" alt="T Series Commercial" class="product-image">
+                    <img src="product_images/page7_img1.jpeg" alt="T Series Commercial" class="product-image">
                     <span class="product-badge badge-hot">Commercial</span>
                 </div>
                 <div class="product-info">
@@ -1783,12 +1758,6 @@
                     <summary>How long does production and delivery take?<span class="faq-toggle">+</span></summary>
                     <div class="faq-answer">
                         <p>Standard orders usually ship within 15&ndash;30 days after deposit confirmation. Custom OEM / ODM projects typically need 30&ndash;45 days including sampling. We work with major freight forwarders for sea and air shipment worldwide.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary>Which markets do you export to?<span class="faq-toggle">+</span></summary>
-                    <div class="faq-answer">
-                        <p>We have supplied 100+ global brands across Europe, North America, the Middle East, Southeast Asia, Africa, and South America. Our products are built to meet the safety and quality standards required by major export markets.</p>
                     </div>
                 </details>
             </div>
