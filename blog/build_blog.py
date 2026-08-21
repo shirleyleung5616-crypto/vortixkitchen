@@ -247,6 +247,38 @@ ARTICLES = [
 """,
     },
 
+    {
+        "slug": "pain-nigeria-soncap",
+        "series": "customs",
+        "cat": "CUSTOMS",
+        "footer_label": "Nigeria SONCAP",
+        "image": "page4_img1.jpeg",
+        "readtime": "3 min read",
+        "title": "Your Container Is Stuck at Lagos Port — the SONCAP Step Most Importers Miss",
+        "description": "A whole container held at Lagos because SONCAP wasn't done before sailing. The pre-shipment step that clears Nigerian ports.",
+        "excerpt": "A whole container held at Lagos because SONCAP wasn't done first. The pre-shipment step that clears Nigerian ports.",
+        "related": ["pain-ce-sticker", "pain-no-local-rep", "pain-wrong-plug"],
+        "cta_title": "Clearing Nigerian ports without the wait?",
+        "cta_text": "Tell us your model and volume — we'll confirm the SONCAP Product and SONCAP Certificate path and supply the test reports before you order.",
+        "wa_text": "Hi Vortix Kitchen, I import to Nigeria. Can you confirm the SONCAP documents and test reports I need before ordering?",
+        "mail_subject": "Nigeria SONCAP clearance",
+        "mail_body": "Hi Vortix Kitchen, please advise on the SONCAP Product Certificate and SONCAP Certificate requirements and the test reports you can provide for Nigeria.",
+        "body": """
+<p>A Lagos importer watched a full container sit at the port for nine weeks. The units were fine. The paperwork was the problem — SONCAP had never been done, and without it Nigerian Customs will not release the goods. By the time he sorted it, demurrage had eaten his entire margin.</p>
+<p>This is the single most common clearance trap for Nigeria-bound cookers, and it is entirely avoidable before the container ever sails.</p>
+<h2>What SONCAP actually requires</h2>
+<p>SONCAP (Standards Organisation of Nigeria Conformity Assessment Programme) needs two certificates, in order:</p>
+<ul>
+    <li><strong>Product Certificate (PC)</strong> — model-level, valid up to a year, issued after the product is tested to applicable Nigerian standards.</li>
+    <li><strong>SONCAP Certificate (SC)</strong> — shipment-level, issued after a pre-shipment inspection, against the PC.</li>
+</ul>
+<p>No SC, no clearance. And the SC must be obtained <em>before</em> the container leaves China — not after it arrives.</p>
+<h2>What to put in your PO</h2>
+<p>"Supplier to provide valid test reports to IEC 60335 for SONCAP, support Product Certificate application, and coordinate pre-shipment inspection for the SONCAP Certificate. SC number to appear on commercial documents."</p>
+<p>Work with a factory that has shipped to Nigeria before and can name the accredited body (SGS, Intertek, Bureau Veritas). If they shrug at SONCAP, they have not shipped to your market.</p>
+""",
+    },
+
     # ---------------- BUYING / SELLING (single-topic, kept) ----------------
     {
         "slug": "article-induction-vs-infrared",
@@ -436,7 +468,38 @@ ARTICLES = [
     <li><strong>Total cost:</strong> higher upfront, lower lifetime cost — the breakeven arrives within the first year of daily use.</li>
 </ul>
 
-<blockquote>The customer who switches on total-cost math doesn't churn to the next cheap gas option. They become a recurring induction buyer — which is exactly the account you want.</blockquote>
+        <blockquote>The customer who switches on total-cost math doesn't churn to the next cheap gas option. They become a recurring induction buyer — which is exactly the account you want.</blockquote>
+""",
+    },
+    {
+        "slug": "pain-oem-brand",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Launch Your Brand",
+        "image": "page7_img1.jpeg",
+        "readtime": "3 min read",
+        "title": "Launch Your Own Cooker Brand with a China Factory — Without Losing Your Shirt",
+        "description": "Want your own induction brand but fear MOQ, deposit and IP risk? The OEM/ODM path that gets importers to market fast.",
+        "excerpt": "Want your own cooker brand but fear MOQ, deposit and IP risk? The OEM/ODM path that gets importers to market.",
+        "related": ["article-product-showcase", "article-induction-vs-infrared", "pain-ce-sticker"],
+        "cta_title": "Ready to build your own brand?",
+        "cta_text": "Send us your target market and planned models — we'll propose an OEM/ODM package with MOQ, tooling, certification and QA spelled out.",
+        "wa_text": "Hi Vortix Kitchen, I want to launch my own cooker brand. Can you do OEM/ODM with my logo, color and packaging?",
+        "mail_subject": "OEM/ODM brand launch",
+        "mail_body": "Hi Vortix Kitchen, I want to launch my own induction cooker brand. Please advise on OEM/ODM, MOQ, tooling cost and certification support.",
+        "body": """
+<p>You see induction cookers selling well in your market and think: why am I not the brand on the box? The fear that stops most importers is real but manageable — MOQ, the deposit, and "will the factory steal my design?" Here is the path that gets first-time brand owners to market without the pain.</p>
+<h2>OEM vs ODM — pick the right one</h2>
+<p><strong>OEM</strong>: you take the factory's proven model and put your logo, body color and carton on it. Fastest, lowest risk, smallest outlay. <strong>ODM</strong>: you co-develop a model. More differentiation, more tooling, longer lead time. Most new brands should start OEM and move to ODM once volume justifies it.</p>
+<h2>The five clauses that protect you</h2>
+<ol>
+    <li><strong>MOQ per model</strong> — confirm the real number; a low-MOQ entry SKU lets you test before committing volume.</li>
+    <li><strong>Tooling ownership</strong> — who pays for and <em>owns</em> the mold? You should own it, or at least have it locked to your brand.</li>
+    <li><strong>Deposit terms</strong> — a 30% deposit / 70% before shipment is normal; treat 100% upfront as a red flag.</li>
+    <li><strong>Certification in your name</strong> — SONCAP, EAC, CE or local marks should sit under your company, not the factory's.</li>
+    <li><strong>Pre-shipment inspection</strong> — your right to an independent QC check before you release the balance.</li>
+</ol>
+<p>Get those five in writing and the "scary China factory" becomes a supplier you control.</p>
 """,
     },
 ]
