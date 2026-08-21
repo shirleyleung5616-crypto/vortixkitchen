@@ -13,45 +13,81 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://vortixkitchen.com/blog/article-induction-vs-infrared.html</loc>
+    <loc>https://vortixkitchen.com/blog/pain-dead-on-arrival.html</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://vortixkitchen.com/blog/article-quality-issues.html</loc>
+    <loc>https://vortixkitchen.com/blog/pain-cracked-glass.html</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vortixkitchen.com/blog/pain-slow-heating.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vortixkitchen.com/blog/pain-igbt-overheat.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vortixkitchen.com/blog/pain-dusty-fan.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vortixkitchen.com/blog/pain-voltage-spike.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vortixkitchen.com/blog/pain-ce-sticker.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vortixkitchen.com/blog/pain-wrong-plug.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vortixkitchen.com/blog/pain-no-local-rep.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://vortixkitchen.com/blog/article-induction-vs-infrared.html</loc>
+    <lastmod>2026-08-21</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://vortixkitchen.com/blog/article-product-showcase.html</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vortixkitchen.com/blog/article-certifications-by-market.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://vortixkitchen.com/blog/article-power-wattage-guide.html</loc>
-    <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://vortixkitchen.com/blog/article-cookware-magnetism.html</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://vortixkitchen.com/blog/article-switch-from-gas.html</loc>
     <lastmod>2026-08-21</lastmod>
-    <changefreq>monthly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
 </urlset>
