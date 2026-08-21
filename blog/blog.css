@@ -191,6 +191,24 @@ a { text-decoration: none; color: inherit; }
 }
 .whatsapp-float:hover { transform: scale(1.08); }
 
+/* Pre-Shipment Compliance Gate tool */
+.article-body .gate {
+    background: #fff; border: 1px solid var(--border-color);
+    border-left: 4px solid var(--accent); border-radius: var(--radius-md);
+    padding: 22px 26px; margin: 28px 0; box-shadow: var(--shadow-sm);
+}
+.article-body .gate h3 { margin-top: 0; color: var(--primary); }
+.article-body .gate ol { margin-left: 20px; }
+.article-body .gate li { margin-bottom: 13px; }
+.article-body .gate li strong { color: var(--primary); }
+.article-body .redflag {
+    background: #fff6f6; border: 1px solid #f0c9c9; border-radius: var(--radius-md);
+    padding: 18px 22px; margin: 24px 0;
+}
+.article-body .redflag h3 { margin-top: 0; color: #b3261e; }
+.article-body .redflag ul { margin-left: 20px; }
+.article-body .redflag li { margin-bottom: 8px; }
+
 /* ===== Responsive ===== */
 @media (max-width: 900px) {
     .article-grid, .related-grid { grid-template-columns: 1fr 1fr; }

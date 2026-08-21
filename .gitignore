@@ -2,3 +2,4 @@
 pdf_images/
 *.pdf
 .DS_Store
+.github_token
