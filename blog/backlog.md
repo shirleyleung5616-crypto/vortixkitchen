@@ -41,7 +41,7 @@
 
 ## 写作计划（6 周，每周一自动化上线；之后循环补充 A–E 剩余项）
 - **W1（本周）** ✅ pain-nigeria-soncap + pain-oem-brand（已上线）
-- **W2**：肯尼亚 PVoC + 电压/频率适配
+- **W2** ✅ 肯尼亚 PVoC (pain-kenya-pvoc) + 电压/频率适配 (pain-voltage-frequency，含 FAQ 结构化数据) — 已上线
 - **W3**：如何安全付款 + 出货前验货清单
 - **W4**：商用 vs 家用 + 集装箱装载量计算
 - **W5**：哈萨克斯坦 EAC + 备件与售后策略

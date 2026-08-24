@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-08-21"
-DATE_HUMAN = "Aug 21, 2026"
+DATE_ISO = "2026-08-24"
+DATE_HUMAN = "Aug 24, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -502,6 +502,60 @@ ARTICLES = [
 <p>Get those five in writing and the "scary China factory" becomes a supplier you control.</p>
 """,
     },
+    # ---------------- W2 (2026-08-24) ----------------
+    {
+        "slug": "pain-kenya-pvoc",
+        "series": "customs",
+        "cat": "CUSTOMS",
+        "footer_label": "Kenya PVoC",
+        "image": "page4_img1.jpeg",
+        "readtime": "3 min read",
+        "title": "Your Kenya Container Is Stuck — the PVoC Step Done After Sailing",
+        "description": "A Kenya-bound container held at Mombasa because PVoC/COC wasn't done before sailing. The pre-shipment conformity step that clears KEBS.",
+        "excerpt": "A Kenya container held at Mombasa because PVoC wasn't done first. The pre-shipment COC that clears KEBS.",
+        "related": ["pain-nigeria-soncap", "pain-ce-sticker", "pain-no-local-rep"],
+        "cta_title": "Clearing Kenyan ports without the wait?",
+        "cta_text": "Tell us your model and volume — we'll confirm the PVoC/COC path and supply the test reports before you order.",
+        "wa_text": "Hi Vortix Kitchen, I import to Kenya. Can you arrange PVoC inspection and provide the COC before shipment?",
+        "mail_subject": "Kenya PVoC clearance",
+        "mail_body": "Hi Vortix Kitchen, please advise on the PVoC Certificate of Conformity requirements and the test reports you can provide for Kenya.",
+        "body": """
+<p>A Mombasa importer watched a full container sit at the port for six weeks. The units were fine. The paperwork was the problem — PVoC had never been done, and without it the Kenya Bureau of Standards (KEBS) will not release the goods. By the time he sorted it, demurrage had eaten his entire margin.</p>
+<p>This is the most common clearance trap for Kenya-bound cookers, and it is entirely avoidable before the container ever sails.</p>
+<h2>What PVoC actually requires</h2>
+<p>Kenya's Pre-Export Verification of Conformity (PVoC) needs a Certificate of Conformity (COC), issued by a KEBS-recognised body (SGS, Intertek or Bureau Veritas) after a pre-shipment inspection in China — <em>before</em> the container departs. The inspection checks the actual shipment against applicable standards and the test reports you hold.</p>
+<h2>What to put in your PO</h2>
+<p>"Supplier to arrange PVoC inspection with a KEBS-recognised body, provide valid test reports to IEC 60335, and ensure the COC number appears on all shipping documents before vessel departure."</p>
+<p>Work with a factory that has shipped to Kenya and can name the inspection body. If they shrug at PVoC, they have not shipped to your market.</p>
+""",
+    },
+    {
+        "slug": "pain-voltage-frequency",
+        "series": "buying",
+        "cat": "SPEC / VOLTAGE",
+        "footer_label": "Voltage Match",
+        "image": "page2_img8.jpeg",
+        "readtime": "3 min read",
+        "title": "Half Your Market Can't Use the Cooker — the Voltage Line Most Importers Miss",
+        "description": "Ship the wrong voltage and the unit won't run or burns out. How to lock voltage and frequency to your market before production.",
+        "excerpt": "Wrong voltage = a container of cookers that won't turn on. Lock the voltage to your market before production.",
+        "related": ["pain-voltage-spike", "pain-wrong-plug", "article-induction-vs-infrared"],
+        "cta_title": "Not sure which voltage your market needs?",
+        "cta_text": "Name your destination countries and we'll lock the correct voltage/frequency — or spec a wide-voltage (100-240V) unit that covers mixed markets.",
+        "wa_text": "Hi Vortix Kitchen, my market uses [voltage]. Should I lock voltage or use a wide-voltage unit?",
+        "mail_subject": "Voltage spec for my market",
+        "mail_body": "Hi Vortix Kitchen, please advise on the correct voltage/frequency for my market and whether a wide-voltage unit fits.",
+        "body": """
+<p>Voltage looks like a detail — until half your shipment can't turn on. Most of your markets run 220-240V at 50Hz, so a standard unit works. But pockets run 110-120V at 60Hz (parts of the Americas, Japan, Taiwan). Send a 220V unit there and it either won't start or cooks itself. The return isn't a defect — it's a spec line you didn't write.</p>
+<h2>What to do</h2>
+<p>Name the exact voltage and frequency on the PO. For a market that is uniformly 220-240V/50Hz, lock it and move on. For mixed or 110V markets, either spec a wide-voltage unit (100-240V auto-switching) that covers both, or a dedicated 110V build. One line prevents a container of dead stock.</p>
+""",
+        "faq": [
+            ("Which of my markets use 110-120V?", "Mostly the Americas (some), Japan (100V, 50/60Hz) and Taiwan (110V/60Hz). Central Asia, Southeast Asia, Africa and the GCC run 220-240V at 50Hz."),
+            ("Will a 220-240V cooker work on 110V?", "No - it won't reach power or may not start, and some will overheat. Always match the local voltage or use a wide-voltage (100-240V) unit."),
+            ("What does 'wide voltage' mean for cookers?", "A unit with auto-switching input (100-240V, 50/60Hz) that runs safely across both ranges - ideal when you sell into mixed-voltage markets."),
+        ],
+    },
 ]
 
 
@@ -542,6 +596,20 @@ def jsonld(a):
     return json.dumps(ld, indent=2, ensure_ascii=False)
 
 
+def faqld(a):
+    if "faq" not in a or not a["faq"]:
+        return ""
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": ans}}
+            for q, ans in a["faq"]
+        ],
+    }
+    return json.dumps(ld, indent=2, ensure_ascii=False)
+
+
 ARTICLE_TPL = """<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -553,8 +621,18 @@ ARTICLE_TPL = """<!DOCTYPE html>
     <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="blog.css">
+    <link rel="canonical" href="__CANON__">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="__TITLE__">
+    <meta property="og:description" content="__DESC__">
+    <meta property="og:image" content="https://vortixkitchen.com/product_images/__IMAGE__">
+    <meta property="og:url" content="__CANON__">
+    <meta name="twitter:card" content="summary_large_image">
     <script type="application/ld+json">
 __JSONLD__
+    </script>
+    <script type="application/ld+json">
+__FAQLD__
     </script>
 </head>
 <body>
@@ -681,6 +759,8 @@ def render_article(a, lookup):
             .replace("__WA_URL__", wa_url(a))
             .replace("__MAIL_URL__", mail_url(a))
             .replace("__JSONLD__", jsonld(a))
+            .replace("__CANON__", "https://vortixkitchen.com/blog/" + a["slug"] + ".html")
+            .replace("__FAQLD__", faqld(a))
             .replace("__RELATED__", related)
             .replace("__FOOTER_LINKS__", footer_links))
 
