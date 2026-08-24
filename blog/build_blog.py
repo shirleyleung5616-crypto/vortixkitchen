@@ -8,7 +8,7 @@ article, append one dict to ARTICLES below and rerun this script:
     python build_blog.py
 
 It regenerates all article HTML files, blog/index.html and sitemap.xml.
-Keep bodies under 400 words, pure client value, no fluff. Design lives in blog.css (unchanged).
+Keep bodies under 200 words, pure client value, no fluff. Design lives in blog.css (unchanged).
 """
 import json
 import os
@@ -48,11 +48,10 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I keep getting dead-on-arrival cookers in [market]. Can you spec branded IGBT with 100% burn-in and share the test record?",
         "mail_subject": "Dead-on-arrival cookers",
         "mail_body": "Hi Vortix Kitchen, I need cookers that arrive alive. Please advise on branded IGBT, 100% burn-in and batch test records for my market.",
-        "body": """<p>A dead-on-arrival cooker is the most expensive return you take: a 100% refund, the freight back, and a buyer who quietly switches supplier. In hot markets it happens more than factories admit.</p>
-<p>The cause is almost always the same — an under-specced IGBT module or a poorly soldered board. The factory saves a few cents; you lose the whole sale.</p>
-<h2>Put this in your PO</h2>
-<p>"IGBT: branded module (Infineon / ST or equivalent); 100% power-on burn-in ≥ 30 min per unit; AOI-inspected soldering; batch burn-in record shipped with the goods."</p>
-<p>A supplier who won't write that line has already told you everything.</p>""",
+        "body": """<p>A dead-on-arrival cooker is a 100% refund plus return freight — you lose the whole sale.</p>
+<p>Cause: under-specced IGBT or poor soldering. The factory saves cents; you lose the margin.</p>
+<h2>Put in your PO</h2>
+<p>"IGBT: branded module (Infineon/ST); 100% power-on burn-in ≥30 min/unit; AOI soldering; batch burn-in record with shipment."</p>""",
     },
     {
         "slug": "pain-cracked-glass",
@@ -70,11 +69,10 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I get cracked-glass returns on arrival. Can you spec grade-A glass with a drop-tested carton?",
         "mail_subject": "Cracked glass on arrival",
         "mail_body": "Hi Vortix Kitchen, please advise on tempered microcrystalline glass and drop-tested carton to stop cracked-glass returns.",
-        "body": """<p>Cracked glass on arrival is pure loss — no repair, no resale, just a refund and a dent in your name. The box opens, the cooktop is shattered, and the unit you never sold costs you full price.</p>
-<p>The cause is low-grade ceramic glass or a carton that never saw a drop test.</p>
-<h2>Put this in your PO</h2>
-<p>"Glass: tempered microcrystalline, Schott/Eurokera grade or verified equivalent; sea-freight carton validated by drop test; corner protectors mandatory."</p>
-<p>Then ask for the drop-test record. No record means the carton is a guess.</p>""",
+        "body": """<p>Cracked glass on arrival = pure loss. No repair, no resale — full refund and a dent in your name.</p>
+<p>Cause: cheap ceramic glass or a carton that never passed a drop test.</p>
+<h2>Put in your PO</h2>
+<p>"Glass: tempered microcrystalline (Schott/Eurokera grade); sea-freight carton drop-test validated; corner protectors." Ask for the drop-test record.</p>""",
     },
     {
         "slug": "pain-slow-heating",
@@ -92,11 +90,10 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, customers complain my cookers heat slowly. Can you spec 100% copper coil with verified winding?",
         "mail_subject": "Slow heating complaints",
         "mail_body": "Hi Vortix Kitchen, please advise on 100% copper coil and coil-to-glass tolerance to stop slow-heating returns.",
-        "body": """<p>"It doesn't heat properly" triggers a return even when the unit works. The customer isn't wrong about the symptom — they're describing a shortcut in the build.</p>
-<p>Aluminum-clad or poorly wound coils lose efficiency and run hot. The cooker struggles to reach temperature, the buyer loses patience, and it comes back.</p>
-<h2>Put this in your PO</h2>
-<p>"Heating coil: 100% copper; winding spec verified per batch; coil-to-glass gap tolerance checked at QC."</p>
-<p>Copper costs more than aluminum-clad. It is also the difference between a unit that performs and one that gets sent back.</p>""",
+        "body": """<p>"Doesn't heat properly" triggers a return even when the unit works — it's a build shortcut.</p>
+<p>Aluminum-clad or badly wound coils lose efficiency and run hot. The buyer returns it.</p>
+<h2>Put in your PO</h2>
+<p>"Heating coil: 100% copper; winding spec verified per batch; coil-to-glass gap checked at QC."</p>""",
     },
 
     # ---------------- RELIABILITY ----------------
@@ -116,11 +113,9 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, my cookers shut down in hot kitchens. Can you spec an oversized IGBT with continuous-duty rating?",
         "mail_subject": "Cookers overheating",
         "mail_body": "Hi Vortix Kitchen, I need cookers that survive 40C kitchens. Please advise on IGBT margin and continuous-duty rating.",
-        "body": """<p>In 40°C kitchens your cooker doesn't fail because it's badly made — it fails because the IGBT overheats and cuts out mid-service. The chef notices on night one, and your brand becomes "the one that dies."</p>
-<p>The fix is an oversized IGBT with thermal margin, a real aluminum heatsink, and continuous-duty rating — not a fuse that trips.</p>
+        "body": """<p>In 40°C kitchens the IGBT overheats and cuts out mid-service. The chef notices on night one; your brand becomes "the one that dies."</p>
 <h2>Demand this</h2>
-<p>"IGBT rated with margin above rated wattage; continuous-duty thermal management validated at 40°C ambient; continuous-duty (not peak-only) rating for commercial use."</p>
-<p>For hot markets this single line is what keeps units alive past the first month.</p>""",
+<p>"IGBT rated with margin above rated wattage; continuous-duty thermal management validated at 40°C; continuous-duty rating for commercial use."</p>""",
     },
     {
         "slug": "pain-dusty-fan",
@@ -138,11 +133,9 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, dust kills my cooker fans. Can you spec a serviceable, dust-resistant fan with spare parts?",
         "mail_subject": "Dusty fan failures",
         "mail_body": "Hi Vortix Kitchen, please advise on a dust-resistant serviceable fan and spare-part availability for my market.",
-        "body": """<p>In dusty markets the fan intake clogs, airflow drops, and the internals cook themselves. No dramatic failure — just a slow death that shows up as "it stopped after a few months," by which time the buyer has told three friends.</p>
-<p>The fix is not a better unit. It is a fan you can replace in the field.</p>
+        "body": """<p>In dusty markets the fan clogs, airflow drops, internals cook. No drama — just "stopped after a few months," by which time the buyer told three friends.</p>
 <h2>Demand this</h2>
-<p>"Dust-resistant fan, field-replaceable; spare fans listed as a line item, not a favor."</p>
-<p>If the only way to swap a $1 fan is to scrap the whole cooker, your customers will blame you — and the next order goes elsewhere.</p>""",
+<p>"Dust-resistant fan, field-replaceable; spare fans listed as a line item." If a $1 fan means scrapping the cooker, customers blame you.</p>""",
     },
     {
         "slug": "pain-voltage-spike",
@@ -160,11 +153,9 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, voltage spikes fry my cookers. Can you add surge protection and wide-voltage tolerance?",
         "mail_subject": "Voltage spike damage",
         "mail_body": "Hi Vortix Kitchen, please advise on input surge protection and wide-voltage tolerance for unstable grids.",
-        "body": """<p>Grids across Central Asia, Southeast Asia and Africa are unstable. One surge or brownout can fry the control board in a single event — and a pattern of "randomly dies" refunds follows.</p>
-<p>The fix is surge protection plus wide-voltage tolerance, written into the spec.</p>
+        "body": """<p>Unstable grids across your markets: one surge fries the board, and "randomly dies" refunds follow.</p>
 <h2>Demand this</h2>
-<p>"Input surge protection; wide-voltage tolerance that holds steady through brownouts (no reboot); documented, not claimed."</p>
-<p>For unstable grids this one clause is the line between a unit that lasts and a unit that becomes a warranty claim.</p>""",
+<p>"Input surge protection; wide-voltage tolerance holding steady through brownouts (no reboot); documented." This clause is the line between a unit that lasts and a warranty claim.</p>""",
     },
 
     # ---------------- CUSTOMS / COMPLIANCE ----------------
@@ -184,9 +175,9 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I import to [country]. Can you confirm the certification and plug I need before I order?",
         "mail_subject": "Customs clearance check",
         "mail_body": "Hi Vortix Kitchen, please help me avoid a customs hold — which marks and plug do I need for my target markets?",
-        "body": """<p>CE is not a global passport. It is the Europe mark — and you don't sell to Europe. Most of your markets want their own: EAC, SNI, SIRIM, TISI, SONCAP, PVoC or NRCS, by country. A missing mark holds the container, and the demurrage bill can exceed your margin.</p>
+        "body": """<p>CE is the Europe mark — you don't sell to Europe. Your markets want their own: EAC, SNI, SIRIM, TISI, SONCAP, PVoC, NRCS. A missing mark holds the container; demurrage can exceed your margin.</p>
 <h2>Do this</h2>
-<p>Name your exact destination country on the PO, then ask for a real test report — issuing lab, report number, date, your exact model — not a photo of a sticker. A CB report to IEC 60335 is the most reusable asset, accepted for faster national approval in Malaysia, Vietnam and South Africa.</p>""",
+<p>Name the country on the PO. Ask for a real test report — lab, number, date, model — not a sticker photo. A CB report to IEC 60335 speeds approval in Malaysia, Vietnam, South Africa.</p>""",
     },
     {
         "slug": "pain-wrong-plug",
@@ -204,9 +195,9 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, which plug type do I need for [country]? Can you lock it at tooling?",
         "mail_subject": "Plug type for my market",
         "mail_body": "Hi Vortix Kitchen, please confirm the correct plug type for my market and lock it at tooling.",
-        "body": """<p>Voltage is uniform across your markets (220-240V, 50Hz), but plugs are not. Type C/F in Central Asia and much of SEA, Type G in Malaysia and Singapore, Type A/B in Thailand and the Philippines, BS 1363 / SANS 164 in Africa. Some ports treat a wrong-plug shipment as non-compliant and hold the whole container.</p>
+        "body": """<p>Voltage is uniform (220-240V, 50Hz) but plugs are not: C/F in Central Asia & much of SEA, G in Malaysia/Singapore, A/B in Thailand/Philippines. Wrong-plug shipments get held.</p>
 <h2>Do this</h2>
-<p>Lock the plug for your market at the tooling stage — a $0.30 decision made before production, not a rework after. Write the plug type into the specification, not a verbal agreement. One line on the PO prevents a port hold.</p>""",
+<p>Lock the plug at tooling stage — a $0.30 call before production, not rework after. Write the plug type in the spec.</p>""",
     },
     {
         "slug": "pain-no-local-rep",
@@ -224,9 +215,9 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, who holds the certificate locally for [country]? Can you name the rep in the contract?",
         "mail_subject": "Local representative for clearance",
         "mail_body": "Hi Vortix Kitchen, please confirm the local representative requirement for my market and include it in the contract.",
-        "body": """<p>Almost every certification scheme in your markets requires a named local entity to hold the certificate — EAC, SNI, SIRIM, SONCAP, NRCS all want a local importer or agent on file. Importers discover this at the port, after the container has sailed.</p>
+        "body": """<p>EAC, SNI, SIRIM, SONCAP, NRCS all require a named local entity to hold the certificate. Importers learn this at the port — after sailing.</p>
 <h2>Do this</h2>
-<p>Confirm the local representative is named in the contract before production, not patched in with a panic email at the port. If your supplier "can't name one," that is the answer you needed before you wired the deposit.</p>""",
+<p>Name the local rep in the contract before production, not a panic email at the port. If the supplier "can't name one," that's your answer before wiring the deposit.</p>""",
     },
 
     {
@@ -245,15 +236,14 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I import to Nigeria. Can you confirm the SONCAP documents and test reports I need before ordering?",
         "mail_subject": "Nigeria SONCAP clearance",
         "mail_body": "Hi Vortix Kitchen, please advise on the SONCAP Product Certificate and SONCAP Certificate requirements and the test reports you can provide for Nigeria.",
-        "body": """<p>No SONCAP Certificate (SC) = no release at Lagos. Importers lose weeks and their whole margin to demurrage because the step was done after sailing instead of before.</p>
-<h2>What SONCAP needs, in order</h2>
+        "body": """<p>No SONCAP Certificate (SC) = no release at Lagos. Done after sailing instead of before = weeks of demurrage.</p>
+<h2>Steps</h2>
 <ol>
-<li><strong>Product Certificate (PC)</strong> — model-level, up to a year, after testing to Nigerian standards.</li>
-<li><strong>SONCAP Certificate (SC)</strong> — shipment-level, after pre-shipment inspection, against the PC. Must be obtained <em>before</em> the container leaves China.</li>
+<li><strong>PC</strong> — model-level, up to a year, after testing.</li>
+<li><strong>SC</strong> — shipment-level, after pre-shipment inspection, before the container leaves China.</li>
 </ol>
-<h2>Put this in your PO</h2>
-<p>"Supplier to provide IEC 60335 test reports, support PC application, and coordinate pre-shipment inspection for the SC. SC number on all commercial documents."</p>
-<p>Work with a factory that can name the accredited body (SGS, Intertek, BV). If they shrug at SONCAP, they have not shipped to your market.</p>""",
+<h2>PO clause</h2>
+<p>"Supplier provides IEC 60335 reports, supports PC, coordinates SC inspection. SC number on all docs." A factory that can't name SGS/Intertek/BV hasn't shipped to Nigeria.</p>""",
     },
 
     # ---------------- BUYING / SELLING (single-topic, kept) ----------------
@@ -273,23 +263,17 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, my market uses mostly [pot type] pots — should I lead with induction or infrared?",
         "mail_subject": "Induction vs Infrared Mix",
         "mail_body": "Hi Vortix Kitchen, please help me decide the right induction/infrared product mix for my market.",
-        "body": """<p>Bet on the wrong cooker technology and a container sits in your warehouse unsold. The only fact that decides the sale in your markets is <strong>cookware</strong>.</p>
+        "body": """<p>Wrong tech = a container unsold. The decider in your markets is cookware.</p>
 <ul>
-<li><strong>Induction</strong> heats only magnetic pots (cast iron, magnetic steel). Aluminum, glass and ceramic won't work.</li>
-<li><strong>Infrared</strong> heats the glass surface, so it works with <em>any</em> pot.</li>
+<li><strong>Induction</strong>: heats only magnetic pots (cast iron, steel). Aluminum/glass/ceramic won't work.</li>
+<li><strong>Infrared</strong>: heats the glass — works with any pot.</li>
 </ul>
-<h2>Choose infrared if</h2>
-<p>Your market cooks mostly with aluminum or mixed pots (common across Africa and SE Asia). It removes the "it doesn't work" returns entirely — and it's cheaper to build, a low-MOQ entry SKU.</p>
-<h2>Choose induction if</h2>
-<p>You're building a premium line: ~90% efficient, cooler surface, a strong safety story for families and energy-conscious buyers. Higher per-unit margin.</p>
-<h2>The play most distributors miss</h2>
-<p>Carry both. Induction as the premium line, infrared as the universal line that never rejects a customer's existing pots. Together they cover every buyer who walks in.</p>
-<h2>3-step market check</h2>
-<ol>
-<li>Survey the pots your retail partners see — aluminum-dominant → weight infrared.</li>
-<li>Decide position: price → infrared; quality/margin → induction; both → carry both.</li>
-<li>Test cheap: a small infrared batch validates a new channel before volume.</li>
-</ol>""",
+<h2>Pick infrared if</h2>
+<p>Aluminum-dominant markets (Africa, SE Asia) — kills "it doesn't work" returns, cheaper, low-MOQ entry.</p>
+<h2>Pick induction if</h2>
+<p>Premium line: ~90% efficient, cool surface, safety story, higher margin.</p>
+<h2>Best play</h2>
+<p>Carry both: induction premium, infrared universal. Cover every buyer.</p>""",
     },
     {
         "slug": "article-product-showcase",
@@ -307,29 +291,23 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I'm building a commercial cooker range for [venue mix]. Can you propose a bundle and pricing?",
         "mail_subject": "Commercial Cooker Bundle",
         "mail_body": "Hi Vortix Kitchen, I'm building a commercial cooker range and need a product bundle with continuous-duty specs.",
-        "body": """<p>In foodservice the win is the reorder, not the first sale. A unit that throttles out during dinner service funds your rival's growth. Spec by venue so clients come back.</p>
-<h2>Two mistakes that end the relationship</h2>
-<ul>
-<li><strong>Peak-power lying:</strong> a "5000W" unit that drops to 3000W can't hold a wok station. The chef notices on night one.</li>
-<li><strong>Wrong tool:</strong> a 2000W portable where a 5000W burner was needed, or glass that cracks under all-day use.</li>
-</ul>
+        "body": """<p>In foodservice the win is the reorder. A unit that throttles at dinner service funds your rival.</p>
 <h2>Spec by venue</h2>
 <ul>
-<li>Small restaurant / cafe: 3500W countertop, single zone.</li>
-<li>Hotel / buffet: 4000-5000W built-in or twin zone.</li>
-<li>Catering / outdoor: portable 2000-3500W, sturdy handle.</li>
-<li>Asian wok station: 5000W+ concave-coil unit.</li>
+<li>Cafe: 3500W countertop.</li>
+<li>Hotel/buffet: 4000-5000W twin zone.</li>
+<li>Catering: 2000-3500W portable.</li>
+<li>Wok station: 5000W+ concave coil.</li>
 </ul>
-<h2>What "commercial grade" must say on paper</h2>
+<h2>"Commercial grade" on paper</h2>
 <ul>
-<li>Continuous power (2-hour load-test record), not peak-only.</li>
-<li>Dual-fan cooling + NTC validated at 40°C ambient.</li>
+<li>Continuous power (2-hr load test), not peak-only.</li>
+<li>Dual-fan + NTC at 40°C.</li>
 <li>Reinforced glass, metal housing, industrial IGBT.</li>
-<li>Overheat / overvoltage / auto-shutoff mandatory.</li>
-<li>Serviceable fan + published spare-part list.</li>
+<li>Overheat/overvoltage/auto-shutoff.</li>
+<li>Serviceable fan + spare-part list.</li>
 </ul>
-<h2>Starter bundle</h2>
-<p>A 3500W countertop + a twin-zone 5000W unit covers most of a new client's line on day one — and because both perform, they call you for the second branch.</p>""",
+<p>Starter: 3500W + twin-zone 5000W covers most of a new client's line day one.</p>""",
     },
     {
         "slug": "article-cookware-magnetism",
@@ -347,17 +325,15 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, my market uses mostly aluminium pots — how do I avoid 'won't heat' returns?",
         "mail_subject": "Cookware Returns",
         "mail_body": "Hi Vortix Kitchen, please advise how to reduce cookware-related induction returns in my market.",
-        "body": """<p>A customer puts an aluminum pot on an induction cooker, nothing heats, and sends it back as "defective." The unit is perfect. The pot is the problem — and across Africa and much of SE Asia, aluminum is the household default. This is the single most common "it's broken" complaint in the trade.</p>
-<h2>Why</h2>
-<p>Induction only heats ferromagnetic cookware (cast iron, magnetic steel). Aluminum, copper, glass and ceramic don't interact with the field, so the cooker stays cold. It's working as designed; the customer just can't see it.</p>
-<h2>Kill the complaint before it starts</h2>
+        "body": """<p>An aluminum pot on induction = nothing heats = "defective" return. The unit is fine; the pot isn't. Aluminum is the household default across Africa & SE Asia — the #1 "broken" complaint.</p>
+<h2>Fix it before sale</h2>
 <ol>
-<li><strong>Magnet test on the box:</strong> "works with magnetic pots; test with a fridge magnet" turns a return into a 10-second self-check.</li>
-<li><strong>Bundle a magnetic disc:</strong> a low-cost steel disc lets any pot work on induction.</li>
-<li><strong>Sell infrared where pots are mixed:</strong> it heats any pot, eliminating the category.</li>
-<li><strong>Train retail partners:</strong> one line on the shelf card prevents most returns at point of sale.</li>
+<li><strong>Magnet test on the box:</strong> "works with magnetic pots; test with a fridge magnet."</li>
+<li><strong>Bundle a magnetic disc</strong> — any pot works.</li>
+<li><strong>Sell infrared</strong> where pots are mixed — eliminates the category.</li>
+<li><strong>Train retail partners</strong> — one shelf line prevents most returns.</li>
 </ol>
-<p>Give every buyer the rule: if a fridge magnet sticks to the pot bottom, it works on induction. Print it, sticker it, put it in the manual.</p>""",
+<p>Rule for every buyer: if a magnet sticks, it works on induction. Print it.</p>""",
     },
     {
         "slug": "article-switch-from-gas",
@@ -375,16 +351,14 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I want to sell induction over gas to [buyer type] — can you bundle a switch-kit and TCO sheet?",
         "mail_subject": "Gas-to-Induction Switch Kit",
         "mail_body": "Hi Vortix Kitchen, please help me build a gas-to-induction switch kit (TCO sheet + magnetic disc) for my buyers.",
-        "body": """<p>Your buyers hesitate to replace a working gas setup because "gas is cheaper." The sale is won or lost on total cost of ownership — not the sticker price.</p>
-<h2>The math to put in front of them</h2>
+        "body": """<p>Buyers hesitate: "gas is cheaper." The sale is won on total cost of ownership.</p>
 <ul>
-<li><strong>Energy:</strong> induction ~90% efficient vs ~40% for a gas flame. Less energy per meal, real money over a year.</li>
-<li><strong>Speed:</strong> faster heat-up and instant response — lower labour cost, faster table turns.</li>
-<li><strong>Safety:</strong> no flame, no cylinder, no leak risk — decisive for families and any venue with fire-safety rules. Removing the LPG cylinder is itself a saving where supply is unreliable.</li>
+<li><strong>Energy:</strong> induction ~90% vs gas ~40%. Real money per year.</li>
+<li><strong>Speed:</strong> faster heat, faster table turns, lower labour.</li>
+<li><strong>Safety:</strong> no flame, no cylinder, no leak — plus the LPG saving where supply is shaky.</li>
 </ul>
-<h2>The two honest objections</h2>
-<p>Induction needs magnetic cookware, and commercial units need a proper circuit. Both are solved, not fatal: bundle a magnetic disc and spec the right power for the venue. Handle them up front and the "but gas is simpler" argument collapses.</p>
-<p>A customer who switches on total-cost math becomes a recurring induction buyer — exactly the account you want.</p>""",
+<h2>Honest objections</h2>
+<p>Induction needs magnetic cookware and a proper circuit — solved, not fatal: bundle a magnetic disc, spec the right power. Handle up front and "gas is simpler" collapses.</p>""",
     },
     {
         "slug": "pain-oem-brand",
@@ -402,18 +376,17 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I want to launch my own cooker brand. Can you do OEM/ODM with my logo, color and packaging?",
         "mail_subject": "OEM/ODM brand launch",
         "mail_body": "Hi Vortix Kitchen, I want to launch my own induction cooker brand. Please advise on OEM/ODM, MOQ, tooling cost and certification support.",
-        "body": """<p>You see cookers selling in your market and think: why isn't my brand on the box? The fear — MOQ, deposit, "will they steal my design?" — is real but manageable.</p>
-<h2>OEM vs ODM</h2>
-<p><strong>OEM:</strong> take the factory's proven model, add your logo, color and carton. Fastest, lowest risk. <strong>ODM:</strong> co-develop a model — more differentiation, more tooling. Most new brands should start OEM, move to ODM once volume justifies it.</p>
+        "body": """<p>Why isn't your brand on the box? MOQ, deposit, "will they steal my design?" — real but manageable.</p>
+<p><strong>OEM:</strong> factory's model plus your logo/carton. Fastest, lowest risk. <strong>ODM:</strong> co-develop — more differentiation, more tooling. Start OEM, move to ODM.</p>
 <h2>Five clauses that protect you</h2>
 <ol>
-<li><strong>MOQ per model</strong> — confirm the real number; a low-MOQ entry SKU lets you test first.</li>
-<li><strong>Tooling ownership</strong> — you should own the mold, or have it locked to your brand.</li>
-<li><strong>Deposit terms</strong> — 30% / 70% before shipment is normal; 100% upfront is a red flag.</li>
-<li><strong>Certification in your name</strong> — SONCAP, EAC, CE under your company, not the factory's.</li>
-<li><strong>Pre-shipment inspection</strong> — your right to independent QC before releasing the balance.</li>
+<li>MOQ per model — a low-MOQ entry SKU lets you test.</li>
+<li>Tooling ownership — you own or lock the mold.</li>
+<li>Deposit 30/70; 100% upfront is a red flag.</li>
+<li>Certification in your name, not the factory's.</li>
+<li>Pre-shipment inspection before balance.</li>
 </ol>
-<p>Get those five in writing and the "scary China factory" becomes a supplier you control.</p>""",
+<p>Those five in writing = a supplier you control.</p>""",
     },
     # ---------------- W2 (2026-08-24) ----------------
     {
@@ -432,12 +405,11 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I import to Kenya. Can you arrange PVoC inspection and provide the COC before shipment?",
         "mail_subject": "Kenya PVoC clearance",
         "mail_body": "Hi Vortix Kitchen, please advise on the PVoC Certificate of Conformity requirements and the test reports you can provide for Kenya.",
-        "body": """<p>No PVoC Certificate of Conformity (COC) = no release at Mombasa. Importers lose weeks and their whole margin to demurrage because PVoC was never done before sailing.</p>
+        "body": """<p>No PVoC COC = no release at Mombasa. Done after sailing = weeks of demurrage.</p>
 <h2>What PVoC needs</h2>
-<p>A COC issued by a KEBS-recognised body (SGS, Intertek, BV) after a pre-shipment inspection in China — <em>before</em> the container departs. The inspection checks the actual shipment against your test reports.</p>
-<h2>Put this in your PO</h2>
-<p>"Supplier to arrange PVoC inspection with a KEBS-recognised body, provide IEC 60335 test reports, and ensure the COC number appears on all shipping documents before vessel departure."</p>
-<p>A factory that ships to Kenya can name the inspection body. If they shrug, they have not shipped to your market.</p>""",
+<p>A COC from a KEBS-recognised body (SGS/Intertek/BV) after pre-shipment inspection in China — before departure.</p>
+<h2>PO clause</h2>
+<p>"Supplier arranges PVoC with KEBS body, provides IEC 60335 reports, COC number on all docs before sailing."</p>""",
     },
     {
         "slug": "pain-voltage-frequency",
@@ -455,9 +427,9 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, my market uses [voltage]. Should I lock voltage or use a wide-voltage unit?",
         "mail_subject": "Voltage spec for my market",
         "mail_body": "Hi Vortix Kitchen, please advise on the correct voltage/frequency for my market and whether a wide-voltage unit fits.",
-        "body": """<p>Ship the wrong voltage and the unit won't start or burns out. Your markets run 220-240V at 50Hz — but pockets run 110-120V (Japan, Taiwan, parts of the Americas). Send a 220V unit there and it's dead stock.</p>
+        "body": """<p>Ship the wrong voltage and the unit won't start or burns out. Your markets run 220-240V/50Hz — but Japan, Taiwan, parts of the Americas run 110-120V. Send 220V there = dead stock.</p>
 <h2>Do this</h2>
-<p>Name the exact voltage and frequency on the PO. Uniform 220-240V/50Hz → lock it. Mixed or 110V → spec a wide-voltage unit (100-240V auto-switching) or a dedicated 110V build. One line prevents a container of dead units.</p>""",
+<p>Name voltage/frequency on the PO. Uniform 220-240V/50Hz to lock it. Mixed/110V to wide-voltage (100-240V) or dedicated 110V build.</p>""",
         "faq": [
             ("Which of my markets use 110-120V?", "Mostly the Americas (some), Japan (100V, 50/60Hz) and Taiwan (110V/60Hz). Central Asia, Southeast Asia, Africa and the GCC run 220-240V at 50Hz."),
             ("Will a 220-240V cooker work on 110V?", "No - it won't reach power or may not start, and some will overheat. Always match the local voltage or use a wide-voltage (100-240V) unit."),
