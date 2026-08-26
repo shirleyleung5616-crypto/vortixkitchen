@@ -4,11 +4,11 @@
 > 新增一篇 = 往 `blog/build_blog.py` 的 `ARTICLES` 列表追加一个 dict → 重跑 `python blog/build_blog.py` → 周一自动化部署 + IndexNow。
 > 目标：客户在 Google / ChatGPT 搜「痛点 + 怎么解决」时，我们的文章被推荐 → 读 → 发 WhatsApp/邮件询盘。
 
-## 已上线（15 篇）
+## 已上线（20 篇）
 - **Returns**：pain-dead-on-arrival / pain-cracked-glass / pain-slow-heating
-- **Reliability**：pain-igbt-overheat / pain-dusty-fan / pain-voltage-spike
-- **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-nigeria-soncap**
-- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-preshipment-check**
+- **Reliability**：pain-igbt-overheat / pain-dusty-fan / pain-voltage-spike / **pain-cooling-fans** / **pain-insect-proof**
+- **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-nigeria-soncap** / **pain-kenya-pvoc**
+- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency**
 
 ## 待写池（按主题分组，每周挑 1–2 篇上线）
 
@@ -26,7 +26,7 @@
 
 ### C. 采购与信任
 - [ ] 如何安全付给中国工厂（定金比例 / 验厂 / 验货）
-- [x] 出货前验货清单（pain-preshipment-check，已上线，对应 pain-dead-on-arrival，避免 DOA）
+- [x] ~~出货前验货清单~~（pain-preshipment-check：雪姐判定为废话，已下架删除；DOA 防护改由 pain-dead-on-arrival 正文 + 验货条款覆盖）
 - [ ] 备件与售后：进口商如何建自己的备件池
 
 ### D. 规格与适配
@@ -42,7 +42,8 @@
 ## 写作计划（6 周，每周一自动化上线；之后循环补充 A–E 剩余项）
 - **W1（本周）** ✅ pain-nigeria-soncap + pain-oem-brand（已上线）
 - **W2** ✅ 肯尼亚 PVoC (pain-kenya-pvoc) + 电压/频率适配 (pain-voltage-frequency，含 FAQ 结构化数据) — 已上线
-- **W3** ✅ 如何安全付款 (pain-safe-payment) + 出货前验货清单
+- **W3** ✅ 如何安全付款 (pain-safe-payment) + 出货前验货清单（已下架）
+- **W3 增补（2026-08-26）** ✅ 可靠性新增 2 篇：pain-cooling-fans（2/4 风扇可按市场定制散热）+ pain-insect-proof（防虫/防蟑螂密封结构）
 - **W4**：商用 vs 家用 + 集装箱装载量计算
 - **W5**：哈萨克斯坦 EAC + 备件与售后策略
 - **W6**：错误代码排查 + 高海拔对策

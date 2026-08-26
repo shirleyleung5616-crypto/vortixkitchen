@@ -158,6 +158,60 @@ ARTICLES = [
 <p>"Input surge protection; wide-voltage tolerance holding steady through brownouts (no reboot); documented." This clause is the line between a unit that lasts and a warranty claim.</p>""",
     },
 
+    # ---------------- RELIABILITY (configurable builds) ----------------
+    {
+        "slug": "pain-cooling-fans",
+        "series": "reliability",
+        "cat": "RELIABILITY",
+        "footer_label": "Cooling Fans",
+        "image": "page2_img8.jpeg",
+        "readtime": "2 min read",
+        "title": "Your Cookers Die in the Heat - but You Can Spec 2 or 4 Cooling Fans",
+        "description": "In hot markets a single fan can't cool the IGBT and the unit dies mid-service. Spec 2 or 4 fans to your environment and stop the returns.",
+        "excerpt": "A single fan can't cool the IGBT in 40C markets - the unit dies. Spec 2 or 4 fans to your duty cycle and stop the returns.",
+        "related": ["pain-igbt-overheat", "pain-dusty-fan", "article-product-showcase"],
+        "cta_title": "Want cooling sized to your market?",
+        "cta_text": "Tell us your ambient heat and daily run hours - we'll build the fan count, inlet filtering and NTC control to match, no over-spec cost.",
+        "wa_text": "Hi Vortix Kitchen, my cookers overheat in [market]. Can you build 2-fan or 4-fan cooling to my environment?",
+        "mail_subject": "Cooling fan configuration",
+        "mail_body": "Hi Vortix Kitchen, please advise on 2-fan vs 4-fan cooling for my market's heat and duty cycle, and the inlet filtering you offer.",
+        "body": """<p>In 40C kitchens and warehouses a single cooling fan can't pull heat off the IGBT. It throttles, then dies mid-service - a refund and a bad story you didn't need.</p>
+<p>Most factories ship one size for every market. We don't.</p>
+<h2>Spec it to your environment</h2>
+<ul>
+<li><strong>2-fan</strong> - light duty, mild-climate retail and home use.</li>
+<li><strong>4-fan</strong> - continuous commercial duty in hot, dusty markets (Central Asia, SE Asia, Africa).</li>
+</ul>
+<p>Tell us your ambient heat and daily run hours; we build the fan count, inlet filtering and NTC control to match - not a guess.</p>
+<p>Right-sized cooling = fewer returns, no over-spec cost. You pay for what your market needs.</p>""",
+    },
+    {
+        "slug": "pain-insect-proof",
+        "series": "reliability",
+        "cat": "RELIABILITY",
+        "footer_label": "Insect-Proof",
+        "image": "page2_img8.jpeg",
+        "readtime": "2 min read",
+        "title": "Cockroaches Fried Your Client's Cooker - the Insect-Proof Build That Stops It",
+        "description": "In tropical warehouses insects crawl into the cooker and short the board. A sealed, insect-proof build keeps bugs out and warranty claims down.",
+        "excerpt": "Insects crawl into the cooker and short the board - a claim you pay for. A sealed, insect-proof build keeps bugs out.",
+        "related": ["pain-igbt-overheat", "pain-dusty-fan", "article-product-showcase"],
+        "cta_title": "Shipping to a hot, humid market?",
+        "cta_text": "Name your destination and we'll lock the insect-proof build at tooling - sealed enclosure, guarded vents, coated board - standard for SE Asia and Africa.",
+        "wa_text": "Hi Vortix Kitchen, I ship to [market] where cockroaches are a problem. Can you build an insect-proof cooker?",
+        "mail_subject": "Insect-proof cooker build",
+        "mail_body": "Hi Vortix Kitchen, please advise on an insect-proof / cockroach-proof build - sealed enclosure, guarded vents and coated board - for humid markets.",
+        "body": """<p>In tropical warehouses and open kitchens, cockroaches and insects crawl into the cooker through every gap - and short the control board. The unit dies, sometimes smokes, and your client blames your brand.</p>
+<p>An infestation you never see becomes a warranty claim you pay for.</p>
+<h2>Spec the insect-proof build</h2>
+<ul>
+<li><strong>Sealed enclosure</strong> - gasketed seams insects can't pass.</li>
+<li><strong>Guarded vents</strong> - mesh-sealed airflow, bugs blocked.</li>
+<li><strong>Coated board</strong> - conformal coating resists creepy-crawly conductivity.</li>
+</ul>
+<p>Standard in our builds for hot, humid markets (SE Asia, Africa). Ask for it by name and we lock it at tooling.</p>
+<p>No board short, no fire risk, no surprise claim.</p>""",
+    },
     # ---------------- CUSTOMS / COMPLIANCE ----------------
     {
         "slug": "pain-ce-sticker",
@@ -466,38 +520,6 @@ ARTICLES = [
             ("Is 100% upfront normal for China cooker factories?", "No. 30% deposit / 70% balance against B/L or inspection is standard for established suppliers. 100% upfront is a red flag."),
             ("What protects me if goods fail inspection?", "With the balance held until passed inspection, you keep leverage - the factory fixes or replaces before you pay the rest."),
             ("TT or escrow for a first order?", "TT to a verified company account with inspection-gated balance is common; escrow adds cost but helps on a large first order with an unknown supplier."),
-        ],
-    },
-    {
-        "slug": "pain-preshipment-check",
-        "series": "buying",
-        "cat": "INSPECTION / QC",
-        "footer_label": "Pre-Ship Check",
-        "image": "page2_img1.jpeg",
-        "readtime": "2 min read",
-        "title": "Half Your Container Is Dead on Arrival - the 5-Point Check Before the Truck Leaves",
-        "description": "A pre-shipment inspection checklist that stops dead-on-arrival cookers - the 5 checks to write into your inspection order before the container seals.",
-        "excerpt": "DOA units = 100% refund + freight back. This 5-point pre-shipment check stops it - write it into your inspection order.",
-        "related": ["pain-dead-on-arrival", "pain-cracked-glass", "pain-safe-payment"],
-        "cta_title": "Want a pre-shipment checklist templated to your model?",
-        "cta_text": "Send your model and volume - we'll confirm the burn-in time, test points, and the exact inspection clause for your PO.",
-        "wa_text": "Hi Vortix Kitchen, I want a pre-shipment inspection before shipping. What burn-in and test points do you support?",
-        "mail_subject": "Pre-shipment inspection for cooker order",
-        "mail_body": "Hi Vortix Kitchen, please confirm your pre-shipment inspection scope - power-on, burn-in duration, glass check, and the third-party report you can provide.",
-        "body": """<p>Dead-on-arrival (DOA) cookers are the costliest return: a 100% refund plus the freight back, and the buyer quietly switches supplier. Most DOA is caught - and fixed - at the factory, if you inspect before the container seals.</p>
-<h2>Write this 5-point check into your inspection order</h2>
-<ol>
-<li><strong>100% power-on</strong> - every unit powers and heats, not a sample.</li>
-<li><strong>Burn-in ≥ 30 min</strong> - IGBT and board fail under heat; a short test hides it.</li>
-<li><strong>Glass and body</strong> - no crack, no scratch; carton drop-test record attached.</li>
-<li><strong>Spec match</strong> - voltage, plug, label match the PO exactly.</li>
-<li><strong>Third-party sign-off</strong> - independent inspector, report before you release the balance.</li>
-</ol>
-<p>Release the last cent only after the report is clean.</p>""",
-        "faq": [
-            ("What is a pre-shipment inspection for cookers?", "An independent check of every unit (power-on, burn-in, glass, spec match) before the container seals - proof the goods are sound before you pay the balance."),
-            ("Who does pre-shipment inspection in China?", "Third-party inspectors (SGS, Intertek, BV, or local QC firms) test at the factory and issue a report you hold before releasing payment."),
-            ("Does inspection add much cost?", "A fraction of one DOA return. One dead container covers a year of inspections."),
         ],
     },
 ]
