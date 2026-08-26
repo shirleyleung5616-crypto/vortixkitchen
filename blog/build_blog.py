@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-08-24"
-DATE_HUMAN = "Aug 24, 2026"
+DATE_ISO = "2026-08-26"
+DATE_HUMAN = "Aug 26, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -434,6 +434,38 @@ ARTICLES = [
             ("Which of my markets use 110-120V?", "Mostly the Americas (some), Japan (100V, 50/60Hz) and Taiwan (110V/60Hz). Central Asia, Southeast Asia, Africa and the GCC run 220-240V at 50Hz."),
             ("Will a 220-240V cooker work on 110V?", "No - it won't reach power or may not start, and some will overheat. Always match the local voltage or use a wide-voltage (100-240V) unit."),
             ("What does 'wide voltage' mean for cookers?", "A unit with auto-switching input (100-240V, 50/60Hz) that runs safely across both ranges - ideal when you sell into mixed-voltage markets."),
+        ],
+    },
+    {
+        "slug": "pain-safe-payment",
+        "series": "buying",
+        "cat": "PAYMENT / TRUST",
+        "footer_label": "Pay Safely",
+        "image": "page2_img1.jpeg",
+        "readtime": "2 min read",
+        "title": "You Paid 100% Upfront - and the Factory Stopped Replying",
+        "description": "Paying a China factory 100% upfront is the fastest way to lose the order. The safe payment structure: 30% deposit, 70% balance against the B/L copy or a passed inspection.",
+        "excerpt": "100% upfront = the supplier can vanish. Safe structure: 30% deposit, 70% balance on B/L copy or passed inspection.",
+        "related": ["pain-oem-brand", "pain-no-local-rep", "pain-ce-sticker"],
+        "cta_title": "Want a payment structure that protects you?",
+        "cta_text": "Tell us your order size and market - we'll confirm the deposit ratio, inspection gate, and the exact condition that releases the balance.",
+        "wa_text": "Hi Vortix Kitchen, I want to import cookers. What payment terms do you offer - deposit, balance on B/L or inspection?",
+        "mail_subject": "Payment terms for cooker import",
+        "mail_body": "Hi Vortix Kitchen, please advise on your payment structure - deposit ratio, balance on B/L copy or pre-shipment inspection, and any escrow option.",
+        "body": """<p>Paying 100% upfront to a China factory is the fastest way to lose everything - the unit ships late, the spec is wrong, or the supplier stops replying after the wire. The deposit you meant as trust becomes a blank cheque.</p>
+<h2>What to put in the PO / contract</h2>
+<ol>
+<li><strong>Deposit 30%</strong> to start; <strong>balance 70%</strong> against the <strong>B/L copy</strong> or a <strong>passed pre-shipment inspection</strong> - never before.</li>
+<li><strong>100% upfront is a red flag.</strong> Walk away.</li>
+<li><strong>Pay to a company account</strong> (TT), not a personal WeChat/Alipay.</li>
+<li><strong>Verify the supplier</strong> - business license, factory address, a live video call. Use third-party inspection before the balance.</li>
+<li><strong>Specify in writing:</strong> model, power, plug, certification, and the inspection standard the balance releases against.</li>
+</ol>
+<p>Release the last cent only when the goods are verified - not when the factory asks nicely.</p>""",
+        "faq": [
+            ("Is 100% upfront normal for China cooker factories?", "No. 30% deposit / 70% balance against B/L or inspection is standard for established suppliers. 100% upfront is a red flag."),
+            ("What protects me if goods fail inspection?", "With the balance held until passed inspection, you keep leverage - the factory fixes or replaces before you pay the rest."),
+            ("TT or escrow for a first order?", "TT to a verified company account with inspection-gated balance is common; escrow adds cost but helps on a large first order with an unknown supplier."),
         ],
     },
 ]
