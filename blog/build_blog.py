@@ -485,7 +485,7 @@ ARTICLES = [
 <h2>Do this</h2>
 <p>Name voltage/frequency on the PO. Uniform 220-240V/50Hz to lock it. Mixed/110V to wide-voltage (100-240V) or dedicated 110V build.</p>""",
         "faq": [
-            ("Which of my markets use 110-120V?", "Mostly the Americas (some), Japan (100V, 50/60Hz) and Taiwan (110V/60Hz). Central Asia, Southeast Asia, Africa and the GCC run 220-240V at 50Hz."),
+            ("Which of my markets use 110-120V?", "Mostly the Americas (some), Japan (100V, 50/60Hz) and Taiwan (110V/60Hz). Central Asia, Russia, Southeast Asia and Africa run 220-240V at 50Hz."),
             ("Will a 220-240V cooker work on 110V?", "No - it won't reach power or may not start, and some will overheat. Always match the local voltage or use a wide-voltage (100-240V) unit."),
             ("What does 'wide voltage' mean for cookers?", "A unit with auto-switching input (100-240V, 50/60Hz) that runs safely across both ranges - ideal when you sell into mixed-voltage markets."),
         ],
