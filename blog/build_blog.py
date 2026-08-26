@@ -468,6 +468,38 @@ ARTICLES = [
             ("TT or escrow for a first order?", "TT to a verified company account with inspection-gated balance is common; escrow adds cost but helps on a large first order with an unknown supplier."),
         ],
     },
+    {
+        "slug": "pain-preshipment-check",
+        "series": "buying",
+        "cat": "INSPECTION / QC",
+        "footer_label": "Pre-Ship Check",
+        "image": "page2_img1.jpeg",
+        "readtime": "2 min read",
+        "title": "Half Your Container Is Dead on Arrival - the 5-Point Check Before the Truck Leaves",
+        "description": "A pre-shipment inspection checklist that stops dead-on-arrival cookers - the 5 checks to write into your inspection order before the container seals.",
+        "excerpt": "DOA units = 100% refund + freight back. This 5-point pre-shipment check stops it - write it into your inspection order.",
+        "related": ["pain-dead-on-arrival", "pain-cracked-glass", "pain-safe-payment"],
+        "cta_title": "Want a pre-shipment checklist templated to your model?",
+        "cta_text": "Send your model and volume - we'll confirm the burn-in time, test points, and the exact inspection clause for your PO.",
+        "wa_text": "Hi Vortix Kitchen, I want a pre-shipment inspection before shipping. What burn-in and test points do you support?",
+        "mail_subject": "Pre-shipment inspection for cooker order",
+        "mail_body": "Hi Vortix Kitchen, please confirm your pre-shipment inspection scope - power-on, burn-in duration, glass check, and the third-party report you can provide.",
+        "body": """<p>Dead-on-arrival (DOA) cookers are the costliest return: a 100% refund plus the freight back, and the buyer quietly switches supplier. Most DOA is caught - and fixed - at the factory, if you inspect before the container seals.</p>
+<h2>Write this 5-point check into your inspection order</h2>
+<ol>
+<li><strong>100% power-on</strong> - every unit powers and heats, not a sample.</li>
+<li><strong>Burn-in ≥ 30 min</strong> - IGBT and board fail under heat; a short test hides it.</li>
+<li><strong>Glass and body</strong> - no crack, no scratch; carton drop-test record attached.</li>
+<li><strong>Spec match</strong> - voltage, plug, label match the PO exactly.</li>
+<li><strong>Third-party sign-off</strong> - independent inspector, report before you release the balance.</li>
+</ol>
+<p>Release the last cent only after the report is clean.</p>""",
+        "faq": [
+            ("What is a pre-shipment inspection for cookers?", "An independent check of every unit (power-on, burn-in, glass, spec match) before the container seals - proof the goods are sound before you pay the balance."),
+            ("Who does pre-shipment inspection in China?", "Third-party inspectors (SGS, Intertek, BV, or local QC firms) test at the factory and issue a report you hold before releasing payment."),
+            ("Does inspection add much cost?", "A fraction of one DOA return. One dead container covers a year of inspections."),
+        ],
+    },
 ]
 
 

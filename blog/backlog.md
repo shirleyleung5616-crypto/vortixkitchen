@@ -8,7 +8,7 @@
 - **Returns**：pain-dead-on-arrival / pain-cracked-glass / pain-slow-heating
 - **Reliability**：pain-igbt-overheat / pain-dusty-fan / pain-voltage-spike
 - **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-nigeria-soncap**
-- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment**
+- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-preshipment-check**
 
 ## 待写池（按主题分组，每周挑 1–2 篇上线）
 
@@ -26,7 +26,7 @@
 
 ### C. 采购与信任
 - [ ] 如何安全付给中国工厂（定金比例 / 验厂 / 验货）
-- [ ] 出货前验货清单（对应 pain-dead-on-arrival，避免 DOA）
+- [x] 出货前验货清单（pain-preshipment-check，已上线，对应 pain-dead-on-arrival，避免 DOA）
 - [ ] 备件与售后：进口商如何建自己的备件池
 
 ### D. 规格与适配
