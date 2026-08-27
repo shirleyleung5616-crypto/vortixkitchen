@@ -7,14 +7,14 @@
 ## 已上线（20 篇）
 - **Returns**：pain-dead-on-arrival / pain-cracked-glass / pain-slow-heating
 - **Reliability**：pain-igbt-overheat / pain-dusty-fan / pain-voltage-spike / **pain-cooling-fans** / **pain-insect-proof**
-- **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-nigeria-soncap** / **pain-kenya-pvoc**
+- **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-nigeria-soncap** / **pain-kenya-pvoc** / **pain-kazakhstan-eac**
 - **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency**
 
 ## 待写池（按主题分组，每周挑 1–2 篇上线）
 
 ### A. 清关合规（国家细分）
-- [ ] 肯尼亚 KEBS / PVoC 装柜前验货与 COC
-- [ ] 哈萨克斯坦 / 欧亚经济联盟 EAC 认证（TR CU）
+- [x] 肯尼亚 KEBS / PVoC 装柜前验货与 COC（已上线：pain-kenya-pvoc）
+- [x] 哈萨克斯坦 / 欧亚经济联盟 EAC 认证（TR CU）（已上线：pain-kazakhstan-eac）
 - [ ] 乌兹别克斯坦 + 东南亚（印尼 SNI / 马来 SIRIM / 泰国 TISI）
 - [ ] 南非 NRCS / SABS
 - [ ] 各国插头·电压速查表（一篇汇总，长尾流量利器）
@@ -25,12 +25,12 @@
 - [ ] 生产周期与产能：大单如何排产不拖期
 
 ### C. 采购与信任
-- [ ] 如何安全付给中国工厂（定金比例 / 验厂 / 验货）
+- [x] 如何安全付给中国工厂（定金比例 / 验厂 / 验货）（已上线：pain-safe-payment）
 - [x] ~~出货前验货清单~~（pain-preshipment-check：雪姐判定为废话，已下架删除；DOA 防护改由 pain-dead-on-arrival 正文 + 验货条款覆盖）
 - [ ] 备件与售后：进口商如何建自己的备件池
 
 ### D. 规格与适配
-- [ ] 电压/频率适配（全市场 220–240V 50Hz，少数需 110V）
+- [x] 电压/频率适配（全市场 220–240V 50Hz，少数需 110V）（已上线：pain-voltage-frequency）
 - [ ] 商用 vs 家用：耐久与保修怎么选
 - [ ] 高海拔地区（哈萨克斯坦等）沸点影响与对策
 - [ ] 商用电磁炉功率怎么选（按餐厅类型）

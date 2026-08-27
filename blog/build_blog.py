@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-08-26"
-DATE_HUMAN = "Aug 26, 2026"
+DATE_ISO = "2026-08-27"
+DATE_HUMAN = "Aug 27, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -520,6 +520,39 @@ ARTICLES = [
             ("Is 100% upfront normal for China cooker factories?", "No. 30% deposit / 70% balance against B/L or inspection is standard for established suppliers. 100% upfront is a red flag."),
             ("What protects me if goods fail inspection?", "With the balance held until passed inspection, you keep leverage - the factory fixes or replaces before you pay the rest."),
             ("TT or escrow for a first order?", "TT to a verified company account with inspection-gated balance is common; escrow adds cost but helps on a large first order with an unknown supplier."),
+        ],
+    },
+    # ---------------- W4 (2026-08-27) ----------------
+    {
+        "slug": "pain-kazakhstan-eac",
+        "series": "customs",
+        "cat": "CUSTOMS",
+        "footer_label": "Kazakhstan EAC",
+        "image": "page7_img1.jpeg",
+        "readtime": "2 min read",
+        "title": "Your Container Is Held at Khorgos — the EAC Mark Most Central Asia Importers Miss",
+        "description": "A Kazakhstan-bound container held at the border because EAC certification wasn't done. The EAC (TR CU) conformity step that clears the Eurasian Economic Union.",
+        "excerpt": "A Central Asia container held at the border for missing EAC. The TR CU mark that clears Kazakhstan and the EAEU.",
+        "related": ["pain-ce-sticker", "pain-no-local-rep", "pain-kenya-pvoc"],
+        "cta_title": "Clearing Kazakhstan and EAEU customs without surprises?",
+        "cta_text": "Tell us your destination in Central Asia or Russia — we'll confirm the EAC (TR CU) documentation and marking before production.",
+        "wa_text": "Hi Vortix Kitchen, I import to Kazakhstan/Russia. Can you provide EAC (TR CU) certification and marking for cookers?",
+        "mail_subject": "EAC TR CU certification for Kazakhstan/EAEU",
+        "mail_body": "Hi Vortix Kitchen, please advise on EAC (TR CU) certification requirements for induction cookers exported to Kazakhstan and the Eurasian Economic Union.",
+        "body": """<p>A container stopped at Khorgos or Almaty = demurrage, missed season, lost customers. The usual cause: no EAC mark.</p>
+<p>Kazakhstan, Russia, Belarus, Armenia and Kyrgyzstan share the Eurasian Economic Union. For low-voltage appliances, the EAC mark under TR CU 004 is mandatory. No EAC declaration = customs refusal.</p>
+<h2>Put this in your PO</h2>
+<ul>
+<li><strong>EAC declaration</strong> to TR CU 004/2011, issued by an accredited body in the EAEU.</li>
+<li><strong>Local representative</strong> named on the certificate (your importer or an authorised local entity).</li>
+<li><strong>EAC mark</strong> on the unit and the carton, plus declaration number on shipping docs.</li>
+<li><strong>Model match:</strong> declaration must cover the exact model number and power range you ship.</li>
+</ul>
+<p>A factory that only offers a CE sticker cannot clear EAEU customs. Ask for the EAC declaration before you pay the deposit.</p>""",
+        "faq": [
+            ("Is EAC the same as CE for Kazakhstan?", "No. CE is for the EU/EEA. EAC (Eurasian Conformity) is required in the EAEU — Kazakhstan, Russia, Belarus, Armenia, Kyrgyzstan."),
+            ("Can we use the factory's EAC certificate?", "Only if the certificate lists your local importer/representative and the exact model. Otherwise customs may reject it."),
+            ("How long does EAC declaration take?", "Typically 2–6 weeks after test reports are ready. Plan it before production, not after sailing."),
         ],
     },
 ]
