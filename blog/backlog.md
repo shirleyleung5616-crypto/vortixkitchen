@@ -4,20 +4,18 @@
 > 新增一篇 = 往 `blog/build_blog.py` 的 `ARTICLES` 列表追加一个 dict → 重跑 `python blog/build_blog.py` → 周一自动化部署 + IndexNow。
 > 目标：客户在 Google / ChatGPT 搜「痛点 + 怎么解决」时，我们的文章被推荐 → 读 → 发 WhatsApp/邮件询盘。
 
-## 已上线（20 篇）
+## 已上线（19 篇）
 - **Returns**：pain-dead-on-arrival / pain-cracked-glass / pain-slow-heating
 - **Reliability**：pain-igbt-overheat / pain-dusty-fan / pain-voltage-spike / **pain-cooling-fans** / **pain-insect-proof**
-- **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-nigeria-soncap** / **pain-kenya-pvoc** / **pain-kazakhstan-eac**
+- **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-kazakhstan-eac**（认证类仅保留此 1 篇，其余删除）
 - **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency**
 
 ## 待写池（按主题分组，每周挑 1–2 篇上线）
 
-### A. 清关合规（国家细分）
-- [x] 肯尼亚 KEBS / PVoC 装柜前验货与 COC（已上线：pain-kenya-pvoc）
-- [x] 哈萨克斯坦 / 欧亚经济联盟 EAC 认证（TR CU）（已上线：pain-kazakhstan-eac）
-- [ ] 乌兹别克斯坦 + 东南亚（印尼 SNI / 马来 SIRIM / 泰国 TISI）
-- [ ] 南非 NRCS / SABS
-- [ ] 各国插头·电压速查表（一篇汇总，长尾流量利器）
+### A. 清关合规（国家细分）— ⛔ 雪姐 2026-08-27 明确：认证/清关合规类一律不写（无关痛痒、废话），本组取消
+- [x] 肯尼亚 KEBS / PVoC（原 pain-kenya-pvoc：2026-08-27 雪姐判定废话，已删除下架）
+- [x] 哈萨克斯坦 / 欧亚经济联盟 EAC 认证（TR CU）（已上线：pain-kazakhstan-eac；认证类仅保留此篇）
+- 以下取消，不再写：乌兹别克斯坦+东南亚 SNI/SIRIM/TISI、南非 NRCS/SABS、各国插头电压速查表
 
 ### B. OEM/ODM 与品牌化
 - [ ] 首批 MOQ 怎么定 + 20/40 尺柜能装多少台
@@ -40,8 +38,8 @@
 - [ ] 多尘环境清洁与保养
 
 ## 写作计划（6 周，每周一自动化上线；之后循环补充 A–E 剩余项）
-- **W1（本周）** ✅ pain-nigeria-soncap + pain-oem-brand（已上线）
-- **W2** ✅ 肯尼亚 PVoC (pain-kenya-pvoc) + 电压/频率适配 (pain-voltage-frequency，含 FAQ 结构化数据) — 已上线
+- **W1** ✅ pain-oem-brand（已上线）；pain-nigeria-soncap 已删除（2026-08-27 雪姐判定废话）
+- **W2** ✅ 电压/频率适配 (pain-voltage-frequency，含 FAQ 结构化数据) — 已上线；pain-kenya-pvoc 已删除（2026-08-27 雪姐判定废话）
 - **W3** ✅ 如何安全付款 (pain-safe-payment) + 出货前验货清单（已下架）
 - **W3 增补（2026-08-26）** ✅ 可靠性新增 2 篇：pain-cooling-fans（2/4 风扇可按市场定制散热）+ pain-insect-proof（防虫/防蟑螂密封结构）
 - **W4**：商用 vs 家用 + 集装箱装载量计算

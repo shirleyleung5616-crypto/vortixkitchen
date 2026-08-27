@@ -274,32 +274,6 @@ ARTICLES = [
 <p>Name the local rep in the contract before production, not a panic email at the port. If the supplier "can't name one," that's your answer before wiring the deposit.</p>""",
     },
 
-    {
-        "slug": "pain-nigeria-soncap",
-        "series": "customs",
-        "cat": "CUSTOMS",
-        "footer_label": "Nigeria SONCAP",
-        "image": "page5_img2.jpeg",
-        "readtime": "2 min read",
-        "title": "Your Container Is Stuck at Lagos Port — the SONCAP Step Most Importers Miss",
-        "description": "A whole container held at Lagos because SONCAP wasn't done before sailing. The pre-shipment step that clears Nigerian ports.",
-        "excerpt": "A whole container held at Lagos because SONCAP wasn't done first. The pre-shipment step that clears Nigerian ports.",
-        "related": ["pain-ce-sticker", "pain-no-local-rep", "pain-wrong-plug"],
-        "cta_title": "Clearing Nigerian ports without the wait?",
-        "cta_text": "Tell us your model and volume — we'll confirm the SONCAP Product and SONCAP Certificate path and supply the test reports before you order.",
-        "wa_text": "Hi Vortix Kitchen, I import to Nigeria. Can you confirm the SONCAP documents and test reports I need before ordering?",
-        "mail_subject": "Nigeria SONCAP clearance",
-        "mail_body": "Hi Vortix Kitchen, please advise on the SONCAP Product Certificate and SONCAP Certificate requirements and the test reports you can provide for Nigeria.",
-        "body": """<p>No SONCAP Certificate (SC) = no release at Lagos. Done after sailing instead of before = weeks of demurrage.</p>
-<h2>Steps</h2>
-<ol>
-<li><strong>PC</strong> — model-level, up to a year, after testing.</li>
-<li><strong>SC</strong> — shipment-level, after pre-shipment inspection, before the container leaves China.</li>
-</ol>
-<h2>PO clause</h2>
-<p>"Supplier provides IEC 60335 reports, supports PC, coordinates SC inspection. SC number on all docs." A factory that can't name SGS/Intertek/BV hasn't shipped to Nigeria.</p>""",
-    },
-
     # ---------------- BUYING / SELLING (single-topic, kept) ----------------
     {
         "slug": "article-induction-vs-infrared",
@@ -444,28 +418,6 @@ ARTICLES = [
     },
     # ---------------- W2 (2026-08-24) ----------------
     {
-        "slug": "pain-kenya-pvoc",
-        "series": "customs",
-        "cat": "CUSTOMS",
-        "footer_label": "Kenya PVoC",
-        "image": "page8_img1.jpeg",
-        "readtime": "2 min read",
-        "title": "Your Kenya Container Is Stuck — the PVoC Step Done After Sailing",
-        "description": "A Kenya-bound container held at Mombasa because PVoC/COC wasn't done before sailing. The pre-shipment conformity step that clears KEBS.",
-        "excerpt": "A Kenya container held at Mombasa because PVoC wasn't done first. The pre-shipment COC that clears KEBS.",
-        "related": ["pain-nigeria-soncap", "pain-ce-sticker", "pain-no-local-rep"],
-        "cta_title": "Clearing Kenyan ports without the wait?",
-        "cta_text": "Tell us your model and volume — we'll confirm the PVoC/COC path and supply the test reports before you order.",
-        "wa_text": "Hi Vortix Kitchen, I import to Kenya. Can you arrange PVoC inspection and provide the COC before shipment?",
-        "mail_subject": "Kenya PVoC clearance",
-        "mail_body": "Hi Vortix Kitchen, please advise on the PVoC Certificate of Conformity requirements and the test reports you can provide for Kenya.",
-        "body": """<p>No PVoC COC = no release at Mombasa. Done after sailing = weeks of demurrage.</p>
-<h2>What PVoC needs</h2>
-<p>A COC from a KEBS-recognised body (SGS/Intertek/BV) after pre-shipment inspection in China — before departure.</p>
-<h2>PO clause</h2>
-<p>"Supplier arranges PVoC with KEBS body, provides IEC 60335 reports, COC number on all docs before sailing."</p>""",
-    },
-    {
         "slug": "pain-voltage-frequency",
         "series": "buying",
         "cat": "SPEC / VOLTAGE",
@@ -533,7 +485,7 @@ ARTICLES = [
         "title": "Your Container Is Held at Khorgos — the EAC Mark Most Central Asia Importers Miss",
         "description": "A Kazakhstan-bound container held at the border because EAC certification wasn't done. The EAC (TR CU) conformity step that clears the Eurasian Economic Union.",
         "excerpt": "A Central Asia container held at the border for missing EAC. The TR CU mark that clears Kazakhstan and the EAEU.",
-        "related": ["pain-ce-sticker", "pain-no-local-rep", "pain-kenya-pvoc"],
+        "related": ["pain-ce-sticker", "pain-no-local-rep"],
         "cta_title": "Clearing Kazakhstan and EAEU customs without surprises?",
         "cta_text": "Tell us your destination in Central Asia or Russia — we'll confirm the EAC (TR CU) documentation and marking before production.",
         "wa_text": "Hi Vortix Kitchen, I import to Kazakhstan/Russia. Can you provide EAC (TR CU) certification and marking for cookers?",
