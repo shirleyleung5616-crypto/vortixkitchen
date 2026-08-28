@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-08-27"
-DATE_HUMAN = "Aug 27, 2026"
+DATE_ISO = "2026-08-28"
+DATE_HUMAN = "Aug 28, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -505,6 +505,39 @@ ARTICLES = [
             ("Is EAC the same as CE for Kazakhstan?", "No. CE is for the EU/EEA. EAC (Eurasian Conformity) is required in the EAEU — Kazakhstan, Russia, Belarus, Armenia, Kyrgyzstan."),
             ("Can we use the factory's EAC certificate?", "Only if the certificate lists your local importer/representative and the exact model. Otherwise customs may reject it."),
             ("How long does EAC declaration take?", "Typically 2–6 weeks after test reports are ready. Plan it before production, not after sailing."),
+        ],
+    },
+    # ---------------- W4 (2026-08-28) ----------------
+    {
+        "slug": "pain-moq-container-loading",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "MOQ & Container Load",
+        "image": "page5_img2.jpeg",
+        "readtime": "2 min read",
+        "title": "Your First MOQ Locks Your Margin — How Many Cookers Fit in a 20ft vs 40ft Container",
+        "description": "Wrong first MOQ ties up cash or wastes freight space. The container-loading math and PO clause that protects your first order.",
+        "excerpt": "Wrong first MOQ ties up cash or wastes freight space. Use the 20ft/40ft loading math and this PO clause.",
+        "related": ["pain-oem-brand", "pain-safe-payment", "article-product-showcase"],
+        "cta_title": "Planning your first container?",
+        "cta_text": "Send your target models and market — we'll confirm carton dims, units per 20/40ft, and a low-MOQ entry SKU to test.",
+        "wa_text": "Hi Vortix Kitchen, I'm planning my first container of cookers. Can you confirm carton dims and how many units fit in 20ft/40ft?",
+        "mail_subject": "First container MOQ and loading",
+        "mail_body": "Hi Vortix Kitchen, please advise on first-order MOQ, carton dimensions, and how many units fit in a 20ft vs 40ft container for my target models.",
+        "body": """<p>Agree the wrong MOQ and you either tie up cash in dead stock or pay air-freight rates for a half-empty box. First orders are where margin is made or lost before the container sails.</p>
+<h2>Size your first order with this math</h2>
+<ul>
+<li><strong>20ft container:</strong> ~300–350 single-burner induction cookers.</li>
+<li><strong>40ft HQ container:</strong> ~650–750 single-burner units, or 300–350 double-burner units.</li>
+<li><strong>Mixed load:</strong> plan carton outer dims before you commit — a few millimetres per box changes the count.</li>
+</ul>
+<h2>Put in your PO</h2>
+<p>"First order: 20ft trial or 40ft mixed. Supplier confirms carton dimensions and max units per container before deposit. MOQ per model: [X] units. Right to combine SKUs to hit container volume."</p>
+<p>Test one model, then fill the rest of the box with proven SKUs. A full container cuts freight cost per unit far more than a bigger discount.</p>""",
+        "faq": [
+            ("What is a safe first MOQ for a new cooker model?", "For standard models, 100–300 units is a common entry MOQ. A smarter first move is one mixed 20ft container so you test multiple SKUs without overcommitting."),
+            ("How many induction cookers fit in a 40ft container?", "A 40ft HQ loads roughly 650–750 single-burner units or 300–350 double-burner units, depending on carton outer dimensions."),
+            ("Can I mix SKUs in one container?", "Yes — and you should. Mixing SKUs fills the container, lowers freight cost per unit, and lets you test which models sell before scaling."),
         ],
     },
 ]
