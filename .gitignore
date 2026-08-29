@@ -4,3 +4,4 @@ pdf_images/
 .DS_Store
 .github_token
 gsc_service_account.json
+__pycache__/
