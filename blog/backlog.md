@@ -4,11 +4,11 @@
 > 新增一篇 = 往 `blog/build_blog.py` 的 `ARTICLES` 列表追加一个 dict → 重跑 `python blog/build_blog.py` → 周一自动化部署 + IndexNow。
 > 目标：客户在 Google / ChatGPT 搜「痛点 + 怎么解决」时，我们的文章被推荐 → 读 → 发 WhatsApp/邮件询盘。
 
-## 已上线（21 篇）
+## 已上线（22 篇）
 - **Returns**：pain-dead-on-arrival / pain-cracked-glass / pain-slow-heating
 - **Reliability**：pain-igbt-overheat / pain-dusty-fan / pain-voltage-spike / **pain-cooling-fans** / **pain-insect-proof**
 - **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-kazakhstan-eac**（认证类仅保留此 1 篇，其余删除）
-- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm**
+- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling**
 
 ## 待写池（按主题分组，每周挑 1–2 篇上线）
 
@@ -20,7 +20,7 @@
 ### B. OEM/ODM 与品牌化
 - [x] 首批 MOQ 怎么定 + 20/40 尺柜能装多少台（已上线：pain-moq-container-loading）
 - [x] 贴牌(OEM) vs 自有模具(ODM)：成本与风险对比（已上线：pain-oem-vs-odm）
-- [ ] 生产周期与产能：大单如何排产不拖期
+- [x] 生产周期与产能：大单如何排产不拖期（已上线：pain-production-scheduling）
 
 ### C. 采购与信任
 - [x] 如何安全付给中国工厂（定金比例 / 验厂 / 验货）（已上线：pain-safe-payment）

@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-08-29"
-DATE_HUMAN = "Aug 29, 2026"
+DATE_ISO = "2026-09-01"
+DATE_HUMAN = "Sep 1, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -577,6 +577,40 @@ ARTICLES = [
             ("What does OEM mean for a cooker brand?", "OEM: the factory builds an existing model and adds your logo, color, and packaging. Lowest MOQ, fastest lead time, but other buyers can sell the same unit."),
             ("What does ODM mean for a cooker brand?", "ODM: you co-develop the model with the factory. You own (or lock) the mold, the design is exclusive to you, but tooling cost and lead time are higher."),
             ("How much does ODM tooling cost for an induction cooker?", "Typically $3,000–$15,000 depending on the housing mold, glass cut and tooling complexity. Negotiate a refund clause tied to annual volume."),
+        ],
+    },
+    # ---------------- W5 (2026-09-01) ----------------
+    {
+        "slug": "pain-production-scheduling",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Lead Time & Capacity",
+        "image": "page2_img1.jpeg",
+        "readtime": "2 min read",
+        "title": "Your Big Order Shipped 60 Days Late — the Production Schedule Most Importers Don't Lock",
+        "description": "A delayed shipment misses your selling season and ties up cash. How to lock factory capacity and milestones so a big cooker order ships on time.",
+        "excerpt": "A delayed shipment misses your selling season and ties up cash. Lock the factory capacity and production milestones before you pay the deposit.",
+        "related": ["pain-moq-container-loading", "pain-oem-vs-odm", "pain-safe-payment"],
+        "cta_title": "Worried about late shipments on big orders?",
+        "cta_text": "Tell us your target volume and delivery window — we'll confirm a locked production slot, milestone schedule and penalty clause before you commit.",
+        "wa_text": "Hi Vortix Kitchen, I need a big cooker order delivered by [date]. Can you confirm production capacity, milestones and a late-delivery clause?",
+        "mail_subject": "Production schedule and lead time for large order",
+        "mail_body": "Hi Vortix Kitchen, I am planning a large order and need to confirm production capacity, milestone schedule and lead time before committing. Please advise.",
+        "body": """<p>A 60-day delay doesn't just push delivery — it kills your selling season. By the time cookers arrive, your buyers have bought from someone else, and your cash has been locked for months.</p>
+<p>Factories often promise 30 days, then put your order behind bigger clients or run out of key components. The PO date becomes a suggestion.</p>
+<h2>Put in your PO</h2>
+<ol>
+<li><strong>Binding lead time:</strong> "Production completed and ready for loading within [X] days from deposit. Liquidated damages: $[Y] per day late, capped at [Z]%."</li>
+<li><strong>Capacity allocation:</strong> "Dedicated production line / confirmed capacity slot for this order; no bumping by other clients."</li>
+<li><strong>Milestone schedule:</strong> PCB assembly, coil winding, glass fit, final assembly, QC — each with a confirmed date and photo/video proof.</li>
+<li><strong>Component buffer:</strong> Key parts (IGBT, glass, fan) locked in stock before production starts.</li>
+<li><strong>Pre-shipment inspection gate:</strong> Balance released only after passed inspection and confirmed booking.</li>
+</ol>
+<p>Schedule without teeth is just a wish. Lock the line, the milestones and the penalty before you wire the deposit.</p>""",
+        "faq": [
+            ("What is a normal lead time for a large cooker order?", "Standard models usually need 25-35 days after deposit; custom OEM/ODM often needs 40-55 days after sample approval. Always confirm in writing."),
+            ("How do I stop the factory bumping my order for a bigger client?", "Add a capacity-allocation clause to your PO: a confirmed production slot with milestone proof and a daily late penalty. The factory will protect your slot when delay costs money."),
+            ("Which production milestones should I demand proof of?", "PCB assembly, coil/glass assembly, final assembly, burn-in/QC and carton loading. Ask for dated photos or short videos before releasing the balance."),
         ],
     },
 ]
