@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-01"
-DATE_HUMAN = "Sep 1, 2026"
+DATE_ISO = "2026-09-02"
+DATE_HUMAN = "Sep 2, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -611,6 +611,40 @@ ARTICLES = [
             ("What is a normal lead time for a large cooker order?", "Standard models usually need 25-35 days after deposit; custom OEM/ODM often needs 40-55 days after sample approval. Always confirm in writing."),
             ("How do I stop the factory bumping my order for a bigger client?", "Add a capacity-allocation clause to your PO: a confirmed production slot with milestone proof and a daily late penalty. The factory will protect your slot when delay costs money."),
             ("Which production milestones should I demand proof of?", "PCB assembly, coil/glass assembly, final assembly, burn-in/QC and carton loading. Ask for dated photos or short videos before releasing the balance."),
+        ],
+    },
+    # ---------------- W5 (2026-09-02) ----------------
+    {
+        "slug": "pain-spare-parts-pool",
+        "series": "buying",
+        "cat": "AFTER-SALES / SPARES",
+        "footer_label": "Spare Parts Pool",
+        "image": "page5_img2.jpeg",
+        "readtime": "2 min read",
+        "title": "Your Cooker Died After Warranty - and the Spare Part Doesn't Exist",
+        "description": "A 2-year-old cooker dies and the spare part isn't available. The spare-parts clause that turns a warranty claim into a 20-minute fix.",
+        "excerpt": "A 2-year-old cooker dies and the spare part isn't available. The clause that turns a warranty claim into a 20-minute fix.",
+        "related": ["pain-dusty-fan", "pain-igbt-overheat", "pain-oem-vs-odm"],
+        "cta_title": "Want a real spare-parts pool, not a paper warranty?",
+        "cta_text": "Name your market and order size - we'll lock a spare-parts price list, supply commitment and lead time into the PO, with a service kit shipped with your order.",
+        "wa_text": "Hi Vortix Kitchen, I need a real spare-parts pool and supply commitment for cookers in [market]. Can you lock spares pricing and lead time in the PO?",
+        "mail_subject": "Spare parts pool for cooker after-sales",
+        "mail_body": "Hi Vortix Kitchen, please advise on a spare-parts price list, 5-year supply commitment, and lead time to build a service pool for my cooker orders.",
+        "body": """<p>A 2-year-old cooker dies. The fan is $1, but the factory doesn't stock it. You refund the unit, eat the freight, and your client remembers.</p>
+<p>Most factories quote a 1-year warranty - then "no spare parts available" the moment you need one. The warranty exists on paper only.</p>
+<h2>Put this in the PO</h2>
+<ol>
+<li><strong>Spare-parts price list locked at order</strong> - fan, IGBT, control board, glass, knob, NTC, with unit price and MOQ.</li>
+<li><strong>Spares kit with shipment</strong> - 2-3% of the order as a service kit, or priced as a separate line.</li>
+<li><strong>5-year spares supply commitment</strong> - even for discontinued models, from ship date.</li>
+<li><strong>Spares lead time in writing</strong> - e.g. 7-15 days, not "when we have stock."</li>
+<li><strong>Exploded diagram + repair manual</strong> - so your local tech fixes it, not a refund.</li>
+</ol>
+<p>A $1 fan and a 20-minute fix, or a full refund and a lost customer. The PO decides which one.</p>""",
+        "faq": [
+            ("Do factories actually supply spare parts after warranty?", "Good ones do, with a locked price list and a 5-year supply commitment. If the supplier only offers a warranty card and no spares, the warranty is paper only."),
+            ("How big a spare-parts kit should I keep in stock?", "A common rule is 2-3% of order volume for the first 12 months - top-selling SKUs first, trim the long tail. Pre-price the kit at order so it's a line item, not a favour."),
+            ("Can I get spare parts years after the model is discontinued?", "Only if the PO says so. Add a 5-year spares supply clause tied to the model number, not 'current production.' Without it, you're at the factory's mercy when you need a part."),
         ],
     },
 ]
