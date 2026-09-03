@@ -10,7 +10,16 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-git push -u origin main
+if not exist ".github_token" (
+    echo [错误] 未找到 .github_token，请把 GitHub PAT 放入该文件。
+    pause
+    exit /b 1
+)
+
+for /f "delims=" %%a in (.github_token) do set TOKEN=%%a
+set TOKEN=%TOKEN: =%
+
+git -c credential.helperselector= -c credential.helper= -c http.version=HTTP/1.1 push "https://%TOKEN%@github.com/shirleyleung5616-crypto/vortixkitchen.git" main
 if %errorlevel% neq 0 (
     echo [错误] 推送到 GitHub 失败，请检查网络或仓库权限。
     pause
