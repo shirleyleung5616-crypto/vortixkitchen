@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-02"
-DATE_HUMAN = "Sep 2, 2026"
+DATE_ISO = "2026-09-03"
+DATE_HUMAN = "Sep 3, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -645,6 +645,38 @@ ARTICLES = [
             ("Do factories actually supply spare parts after warranty?", "Good ones do, with a locked price list and a 5-year supply commitment. If the supplier only offers a warranty card and no spares, the warranty is paper only."),
             ("How big a spare-parts kit should I keep in stock?", "A common rule is 2-3% of order volume for the first 12 months - top-selling SKUs first, trim the long tail. Pre-price the kit at order so it's a line item, not a favour."),
             ("Can I get spare parts years after the model is discontinued?", "Only if the PO says so. Add a 5-year spares supply clause tied to the model number, not 'current production.' Without it, you're at the factory's mercy when you need a part."),
+        ],
+    },
+    # ---------------- DAILY (2026-09-03) ----------------
+    {
+        "slug": "pain-commercial-vs-home",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Commercial Grade",
+        "image": "page5_img2.jpeg",
+        "readtime": "2 min read",
+        "title": "Commercial vs Home Cooker: Pick Wrong and It Dies in 3 Months",
+        "description": "Importers who sell home-grade units into restaurants eat the returns. How to spec commercial-grade durability and a warranty that actually covers it.",
+        "excerpt": "A home-grade cooker in a restaurant dies in months. Spec commercial durability and a warranty that actually covers commercial use.",
+        "related": ["article-product-showcase", "pain-igbt-overheat", "pain-production-scheduling"],
+        "cta_title": "Spec the right grade for your buyers?",
+        "cta_text": "Tell us your buyer type - retail or foodservice - and we'll spec the durability grade, thermal design and a commercial-covering warranty before you order.",
+        "wa_text": "Hi Vortix Kitchen, I sell to [restaurants/retail]. Can you spec commercial-grade cookers with a warranty covering commercial use?",
+        "mail_subject": "Commercial vs home grade cookers",
+        "mail_body": "Hi Vortix Kitchen, please advise how to spec commercial-grade durability and a commercial-covering warranty for my buyer type.",
+        "body": """<p>A restaurant buyer installs the cheap home unit you sold - and it dies in 3 months under continuous duty. You refund it, and lose the account.</p>
+<p>Home units are rated for 1-2 hours/day. Commercial kitchens run 8-12. Same label, completely different life.</p>
+<h2>Put this in your PO</h2>
+<ul>
+<li><strong>Commercial-grade:</strong> continuous-duty rated (tested 2-hr load), not peak-only.</li>
+<li>IGBT with thermal margin; dual-fan + NTC at 40°C.</li>
+<li>Reinforced glass + metal housing, not plastic.</li>
+<li><strong>Warranty:</strong> 12 months covering continuous commercial use - not "home use only" fine print.</li>
+</ul>
+<p>Match the grade to the buyer: home resellers get home-grade; foodservice gets commercial. Right grade = fewer returns, real reorder.</p>""",
+        "faq": [
+            ("Can I sell a home-grade cooker to restaurants?", "You can, but it fails fast under 8-12 hr daily duty. For foodservice, spec commercial-grade with a continuous-duty rating or expect returns."),
+            ("What warranty should a commercial cooker have?", "At least 12 months covering commercial use. Watch for 'home use only' clauses that void coverage the moment a restaurant plugs it in."),
         ],
     },
 ]

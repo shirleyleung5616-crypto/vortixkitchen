@@ -8,7 +8,7 @@
 - **Returns**：pain-dead-on-arrival / pain-cracked-glass / pain-slow-heating
 - **Reliability**：pain-igbt-overheat / pain-dusty-fan / pain-voltage-spike / **pain-cooling-fans** / **pain-insect-proof**
 - **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-kazakhstan-eac**（认证类仅保留此 1 篇，其余删除）
-- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling** / **pain-spare-parts-pool**
+- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling** / **pain-spare-parts-pool** / **pain-commercial-vs-home**
 
 ## 待写池（按主题分组，每周挑 1–2 篇上线）
 
@@ -29,7 +29,7 @@
 
 ### D. 规格与适配
 - [x] 电压/频率适配（全市场 220–240V 50Hz，少数需 110V）（已上线：pain-voltage-frequency）
-- [ ] 商用 vs 家用：耐久与保修怎么选
+- [x] 商用 vs 家用：耐久与保修怎么选（已上线：pain-commercial-vs-home）
 - [ ] 高海拔地区（哈萨克斯坦等）沸点影响与对策
 - [ ] 商用电磁炉功率怎么选（按餐厅类型）
 - [ ] 电磁炉 vs 电陶炉：选错炉型的终端退货风险 + 破除"必须换锅"误解（非说明书式、采购选型 P&L 角度，slug 建议：pain-induction-cookware-myth）
