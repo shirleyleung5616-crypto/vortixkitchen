@@ -653,7 +653,7 @@ ARTICLES = [
         "series": "buying",
         "cat": "BUYING DECISION",
         "footer_label": "Commercial Grade",
-        "image": "page5_img2.jpeg",
+        "image": "scene_stirfry_shrimp.jpg",
         "readtime": "2 min read",
         "title": "Commercial vs Home Cooker: Pick Wrong and It Dies in 3 Months",
         "description": "Importers who sell home-grade units into restaurants eat the returns. How to spec commercial-grade durability and a warranty that actually covers it.",
