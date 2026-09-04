@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-03"
-DATE_HUMAN = "Sep 3, 2026"
+DATE_ISO = "2026-09-04"
+DATE_HUMAN = "Sep 4, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -677,6 +677,38 @@ ARTICLES = [
         "faq": [
             ("Can I sell a home-grade cooker to restaurants?", "You can, but it fails fast under 8-12 hr daily duty. For foodservice, spec commercial-grade with a continuous-duty rating or expect returns."),
             ("What warranty should a commercial cooker have?", "At least 12 months covering commercial use. Watch for 'home use only' clauses that void coverage the moment a restaurant plugs it in."),
+        ],
+    },
+    # ---------------- DAILY (2026-09-04) ----------------
+    {
+        "slug": "pain-high-altitude",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "High-Altitude",
+        "image": "scene_kettle_pour.jpg",
+        "readtime": "2 min read",
+        "title": "Selling Cookers to High-Altitude Markets? Why 'Food Won't Cook' Isn't a Defect",
+        "description": "Importers shipping to Almaty, Bishkek or the Kyrgyz highlands get 'food won't cook' complaints. The cause is altitude, not the unit — and the PO lines that stop the returns.",
+        "excerpt": "Ship cookers above 1500 m and buyers say food won't cook. It's altitude, not a defect — spec higher wattage and stop the returns.",
+        "related": ["pain-slow-heating", "article-induction-vs-infrared", "pain-commercial-vs-home"],
+        "cta_title": "Selling into mountain markets?",
+        "cta_text": "Tell us your altitude and buyer type — we'll spec higher-wattage units with a boost mode and an altitude note on the carton, so the returns don't start.",
+        "wa_text": "Hi Vortix Kitchen, I sell to high-altitude markets like [Almaty/Kyrgyzstan]. Can you spec cookers that cook properly above 1500m?",
+        "mail_subject": "Cookers for high-altitude markets",
+        "mail_body": "Hi Vortix Kitchen, I import to high-altitude regions (Central Asia). Please advise on wattage, boost mode and altitude labelling to avoid undercooking complaints.",
+        "body": """<p>Ship cookers to Almaty, Bishkek or the Kyrgyz highlands and buyers call: "food won't cook." You refund — but the unit is fine. It's physics.</p>
+<p>Above 1,500 m water boils near 95°C; above 3,000 m near 90°C. Lower boil = longer cooking, undercooked rice and stews, and a warranty claim you didn't earn.</p>
+<h2>Put this in your PO for altitude markets</h2>
+<ul>
+<li><strong>Higher wattage:</strong> spec 3000–3500W+ so water recovers heat fast after food goes in — less time stuck at the low boil.</li>
+<li><strong>Boost / max-power mode:</strong> a high setting for altitude, not just an eco mode.</li>
+<li><strong>Altitude note on the carton</strong> for Central Asia highlands: "boils at lower temp above 1500 m — use higher power." Stops the "defect" call before it starts.</li>
+<li><strong>Lead with induction:</strong> ~90% of energy hits the pot, so more reaches the food than gas at altitude.</li>
+</ul>
+<p>Right spec = fewer altitude returns, real reorder in mountain markets.</p>""",
+        "faq": [
+            ("Why does food undercook on a cooker at high altitude?", "Lower air pressure drops water's boiling point — near 95°C at 1,500 m and ~90°C above 3,000 m. Water-based cooking takes longer, so food can come out undercooked even though the cooker works fine."),
+            ("Should I spec a different cooker for high-altitude markets?", "Same unit, smarter spec: higher wattage (3000–3500W+) with a boost mode for faster heat recovery, plus an altitude note on the carton. Induction's ~90% efficiency also helps more energy reach the food than gas."),
         ],
     },
 ]
