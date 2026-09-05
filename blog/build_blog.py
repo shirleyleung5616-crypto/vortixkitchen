@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-04"
-DATE_HUMAN = "Sep 4, 2026"
+DATE_ISO = "2026-09-05"
+DATE_HUMAN = "Sep 5, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -709,6 +709,44 @@ ARTICLES = [
         "faq": [
             ("Why does food undercook on a cooker at high altitude?", "Lower air pressure drops water's boiling point — near 95°C at 1,500 m and ~90°C above 3,000 m. Water-based cooking takes longer, so food can come out undercooked even though the cooker works fine."),
             ("Should I spec a different cooker for high-altitude markets?", "Same unit, smarter spec: higher wattage (3000–3500W+) with a boost mode for faster heat recovery, plus an altitude note on the carton. Induction's ~90% efficiency also helps more energy reach the food than gas."),
+        ],
+    },
+    # ---------------- DAILY (2026-09-05) ----------------
+    {
+        "slug": "pain-commercial-power",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Commercial Power",
+        "image": "scene_stirfry_shrimp.jpg",
+        "readtime": "2 min read",
+        "title": "Wrong Wattage Cooker? The Power Mistake That Sends Restaurant Buyers Running",
+        "description": "Order the wrong wattage and the unit fails where it matters — or you over-pay for power the venue never uses. How to spec induction power by restaurant type.",
+        "excerpt": "Wrong wattage = a wok station that can't keep up, or a unit that trips the breaker. Match power to venue before you order.",
+        "related": ["pain-commercial-vs-home", "article-product-showcase", "pain-high-altitude"],
+        "cta_title": "Need the right power mix for your market?",
+        "cta_text": "Tell us your buyer mix — cafe, restaurant, wok — and we'll spec per-venue wattage, a circuit note, and a mixed bundle that fills one container.",
+        "wa_text": "Hi Vortix Kitchen, my buyers are [cafe/restaurant/wok]. Can you spec per-venue wattage and a mixed-power bundle?",
+        "mail_subject": "Commercial cooker power by venue",
+        "mail_body": "Hi Vortix Kitchen, please advise on per-venue wattage (cafe/restaurant/wok), circuit requirements and a mixed-power bundle for my market.",
+        "body": """<p>Order the wrong wattage and the unit fails where it matters — or you over-pay for power the venue never uses. A 2000W unit on a wok station can't keep up at dinner rush; a 5000W unit in a small cafe trips the breaker and sits unsold.</p>
+<h2>Match power to venue before production</h2>
+<ul>
+<li><strong>Cafe / light:</strong> 2000–3500W countertop.</li>
+<li><strong>Restaurant / buffet:</strong> 3500–5000W, twin-zone.</li>
+<li><strong>Wok / stir-fry:</strong> 5000W+ concave coil, boost mode.</li>
+<li><strong>Catering / street:</strong> 2000–3000W portable.</li>
+</ul>
+<h2>Put this in your PO</h2>
+<ul>
+<li>Wattage per model matched to the stated venue — not one size for all.</li>
+<li>Circuit check: confirm the site's amp rating; 3500W+ needs a dedicated line or it trips.</li>
+<li>Boost mode for peak loads.</li>
+<li>Mixed-power bundle so one container covers cafe to wok.</li>
+</ul>
+<p>Right power = no tripped breakers, no "can't keep up" complaints, real reorders.</p>""",
+        "faq": [
+            ("What wattage induction cooker does a restaurant need?", "It depends on the menu: cafes 2000–3500W, full restaurants/buffets 3500–5000W twin-zone, and wok stations 5000W+ with a concave coil and boost mode. Match the wattage to the busiest dish, not the cheapest unit."),
+            ("Can a 5000W cooker run on a normal outlet?", "Usually not on a standard 13A/15A socket — 3500W+ draws a dedicated circuit. Confirm your buyer's site amp rating before specifying, or the unit trips the breaker and gets returned."),
         ],
     },
 ]

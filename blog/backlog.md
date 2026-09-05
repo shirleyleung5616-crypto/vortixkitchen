@@ -4,11 +4,11 @@
 > 新增一篇 = 往 `blog/build_blog.py` 的 `ARTICLES` 列表追加一个 dict → 重跑 `python blog/build_blog.py` → 周一自动化部署 + IndexNow。
 > 目标：客户在 Google / ChatGPT 搜「痛点 + 怎么解决」时，我们的文章被推荐 → 读 → 发 WhatsApp/邮件询盘。
 
-## 已上线（23 篇）
+## 已上线（24 篇）
 - **Returns**：pain-dead-on-arrival / pain-cracked-glass / pain-slow-heating
 - **Reliability**：pain-igbt-overheat / pain-dusty-fan / pain-voltage-spike / **pain-cooling-fans** / **pain-insect-proof**
 - **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-kazakhstan-eac**（认证类仅保留此 1 篇，其余删除）
-- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling** / **pain-spare-parts-pool** / **pain-commercial-vs-home** / **pain-high-altitude**
+- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling** / **pain-spare-parts-pool** / **pain-commercial-vs-home** / **pain-high-altitude** / **pain-commercial-power**
 
 ## 待写池（按主题分组，每周挑 1–2 篇上线）
 
@@ -31,7 +31,7 @@
 - [x] 电压/频率适配（全市场 220–240V 50Hz，少数需 110V）（已上线：pain-voltage-frequency）
 - [x] 商用 vs 家用：耐久与保修怎么选（已上线：pain-commercial-vs-home）
 - [x] 高海拔地区（哈萨克斯坦等）沸点影响与对策（已上线：pain-high-altitude）
-- [ ] 商用电磁炉功率怎么选（按餐厅类型）
+- [x] 商用电磁炉功率怎么选（按餐厅类型）（已上线：pain-commercial-power）
 - [ ] 电磁炉 vs 电陶炉：选错炉型的终端退货风险 + 破除"必须换锅"误解（非说明书式、采购选型 P&L 角度，slug 建议：pain-induction-cookware-myth）
   - 素材（雪姐 2026-09-01 提供，写稿时提炼为采购决策钩子，**勿写成使用说明**）：①工作原理=电磁炉磁场直热锅具、玻璃面仅微温；电陶炉先热玻璃陶瓷面板再传锅、关火后余热持续。②体验=烧水 2–3 分钟 vs 5–6 分钟；电磁炉溢出液落低温玻璃可轻松擦、电陶炉高温使残渣焦结难清且易刮花、表面老化快。③清洁=电磁炉可铺纸巾吸油、电陶炉高温无法实现。④锅具=现代锅具多为通用设计，磁铁测锅底即可确认、无需全部更换。
 
