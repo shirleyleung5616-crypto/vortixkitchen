@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-05"
-DATE_HUMAN = "Sep 5, 2026"
+DATE_ISO = "2026-09-06"
+DATE_HUMAN = "Sep 6, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -799,6 +799,40 @@ ARTICLES = [
         "faq": [
             ("What wattage induction cooker does a restaurant need?", "It depends on the menu: cafes 2000–3500W, full restaurants/buffets 3500–5000W twin-zone, and wok stations 5000W+ with a concave coil and boost mode. Match the wattage to the busiest dish, not the cheapest unit."),
             ("Can a 5000W cooker run on a normal outlet?", "Usually not on a standard 13A/15A socket — 3500W+ draws a dedicated circuit. Confirm your buyer's site amp rating before specifying, or the unit trips the breaker and gets returned."),
+        ],
+    },
+    {
+        "slug": "pain-induction-cookware-myth",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Cooktop Type Myth",
+        "image": "scene_kettle_pour.jpg",
+        "readtime": "2 min read",
+        "title": "Induction vs Ceramic — the 'Change All Your Pots' Myth Behind the Returns",
+        "description": "Buyers' end customers think induction means replacing every pot — so they return the stove. Name the cooktop type and kill the cookware myth before it costs you returns.",
+        "excerpt": "End customers think induction means buying all-new pots — so they send the stove back. Name the cooktop type and kill the myth before returns pile up.",
+        "related": ["article-induction-vs-infrared", "pain-commercial-power", "pain-high-altitude"],
+        "cta_title": "Want fewer 'doesn't fit my pot' returns?",
+        "cta_text": "Tell us your market and we'll spec the right cooktop type and print a clear magnet-test note so your buyers stop assuming they must re-buy cookware.",
+        "wa_text": "Hi Vortix Kitchen, my buyers think induction needs all-new pots and keep returning. Can you spec the right type and add a magnet-test note?",
+        "mail_subject": "Induction vs ceramic cookware returns",
+        "mail_body": "Hi Vortix Kitchen, please advise on naming the cooktop type on the carton and a magnet-test note to cut 'doesn't fit my pot' returns.",
+        "body": """<p>Spec the wrong cooktop type and your buyers' end customers blame the stove — then return it. The biggest driver is a myth: "induction means I must replace every pot I own."</p>
+<h2>Name the type before it ships</h2>
+<ul>
+<li><strong>Induction:</strong> magnetic field heats the pan directly; glass stays only warm. Boils in 2–3 min; spills wipe off a cool surface.</li>
+<li><strong>Ceramic (infrared):</strong> heats the glass first, then the pan; residual heat lingers. Boils in 5–6 min; spills bake on and scratch the surface.</li>
+<li><strong>Cookware:</strong> most modern pans are universal. A fridge magnet on the base confirms it — buyers rarely need new pots.</li>
+</ul>
+<h2>Put this in your PO / carton</h2>
+<ul>
+<li>State cooktop type clearly on the box and in the manual — stop "wrong type" returns.</li>
+<li>Print a one-line magnet test so end users stop assuming they must re-buy cookware.</li>
+</ul>
+<p>Right type named up front = fewer "it doesn't work with my pot" returns.</p>""",
+        "faq": [
+            ("Do induction cookers require special cookware?", "Most modern pans are compatible — if a magnet sticks to the base, it works. Buyers rarely need to replace pots, so the 'must change everything' assumption behind many returns is false."),
+            ("Induction or ceramic — which gives fewer returns?", "Name the type clearly on the carton. Induction's cool-surface cleanup and universal cookware mean fewer 'doesn't fit my pot' complaints than ceramic's hot-panel scrubbing."),
         ],
     },
 ]

@@ -8,7 +8,7 @@
 - **Returns**：pain-dead-on-arrival / pain-cracked-glass / pain-slow-heating
 - **Reliability**：pain-igbt-overheat / pain-dusty-fan / pain-voltage-spike / **pain-cooling-fans** / **pain-insect-proof**
 - **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-kazakhstan-eac**（认证类仅保留此 1 篇，其余删除）
-- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling** / **pain-spare-parts-pool** / **pain-commercial-vs-home** / **pain-high-altitude** / **pain-commercial-power**
+- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling** / **pain-spare-parts-pool** / **pain-commercial-vs-home** / **pain-high-altitude** / **pain-commercial-power** / **pain-induction-cookware-myth**
 
 ## 待写池（按主题分组；2026-09-05 起每日自动化每天 10:00 取第一个未勾选项上线，一天 1 篇）
 
@@ -32,7 +32,7 @@
 - [x] 商用 vs 家用：耐久与保修怎么选（已上线：pain-commercial-vs-home）
 - [x] 高海拔地区（哈萨克斯坦等）沸点影响与对策（已上线：pain-high-altitude）
 - [x] 商用电磁炉功率怎么选（按餐厅类型）（已上线：pain-commercial-power）
-- [ ] 电磁炉 vs 电陶炉：选错炉型的终端退货风险 + 破除"必须换锅"误解（非说明书式、采购选型 P&L 角度，slug 建议：pain-induction-cookware-myth）
+- [x] 电磁炉 vs 电陶炉：选错炉型的终端退货风险 + 破除"必须换锅"误解（已上线：pain-induction-cookware-myth）
   - 素材（雪姐 2026-09-01 提供，写稿时提炼为采购决策钩子，**勿写成使用说明**）：①工作原理=电磁炉磁场直热锅具、玻璃面仅微温；电陶炉先热玻璃陶瓷面板再传锅、关火后余热持续。②体验=烧水 2–3 分钟 vs 5–6 分钟；电磁炉溢出液落低温玻璃可轻松擦、电陶炉高温使残渣焦结难清且易刮花、表面老化快。③清洁=电磁炉可铺纸巾吸油、电陶炉高温无法实现。④锅具=现代锅具多为通用设计，磁铁测锅底即可确认、无需全部更换。
 
 ### E. 使用与维护 — ⛔ 雪姐 2026-08-27：说明书/操作手册类不吸睛，一律不写，本组取消
