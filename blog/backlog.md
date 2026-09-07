@@ -8,7 +8,7 @@
 - **Returns**：pain-dead-on-arrival / pain-cracked-glass / pain-slow-heating
 - **Reliability**：pain-igbt-overheat / pain-dusty-fan / pain-voltage-spike / **pain-cooling-fans** / **pain-insect-proof**
 - **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-kazakhstan-eac**（认证类仅保留此 1 篇，其余删除）
-- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling** / **pain-spare-parts-pool** / **pain-commercial-vs-home** / **pain-high-altitude** / **pain-commercial-power** / **pain-induction-cookware-myth**
+- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling** / **pain-spare-parts-pool** / **pain-commercial-vs-home** / **pain-high-altitude** / **pain-commercial-power** / **pain-induction-cookware-myth** / **pain-bom-substitution**
 
 ## 待写池（按主题分组；2026-09-05 起每日自动化每天 10:00 取第一个未勾选项上线，一天 1 篇）
 
@@ -41,7 +41,7 @@
 
 ### F. ZCode 自拟痛点池（2026-09-05 雪姐授权自拟：利他思维、帮客户解决问题/创造价值；不写说明书、不写认证类）——按下列顺序每天自动取用一条
 
-- [ ] **样品很好、大货拉胯：工厂批量换料怎么防**（slug 建议：pain-bom-substitution）
+- [x] **样品很好、大货拉胯：工厂批量换料怎么防**（已上线：pain-bom-substitution）
   - 素材（ZCode 拟，写时提炼为采购防坑钩子）：①钩子=退货高峰总在开卖 2–3 个月后出现，根因常是工厂大货偷换料：铜线圈盘→铝盘、面板玻璃减薄、电源线/插头缩水、风扇降级。②客户 P&L：厂里省 1 美元，赔上的是你的退货率、差评和牌子。③给可抄进合同/PO 的 3 处条款：关键件品牌型号在 BOM 写死、封样（golden sample）双方签封、擅自换料=违约。④到货抽检 3 个快速对照点（整柜称重对 bill of loading、拆一台对照封样、关键件拍照留证）。走采购风控角度，勿写成验货说明书。
 - [ ] **便宜 2 美元的炉子为什么让你亏钱：保修成本总账**（slug 建议：pain-warranty-math）
   - 素材（ZCode 拟）：①钩子=故障率 1% 和 5% 的炉子进价只差几十美分，保修成本却差掉一个毛利点。②给算法：保修准备金 = 年销量 × 故障率 ×（换机成本 + 双程运费 + 处理工时）；便宜货真实成本 = 进价 + 运费 + 关税 + 保修金。③给比价表模板：按 TCO 比价而不是按单价比价，可直接抄进内部采购表。④利他落点：帮客户识破"低价陷阱"的算账工具。

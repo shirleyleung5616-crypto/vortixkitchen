@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-06"
-DATE_HUMAN = "Sep 6, 2026"
+DATE_ISO = "2026-09-07"
+DATE_HUMAN = "Sep 7, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -833,6 +833,40 @@ ARTICLES = [
         "faq": [
             ("Do induction cookers require special cookware?", "Most modern pans are compatible — if a magnet sticks to the base, it works. Buyers rarely need to replace pots, so the 'must change everything' assumption behind many returns is false."),
             ("Induction or ceramic — which gives fewer returns?", "Name the type clearly on the carton. Induction's cool-surface cleanup and universal cookware mean fewer 'doesn't fit my pot' complaints than ceramic's hot-panel scrubbing."),
+        ],
+    },
+    {
+        "slug": "pain-bom-substitution",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "BOM Swap Risk",
+        "image": "scene_stirfry_shrimp.jpg",
+        "readtime": "2 min read",
+        "title": "Your Samples Pass, Your Bulk Fails — the BOM Swap You Never Signed",
+        "description": "Returns peak 2-3 months after launch. The cause is rarely bad luck — it's the factory swapping materials in mass production. Three PO clauses stop it.",
+        "excerpt": "Returns spike months after launch because the factory swaps materials in bulk. Lock the BOM, seal a golden sample, and make substitution a breach.",
+        "related": ["pain-dead-on-arrival", "pain-slow-heating", "pain-commercial-vs-home"],
+        "cta_title": "Tired of good samples, bad bulk?",
+        "cta_text": "Send us your target market and we'll lock key components in the BOM, seal a signed golden sample, and put a no-substitution clause in your PO.",
+        "wa_text": "Hi Vortix Kitchen, my bulk shipments fail after good samples. Can you lock components in the BOM and seal a signed golden sample?",
+        "mail_subject": "Mass-production material swaps",
+        "mail_body": "Hi Vortix Kitchen, I keep getting returns months after approval. Please advise on locking key parts in the BOM, a sealed golden sample, and a no-substitution clause.",
+        "body": """<p>Returns peak 2-3 months after launch. The cause is rarely bad luck — it's the factory swapping materials in mass production: copper coil to aluminum, thinner glass, cheaper cable, downgraded fan. The factory saves $1 a unit; you lose the returns, the reviews, and the brand.</p>
+<h2>Put three lines in your PO</h2>
+<ul>
+<li>"Key parts (coil, glass, cable, fan) brand &amp; model locked in the BOM — no substitution."</li>
+<li>"Golden sample sealed and signed by both parties; bulk must match it."</li>
+<li>"Unilateral material change = breach; supplier reworks or refunds affected units."</li>
+</ul>
+<h2>On arrival, check in 10 minutes</h2>
+<ul>
+<li>Weigh the whole container against the bill of lading.</li>
+<li>Open one unit and compare it to the sealed sample.</li>
+<li>Photograph key parts as evidence before distribution.</li>
+</ul>""",
+        "faq": [
+            ("Why do returns appear months after a good sample?", "Because mass production often uses different materials than the approved sample — cheaper coil, glass or fan. The failure shows up only after customers use the units daily, long after you've paid."),
+            ("How do I stop a factory from swapping parts?", "Lock key components by brand and model in the BOM, seal a signed golden sample, and state that any unilateral change is a breach with rework or refund. Three PO lines remove the factory's incentive to cut."),
         ],
     },
 ]
