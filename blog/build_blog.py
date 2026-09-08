@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-07"
-DATE_HUMAN = "Sep 7, 2026"
+DATE_ISO = "2026-09-08"
+DATE_HUMAN = "Sep 8, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -867,6 +867,40 @@ ARTICLES = [
         "faq": [
             ("Why do returns appear months after a good sample?", "Because mass production often uses different materials than the approved sample — cheaper coil, glass or fan. The failure shows up only after customers use the units daily, long after you've paid."),
             ("How do I stop a factory from swapping parts?", "Lock key components by brand and model in the BOM, seal a signed golden sample, and state that any unilateral change is a breach with rework or refund. Three PO lines remove the factory's incentive to cut."),
+        ],
+    },
+    {
+        "slug": "pain-warranty-math",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Warranty Math",
+        "image": "scene_kettle_pour.jpg",
+        "readtime": "2 min read",
+        "title": "Cheap Cooker, Expensive Year: the Warranty Math Most Importers Skip",
+        "description": "The lower quote wins the PO, then warranty claims eat the margin. Run the warranty-reserve formula and lock failure terms in the purchase order.",
+        "excerpt": "Warranty cost decides which cooker quote is truly cheaper. Price the reserve before you sign and make the factory own early-life failures.",
+        "related": ["pain-dead-on-arrival", "pain-spare-parts-pool", "pain-commercial-vs-home"],
+        "cta_title": "Want warranty math that holds up?",
+        "cta_text": "Send us your annual volume and market. We'll run the warranty-reserve math with you and quote cookers that pass burn-in before they ship.",
+        "wa_text": "Hi Vortix Kitchen, please help me compare cooker quotes with warranty cost included — failure rate, burn-in testing and defect freight terms.",
+        "mail_subject": "Warranty reserve math for cooker quotes",
+        "mail_body": "Hi Vortix Kitchen, I'm comparing cooker suppliers. Please help me build a warranty-reserve comparison (failure rate, burn-in test, defect freight) before I sign.",
+        "body": """<p>The lower quote usually wins the PO. What the comparison skips is warranty cost: a cooker with a 1% failure rate and one with 5% can look identical on paper — and behave nothing alike in your first season. Every defective unit costs you a replacement, double freight, and an angry retailer.</p>
+<h2>Price the warranty before you sign</h2>
+<ul>
+<li>Warranty reserve = annual units &times; failure rate &times; (replacement unit + two-way freight + handling hours).</li>
+<li>Add the reserve to each quote — compare true cost, not sticker cost.</li>
+<li>A supplier with triple the failure rate is never the cheaper one.</li>
+</ul>
+<h2>Lock the failure terms in the PO</h2>
+<ul>
+<li>"Target defect rate &le; 1%, verified by burn-in testing before shipment."</li>
+<li>"Defect freight both ways paid by the supplier; replacement or credit within 15 days."</li>
+<li>"Early-life failures (first 90 days in service) count as supplier defects."</li>
+</ul>""",
+        "faq": [
+            ("How do I compare two cooker quotes fairly?", "Add the warranty reserve to each quote: annual units × failure rate × (replacement unit + two-way freight + handling hours). The lower total cost wins, not the lower sticker price."),
+            ("What failure terms should the purchase order contain?", "A written target defect rate, burn-in testing before shipment, supplier-paid freight on confirmed defects, and a window (for example 90 days in service) in which early-life failures count as supplier defects."),
         ],
     },
 ]
