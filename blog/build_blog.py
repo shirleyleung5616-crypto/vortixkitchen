@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-08"
-DATE_HUMAN = "Sep 8, 2026"
+DATE_ISO = "2026-09-09"
+DATE_HUMAN = "Sep 9, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -901,6 +901,39 @@ ARTICLES = [
         "faq": [
             ("How do I compare two cooker quotes fairly?", "Add the warranty reserve to each quote: annual units × failure rate × (replacement unit + two-way freight + handling hours). The lower total cost wins, not the lower sticker price."),
             ("What failure terms should the purchase order contain?", "A written target defect rate, burn-in testing before shipment, supplier-paid freight on confirmed defects, and a window (for example 90 days in service) in which early-life failures count as supplier defects."),
+        ],
+    },
+    {
+        "slug": "pain-season-timing",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Season Timing",
+        "image": "scene_kettle_breakfast.jpg",
+        "readtime": "2 min read",
+        "title": "Order Too Late, Miss the Season: the 90-Day Cooker Buying Calendar",
+        "description": "Peak-season orders placed too late land after the selling window. Back-plan 90 days from the shelf date — production 30-45, sea freight 30-45, setup 7 — and split the year into batches.",
+        "excerpt": "Cash sits frozen for a year when cookers land after the season. Back-plan 90 days from the shelf date and split the year into two or three batches.",
+        "related": ["pain-production-scheduling", "pain-moq-container-loading", "pain-bom-substitution"],
+        "cta_title": "Counting down to your peak season?",
+        "cta_text": "Tell us your market and target shelf date. We'll confirm the production window and lock capacity so your cookers land before the season, not after it.",
+        "wa_text": "Hi Vortix Kitchen, I need cookers on shelves before the peak season. Can you confirm lead time and lock production capacity for my market?",
+        "mail_subject": "Peak season delivery plan for cookers",
+        "mail_body": "Hi Vortix Kitchen, my peak selling season starts soon. Please help me plan the ordering window so the containers land before the season begins.",
+        "body": """<p>Order in the last two weeks before peak season and the calendar beats you: 30-45 days of production, 30-45 days of sea freight, a week to clear and shelve — the containers land after your customers have already bought elsewhere. The cash and the warehouse space stay frozen until next year.</p>
+<h2>Work backward from the shelf date</h2>
+<ul>
+<li>Target shelf date − 90 days = latest order date (production 30-45 + sea freight 30-45 + receiving 7).</li>
+<li>Peak windows: Central Asia / Russia — autumn weddings and New Year; Indonesia / Malaysia — the weeks before Ramadan; Africa — the year-end holiday season.</li>
+<li>Add 15 days of buffer for port or customs delays, and confirm factory capacity in writing when you order.</li>
+</ul>
+<h2>Don't bet the year on one container</h2>
+<ul>
+<li>Split the year into 2-3 batches: one before each peak window, one mid-year filler for fast sellers.</li>
+<li>Reorder trigger: when a best seller drops to 4 weeks of cover, place the next batch.</li>
+</ul>""",
+        "faq": [
+            ("When should I order cookers for the peak season?", "Work back 90 days from the target shelf date: 30-45 days of production, 30-45 days of sea freight, and about a week to clear customs and shelve. Order earlier if your lane has port congestion."),
+            ("How many batches should I import per year?", "Two or three: one before each peak window (autumn weddings and New Year in Central Asia and Russia, the weeks before Ramadan in Indonesia and Malaysia, the year-end season in Africa) plus a mid-year filler batch for fast sellers."),
         ],
     },
 ]
