@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-09"
-DATE_HUMAN = "Sep 9, 2026"
+DATE_ISO = "2026-09-11"
+DATE_HUMAN = "Sep 11, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -934,6 +934,39 @@ ARTICLES = [
         "faq": [
             ("When should I order cookers for the peak season?", "Work back 90 days from the target shelf date: 30-45 days of production, 30-45 days of sea freight, and about a week to clear customs and shelve. Order earlier if your lane has port congestion."),
             ("How many batches should I import per year?", "Two or three: one before each peak window (autumn weddings and New Year in Central Asia and Russia, the weeks before Ramadan in Indonesia and Malaysia, the year-end season in Africa) plus a mid-year filler batch for fast sellers."),
+        ],
+    },
+    {
+        "slug": "pain-generator-power",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Generator Power",
+        "image": "scene_stirfry_shrimp.jpg",
+        "readtime": "2 min read",
+        "title": "Your Generator Trips, the Cooker Gets Blamed: Sizing Power for Unstable Grids",
+        "description": "In Africa and Central Asia kitchens run on generators — and induction startup surge trips them. Size the generator at 0.8x its kW, stagger startup, and ask the factory for soft-start specs.",
+        "excerpt": "A generator that trips at startup looks like a broken cooker. Size power at 0.8x generator kW, stagger startup, and ask the factory for soft-start specs.",
+        "related": ["pain-commercial-power", "pain-high-altitude", "pain-voltage-frequency"],
+        "cta_title": "Quoting a job on unstable power?",
+        "cta_text": "Tell us the generator size and how many cookers run together — we'll spec soft-start units and confirm the inrush current so your install doesn't trip.",
+        "wa_text": "Hi Vortix Kitchen, my customers run cookers on generators that trip at startup. Can you spec soft-start units and give the inrush current for N units?",
+        "mail_subject": "Induction cookers on generator power",
+        "mail_body": "Hi Vortix Kitchen, please advise on soft-start induction cookers and inrush current for running several units on a generator in unstable-grid markets.",
+        "body": """<p>In much of Africa and Central Asia the kitchen runs on a generator — and that's where induction cookers "fail." The startup surge of an induction unit can hit 2-3x its rated power for a moment; an under-sized generator trips, the chef blames the cooker, and you eat the return and the review.</p>
+<h2>Size the generator, not the cooker</h2>
+<ul>
+<li>Rule of thumb: generator rated kW x 0.8 = max combined cooker load it can start. A 5 kW generator safely runs ~4 kW of cookers, not 5.</li>
+<li>Start units one at a time, a few seconds apart — never all at once.</li>
+<li>For 3500W+ commercial units, ask the factory for soft-start / low inrush specs before you quote a job.</li>
+</ul>
+<h2>Two questions to ask the factory before you bid</h2>
+<ul>
+<li>"What's the inrush (startup) current of this model, and does it have soft-start?"</li>
+<li>"What generator size do you recommend for N units running together?"</li>
+</ul>""",
+        "faq": [
+            ("Why does my induction cooker trip the generator?", "Induction units draw a surge of 2-3x rated power for a second at startup. An under-sized generator can't absorb it and trips — the cooker isn't broken, the power plan is. Size the generator at 0.8x its kW for cooker load and start units staggered, a few seconds apart."),
+            ("Can commercial induction cookers run on a generator?", "Yes, if sized right. Ask the factory for the model's inrush current and a soft-start option; a 3500W+ unit on soft-start needs far less generator headroom than a hard-start one, so your install stays up."),
         ],
     },
 ]
