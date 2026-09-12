@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-11"
-DATE_HUMAN = "Sep 11, 2026"
+DATE_ISO = "2026-09-12"
+DATE_HUMAN = "Sep 12, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -967,6 +967,36 @@ ARTICLES = [
         "faq": [
             ("Why does my induction cooker trip the generator?", "Induction units draw a surge of 2-3x rated power for a second at startup. An under-sized generator can't absorb it and trips — the cooker isn't broken, the power plan is. Size the generator at 0.8x its kW for cooker load and start units staggered, a few seconds apart."),
             ("Can commercial induction cookers run on a generator?", "Yes, if sized right. Ask the factory for the model's inrush current and a soft-start option; a 3500W+ unit on soft-start needs far less generator headroom than a hard-start one, so your install stays up."),
+        ],
+    },
+    {
+        "slug": "pain-cold-climate",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Cold-Climate Shipping",
+        "image": "scene_kettle_pour.jpg",
+        "readtime": "2 min read",
+        "title": "Winter 'Dead Screens' in Russia & Central Asia — a Cold-Chain Gap, Not a Defect",
+        "description": "Cookers arriving black-screened or with cracked plastic from winter shipments to Russia and Central Asia look like defects — but they're cold-storage damage. Three PO specs and one receiving step stop the false returns.",
+        "excerpt": "Winter shipments to Russia and Central Asia arrive with black LCDs and brittle plastic — looks like a defect, but it's cold damage. Three PO specs stop the false returns.",
+        "related": ["pain-high-altitude", "pain-generator-power", "pain-commercial-vs-home"],
+        "cta_title": "Shipping to a cold market?",
+        "cta_text": "Tell us your route and winter lows — we'll spec a −25/−30°C storage rating, cold-crack-tested cartons and a warm-up SOP so your arrivals don't look 'dead'.",
+        "wa_text": "Hi Vortix Kitchen, I ship cookers to Russia/Central Asia in winter and get black-screen arrivals. Can you spec −25/−30°C storage rating and cold-crack-tested cartons?",
+        "mail_subject": "Cold-climate winter shipping",
+        "mail_body": "Hi Vortix Kitchen, please advise on −25/−30°C storage rating, low-temperature cartons and a receiving warm-up SOP for winter shipments to cold markets.",
+        "body": """<p>Winter sea-and-land shipments into Russia and Central Asia can sit at −30°C for days. Units arrive with black or scrambled LCDs and brittle plastic — your buyer calls it a defect, files a return, and your brand takes the hit. It isn't a quality failure; the components fell below their rated storage temperature.</p>
+<h2>Three specs to put in your PO</h2>
+<ul>
+<li>"Rated storage temperature: −25°C (or −30°C) for the whole unit; LCD and capacitors rated to match."</li>
+<li>"Carton and inner box certified for low-temperature brittleness (cold-crack test on file)."</li>
+<li>"Sealed, desiccant-packed carton to stop condensation during the warm-up."</li>
+</ul>
+<h2>One receiving rule</h2>
+<p>On arrival, let units warm to room temperature 12–24 hours before powering on. Cold starts fake the "dead screen" across a whole batch.</p>""",
+        "faq": [
+            ("Why do cookers arrive with a black or scrambled screen in winter?", "They were stored below their rated temperature during winter transit to Russia and Central Asia. The LCD and capacitors fail temporarily — not permanently. Specifying a −25/−30°C storage rating and a cold-crack-tested carton prevents it; warming units 12–24h before power-on avoids false 'dead' reports."),
+            ("Is cracked plastic on arrival a quality defect?", "Not usually in winter. Below rated temperature, plastics go brittle and snap in handling. Ask for low-temperature-brittleness-certified cartons and desiccant packing. The breakage is a cold-chain gap, not a factory flaw — but it still costs you the return if you don't spec it."),
         ],
     },
 ]

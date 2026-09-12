@@ -8,7 +8,7 @@
 - **Returns**：pain-dead-on-arrival / pain-cracked-glass / pain-slow-heating
 - **Reliability**：pain-igbt-overheat / pain-dusty-fan / pain-voltage-spike / **pain-cooling-fans** / **pain-insect-proof**
 - **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-kazakhstan-eac**（认证类仅保留此 1 篇，其余删除）
-- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling** / **pain-spare-parts-pool** / **pain-commercial-vs-home** / **pain-high-altitude** / **pain-commercial-power** / **pain-induction-cookware-myth** / **pain-bom-substitution** / **pain-warranty-math** / **pain-season-timing** / **pain-generator-power**
+- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling** / **pain-spare-parts-pool** / **pain-commercial-vs-home** / **pain-high-altitude** / **pain-commercial-power** / **pain-induction-cookware-myth** / **pain-bom-substitution** / **pain-warranty-math** / **pain-season-timing** / **pain-generator-power** / **pain-cold-climate**
 
 ## 待写池（按主题分组；2026-09-05 起每日自动化每天 10:00 取第一个未勾选项上线，一天 1 篇）
 
@@ -51,7 +51,7 @@
   - 素材（ZCode 拟）：①钩子=旺季前两周才下单，生产+海运要 60–90 天，到货已过季，资金和货架一起压一年。②主要市场旺季表：中亚/俄罗斯秋冬婚礼+新年前、印尼/马来斋月前零售高峰、非洲年末节日返乡季。③倒排公式：目标上架日 − 90 天（生产 30–45 + 海运 30–45 + 清点上架 7）= 最晚下单日。④利他落点：年度采购拆 2–3 批错峰下单，既赶旺季又不压库存。
 - [x] **电网不稳的市场：发电机带得动商用炉吗**（已上线：pain-generator-power）
   - 素材（ZCode 拟）：①钩子=非洲/中亚不少餐馆靠发电机，电磁炉启动浪涌电流大，发电机容量不足就跳闸，客户以为是炉子坏了——退货+差评。②给选型口诀：发电机额定容量 ×0.8 反推可带炉子总功率；多台炉分时启动、商用大功率机型向工厂要软启动/浪涌参数。③开餐厅/投标前要向工厂问的 2 个参数。④对齐 pain-high-altitude / pain-commercial-power 的选型写法，勿写成操作手册。
-- [ ] **零下 30℃ 运输：俄罗斯/中亚冬季到货"死屏"**（slug 建议：pain-cold-climate）
+- [x] **零下 30℃ 运输：俄罗斯/中亚冬季到货"死屏"**（已上线：pain-cold-climate）
   - 素材（ZCode 拟）：①钩子=冬季海运+陆运进中亚/俄罗斯，到货 LCD 发黑花屏、塑料件脆裂——低温超出电子件额定存储温度，不是质量问题却被当质量投诉。②询价时问工厂的 3 个低温规格：整机存储温度下限、LCD/电容低温等级、彩盒纸箱低温抗脆。③冬季收货流程：先 12–24 小时复温再通电验机，冷开机=批量"假故障"。④可写进采购条款的一句话。采购风险角度，非使用说明。
 - [x] **柜子到了 30 台破损，找谁赔：FOB/CIF 货损责任**（slug 建议：pain-incoterms-damage）——⛔ 雪姐 2026-09-05 判定不要，取消
   - 素材（ZCode 拟）：①钩子=运输段货损，进口商找工厂、工厂指条款——风险划分看贸易术语，不懂就吃哑巴亏。②责任分界一句话讲清：FOB=装船后风险归买方；CIF=卖方负责投保但风险同样过船舷，谁投保谁向保险公司索赔；货运险档次覆盖差别。③给行动清单：哪段该买险、破损留证（照片+柜检记录）、向保险公司索赔的时效窗口。④贸易风控角度，不涉及认证/清关。
