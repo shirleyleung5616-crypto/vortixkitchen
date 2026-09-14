@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-12"
-DATE_HUMAN = "Sep 12, 2026"
+DATE_ISO = "2026-09-14"
+DATE_HUMAN = "Sep 14, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -997,6 +997,37 @@ ARTICLES = [
         "faq": [
             ("Why do cookers arrive with a black or scrambled screen in winter?", "They were stored below their rated temperature during winter transit to Russia and Central Asia. The LCD and capacitors fail temporarily — not permanently. Specifying a −25/−30°C storage rating and a cold-crack-tested carton prevents it; warming units 12–24h before power-on avoids false 'dead' reports."),
             ("Is cracked plastic on arrival a quality defect?", "Not usually in winter. Below rated temperature, plastics go brittle and snap in handling. Ask for low-temperature-brittleness-certified cartons and desiccant packing. The breakage is a cold-chain gap, not a factory flaw — but it still costs you the return if you don't spec it."),
+        ],
+    },
+    {
+        "slug": "pain-induction-vs-lpg-cost",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Induction vs LPG Cost",
+        "image": "scene_kettle_breakfast.jpg",
+        "readtime": "2 min read",
+        "title": "Buyers Won't Switch Until They See the Bill: the Induction-vs-LPG Cost Card",
+        "description": "In Africa and SE Asia LPG prices climb and refills run out, yet end buyers keep gas stoves because no one showed them the running cost. Give distributors a one-line cost card and your stock moves.",
+        "excerpt": "End buyers won't switch to induction while LPG 'feels cheap' — until someone shows the running cost. A one-line cost card moves your stock off the shelf.",
+        "related": ["pain-commercial-power", "pain-high-altitude", "pain-generator-power"],
+        "cta_title": "Want a cost card that sells for you?",
+        "cta_text": "Send us your target market's electricity and LPG rates — we'll build a print-ready induction-vs-gas cost card (local language) your distributors can hand to every buyer.",
+        "wa_text": "Hi Vortix Kitchen, can you build a print-ready induction-vs-LPG cost card for [market] with local electricity and gas rates? My distributors need it to move stock.",
+        "mail_subject": "Induction vs LPG cost card",
+        "mail_body": "Hi Vortix Kitchen, please help build a one-line cost card comparing induction running cost vs LPG for my market (local rates), to hand to retail buyers.",
+        "body": """<p>Your induction cookers sit in the warehouse while shops keep selling gas stoves. The buyer's reason is simple: "gas is cheaper." It isn't — they've just never seen the running cost.</p>
+<h2>Give distributors a cost card they can't ignore</h2>
+<p>One formula, local numbers plugged in:</p>
+<ul>
+<li>Monthly fuel cost = energy used × local rate — then compare induction vs LPG.</li>
+<li>Use real efficiency: induction ~85% vs gas ~45%. Gas loses over half its heat up the sides and into the air.</li>
+<li>Result: same meals, often 30–50% lower fuel bill on induction, even where electricity isn't the cheapest.</li>
+</ul>
+<h2>Put it in the box</h2>
+<p>Print the card in the local language, or send it as a WhatsApp image. When the buyer does the math in 60 seconds, the "gas is cheaper" objection disappears — and your reorder comes faster.</p>""",
+        "faq": [
+            ("Is induction actually cheaper than LPG?", "Often yes, even where electricity isn't the cheapest. Induction runs at ~85% efficiency vs ~45% for gas — over half the gas heat is lost up the sides and into the air. Plug local rates into a simple monthly-cost formula and the fuel saving usually lands at 30–50% for the same meals."),
+            ("How do I convince retail buyers to switch from gas?", "Don't argue — show the bill. Hand distributors a one-line cost card (local electricity vs LPG rate, with the 85% vs 45% efficiency gap) they can print or send on WhatsApp. When a buyer sees the running cost in 60 seconds, the 'gas is cheaper' objection collapses and your stock moves."),
         ],
     },
 ]

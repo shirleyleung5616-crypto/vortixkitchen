@@ -8,7 +8,7 @@
 - **Returns**：pain-dead-on-arrival / pain-cracked-glass / pain-slow-heating
 - **Reliability**：pain-igbt-overheat / pain-dusty-fan / pain-voltage-spike / **pain-cooling-fans** / **pain-insect-proof**
 - **Customs**：pain-ce-sticker / pain-wrong-plug / pain-no-local-rep / **pain-kazakhstan-eac**（认证类仅保留此 1 篇，其余删除）
-- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling** / **pain-spare-parts-pool** / **pain-commercial-vs-home** / **pain-high-altitude** / **pain-commercial-power** / **pain-induction-cookware-myth** / **pain-bom-substitution** / **pain-warranty-math** / **pain-season-timing** / **pain-generator-power** / **pain-cold-climate**
+- **Buying**：article-induction-vs-infrared / article-product-showcase / article-cookware-magnetism / article-switch-from-gas / **pain-oem-brand** / **pain-safe-payment** / **pain-voltage-frequency** / **pain-moq-container-loading** / **pain-oem-vs-odm** / **pain-production-scheduling** / **pain-spare-parts-pool** / **pain-commercial-vs-home** / **pain-high-altitude** / **pain-commercial-power** / **pain-induction-cookware-myth** / **pain-bom-substitution** / **pain-warranty-math** / **pain-season-timing** / **pain-generator-power** / **pain-cold-climate** / **pain-induction-vs-lpg-cost**
 
 ## 待写池（按主题分组；2026-09-05 起每日自动化每天 10:00 取第一个未勾选项上线，一天 1 篇）
 
@@ -57,7 +57,7 @@
   - 素材（ZCode 拟）：①钩子=运输段货损，进口商找工厂、工厂指条款——风险划分看贸易术语，不懂就吃哑巴亏。②责任分界一句话讲清：FOB=装船后风险归买方；CIF=卖方负责投保但风险同样过船舷，谁投保谁向保险公司索赔；货运险档次覆盖差别。③给行动清单：哪段该买险、破损留证（照片+柜检记录）、向保险公司索赔的时效窗口。④贸易风控角度，不涉及认证/清关。
 - [x] **"口头独家"一钱不值：区域独家经销怎么谈才有用**（slug 建议：pain-exclusivity）——⛔ 雪姐 2026-09-05 判定不要，取消
   - 素材（ZCode 拟）：①钩子=业务员口头答应"你独家"，半年后同款出现在隔壁进口商的货架，价格战打在自己地盘。②工厂愿意给独家的真实条件：首单量门槛、年采购量承诺、品牌/市场投入分摊。③合同必须写死 4 条：独家品类与型号清单、territory 边界、违约赔偿、期限与续约条件。④利他落点：独家是买来的护城河，不是聊出来的。
-- [ ] **帮你的零售客户算账：电磁炉 vs 液化气使用成本**（slug 建议：pain-induction-vs-lpg-cost）
+- [x] **帮你的零售客户算账：电磁炉 vs 液化气使用成本**（已上线：pain-induction-vs-lpg-cost）
   - 素材（ZCode 拟）：①钩子=非洲/东南亚液化气涨价换气难，终端用户算不清账就不换炉——进口商的货趴在仓库。②给进口商一套终端算账模板：代入当地电价/气价、热效率对比（电磁 ~85% vs 燃气 ~45%）、月燃料费对比公式，不写具体国家价格。③用法：印成零售小卡片或 WhatsApp 图，帮下游零售动销。④利他落点：你的货好卖，补货才会快。
 
 （写作顺序=上面列表顺序，每日一篇；雪姐如觉得某条不该写，按老规矩标 [x] 注明取消即可，自动化会自动跳过。）
