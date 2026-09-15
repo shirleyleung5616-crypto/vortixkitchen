@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-14"
-DATE_HUMAN = "Sep 14, 2026"
+DATE_ISO = "2026-09-15"
+DATE_HUMAN = "Sep 15, 2026"
 
 # Series order used on the blog index.
 SERIES = [
