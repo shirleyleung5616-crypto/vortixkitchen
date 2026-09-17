@@ -5,3 +5,6 @@ pdf_images/
 .github_token
 gsc_service_account.json
 __pycache__/
+# Internal working docs (not part of the public site)
+外链铺设-逐条复制清单.md
+_tmp_*.md
