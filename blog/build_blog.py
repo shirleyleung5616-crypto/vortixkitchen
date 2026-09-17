@@ -1030,6 +1030,36 @@ ARTICLES = [
             ("How do I convince retail buyers to switch from gas?", "Don't argue — show the bill. Hand distributors a one-line cost card (local electricity vs LPG rate, with the 85% vs 45% efficiency gap) they can print or send on WhatsApp. When a buyer sees the running cost in 60 seconds, the 'gas is cheaper' objection collapses and your stock moves."),
         ],
     },
+    {
+        "slug": "pain-private-label-mixup",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Private-Label Mix-Up",
+        "image": "scene_clean_egg.jpg",
+        "readtime": "2 min read",
+        "title": "Your Logo on the Wrong Box: the Private-Label Mix-Up That Sinks a Launch",
+        "description": "A private-label run ships with the wrong logo, mixed models, or mistranslated labels — and the whole container is rejected at arrival. Three PO clauses and one pre-loading gate stop it.",
+        "excerpt": "Your logo ends up on the wrong box, or mixed models ship in one container — the whole batch gets rejected. Three PO clauses and one loading gate stop the private-label mix-up.",
+        "related": ["pain-oem-brand", "pain-oem-vs-odm", "pain-bom-substitution"],
+        "cta_title": "Launching your own cooker brand?",
+        "cta_text": "Send us your branding and model list — we'll lock label and box specs in the PO and run pre-loading verification so every unit ships correct.",
+        "wa_text": "Hi Vortix Kitchen, I'm launching a private-label cooker line. Can you lock logo/label specs in the PO and verify before container loading to avoid mix-ups?",
+        "mail_subject": "Private-label mix-up prevention",
+        "mail_body": "Hi Vortix Kitchen, please help lock our logo, label and model specs into the PO and arrange pre-loading verification to prevent private-label mix-ups.",
+        "body": """<p>You launch your own cooker brand. The container arrives — and half the boxes show the wrong logo, two models are mixed in one carton, or the Russian/Arabic label is mistranslated. The buyer rejects the batch, your launch slips a season, and the factory shrugs. It's a private-label mix-up, and you paid for it.</p>
+<h2>Three clauses to lock in the PO</h2>
+<ul>
+<li>"Each model's logo, box art and label language are pre-approved by signed proof; no production without it."</li>
+<li>"Cartons are scanned and verified per PO before sealing; mixed models in one carton are a reject."</li>
+<li>"Factory bears the cost of any mislabeled or mixed batch — including rework and freight."</li>
+</ul>
+<h2>One gate before loading</h2>
+<p>Hold loading until a random carton check confirms logo, model and label match the signed proof. That ten-minute gate saves a season.</p>""",
+        "faq": [
+            ("How do I stop a factory mixing my private-label models?", "Lock it in the PO: pre-approved signed proofs for logo, box art and label language before any production; cartons scanned and verified per PO before sealing; and a clause making the factory pay for any mislabeled or mixed batch. A random carton check right before container loading is the final gate."),
+            ("What happens if the wrong logo ships on my private-label goods?", "If boxes arrive with the wrong logo, mixed models or bad translations, the buyer can reject the whole batch and your launch misses its season. Prevent it with signed pre-production proofs and pre-loading verification, with rework and freight cost assigned to the factory in the contract."),
+        ],
+    },
 ]
 
 
