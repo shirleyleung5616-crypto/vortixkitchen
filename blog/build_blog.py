@@ -1060,6 +1060,37 @@ ARTICLES = [
             ("What happens if the wrong logo ships on my private-label goods?", "If boxes arrive with the wrong logo, mixed models or bad translations, the buyer can reject the whole batch and your launch misses its season. Prevent it with signed pre-production proofs and pre-loading verification, with rework and freight cost assigned to the factory in the contract."),
         ],
     },
+    {
+        "slug": "pain-supplier-shutdown",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Supplier Shutdown Risk",
+        "image": "scene_kettle_breakfast.jpg",
+        "readtime": "2 min read",
+        "title": "Your Supplier Vanished — and So Did Your Season",
+        "description": "A factory closes or the owner disappears mid-order — your tooling is gone, supply stops, and your peak season ships empty. Four contract clauses keep your cooker brand covered.",
+        "excerpt": "Your supplier shuts down or vanishes and your season ships empty — tooling lost, supply cut. Four contract clauses keep your cooker brand covered.",
+        "related": ["pain-oem-brand", "pain-production-scheduling", "pain-bom-substitution"],
+        "cta_title": "Worried your supplier won't last?",
+        "cta_text": "Send us your order plan — we'll put tooling ownership, dual-sourcing and staged payment in the contract so a factory problem never becomes your problem.",
+        "wa_text": "Hi Vortix Kitchen, I'm concerned about supplier continuity. Can you put tooling ownership, backup sourcing and staged payment terms in the contract?",
+        "mail_subject": "Supplier continuity risk",
+        "mail_body": "Hi Vortix Kitchen, please help build supplier-continuity safeguards into our contract: tooling ownership, dual-sourcing of key parts, and staged payment.",
+        "body": """<p>You place a big order, pay the tooling fee, and the factory closes — or the owner disappears. Your molds are gone, production stops, and your peak season ships empty while a competitor takes your shelf space. The failure wasn't your product; it was your supplier.</p>
+<h2>Four clauses to put in every contract</h2>
+<ul>
+<li>"Paid tooling and molds are the buyer's property; the factory holds them in trust and releases them on request."</li>
+<li>"Key components (IGBT, glass, coil) have a named backup supplier approved by the buyer."</li>
+<li>"Before large orders, the buyer may verify the factory is operational — license, workforce, no major litigation."</li>
+<li>"Payment is staged; a holdback remains until goods are verified, so a shutdown can't take your full deposit."</li>
+</ul>
+<h2>One check before you commit</h2>
+<p>Confirm the factory is financially healthy and has run similar volumes before signing. That check turns a total loss into a managed risk.</p>""",
+        "faq": [
+            ("What happens if my cooker factory shuts down mid-order?", "If the factory closes or vanishes, you can lose paid tooling, face a broken supply line, and miss your selling season. Protect it in the contract: tooling you paid for is your property held in trust, key parts have a backup supplier, and payment is staged with a holdback so a shutdown can't take your full deposit."),
+            ("How do I make sure my molds aren't lost if the supplier fails?", "Write it into the contract: tooling and molds you paid for are the buyer's property, the factory holds them in trust, and must release them on request. Also require a named backup supplier for key components and verify the factory is operational before large orders. Staged payment with a holdback limits your exposure if the supplier fails."),
+        ],
+    },
 ]
 
 
