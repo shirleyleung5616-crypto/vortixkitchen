@@ -271,7 +271,7 @@ ARTICLES = [
         "mail_body": "Hi Vortix Kitchen, please confirm the local representative requirement for my market and include it in the contract.",
         "body": """<p>EAC, SNI, SIRIM, SONCAP, NRCS all require a named local entity to hold the certificate. Importers learn this at the port — after sailing.</p>
 <h2>Do this</h2>
-<p>Name the local rep in the contract before production, not a panic email at the port. If the supplier "can't name one," that's your answer before wiring payment.</p>""",
+<p>Name the local rep in the contract before production, not a panic email at the port. If the supplier "can't name one," that's your answer before you commit.</p>""",
     },
 
     # ---------------- BUYING / SELLING (single-topic, kept) ----------------
@@ -448,21 +448,20 @@ ARTICLES = [
         "image": "page6_img1.jpeg",
         "readtime": "2 min read",
         "title": "Launch Your Own Cooker Brand with a China Factory — Without Losing Your Shirt",
-        "description": "Want your own induction brand but fear MOQ, payment terms and IP risk? The OEM/ODM path that gets importers to market fast.",
-        "excerpt": "Want your own cooker brand but fear MOQ, payment terms and IP risk? The OEM/ODM path that gets importers to market.",
+        "description": "Want your own induction brand but fear MOQ and IP risk? The OEM/ODM path that gets importers to market fast.",
+        "excerpt": "Want your own cooker brand but fear MOQ and IP risk? The OEM/ODM path that gets importers to market.",
         "related": ["article-product-showcase", "article-induction-vs-infrared", "pain-ce-sticker"],
         "cta_title": "Ready to build your own brand?",
         "cta_text": "Send us your target market and planned models — we'll propose an OEM/ODM package with MOQ, tooling, certification and QA spelled out.",
         "wa_text": "Hi Vortix Kitchen, I want to launch my own cooker brand. Can you do OEM/ODM with my logo, color and packaging?",
         "mail_subject": "OEM/ODM brand launch",
         "mail_body": "Hi Vortix Kitchen, I want to launch my own induction cooker brand. Please advise on OEM/ODM, MOQ, tooling cost and certification support.",
-        "body": """<p>Why isn't your brand on the box? MOQ, payment terms, "will they steal my design?" — real but manageable.</p>
+        "body": """<p>Why isn't your brand on the box? MOQ and IP risk — "will they steal my design?" — real but manageable.</p>
 <p><strong>OEM:</strong> factory's model plus your logo/carton. Fastest, lowest risk. <strong>ODM:</strong> co-develop — more differentiation, more tooling. Start OEM, move to ODM.</p>
 <h2>Five clauses that protect you</h2>
 <ol>
 <li>MOQ per model — a low-MOQ entry SKU lets you test.</li>
 <li>Tooling ownership — you own or lock the mold.</li>
-<li>Payment: 100% before shipment, confirmed in the contract.</li>
 <li>Certification in your name, not the factory's.</li>
 <li>Pre-shipment inspection before loading.</li>
 </ol>
@@ -494,38 +493,7 @@ ARTICLES = [
             ("What does 'wide voltage' mean for cookers?", "A unit with auto-switching input (100-240V, 50/60Hz) that runs safely across both ranges - ideal when you sell into mixed-voltage markets."),
         ],
     },
-    {
-        "slug": "pain-safe-payment",
-        "series": "buying",
-        "cat": "PAYMENT / TRUST",
-        "footer_label": "Pay Safely",
-        "image": "page9_img2.jpeg",
-        "readtime": "2 min read",
-        "title": "Pay a China Factory Safely — Even with Full Payment Before Shipment",
-        "description": "Vortix ships against full payment before loading. Here's how to keep that safe: a signed contract, a third-party pre-shipment inspection, and a verified company account.",
-        "excerpt": "Vortix requires full payment before shipment. Stay safe with a clear contract, pre-shipment inspection, and a verified supplier.",
-        "related": ["pain-oem-brand", "pain-no-local-rep", "pain-ce-sticker"],
-        "cta_title": "Ready to place an order with Vortix?",
-        "cta_text": "Tell us your order size and market — we'll confirm the contract terms and our full-payment-before-shipment policy in writing.",
-        "wa_text": "Hi Vortix Kitchen, I want to import cookers. Can you share your contract terms and how you handle pre-shipment inspection?",
-        "mail_subject": "Order and payment terms for cooker import",
-        "mail_body": "Hi Vortix Kitchen, please share your order process — contract, pre-shipment inspection, and full-payment-before-shipment terms.",
-        "body": """<p>Vortix requires full payment before shipment — that is our standard. The way to make full upfront safe is not to hold a balance, but to lock the order in writing and verify the goods before they leave the factory.</p>
-<h2>What to put in the PO / contract</h2>
-<ol>
-<li><strong>Full payment before shipment</strong> — confirm the amount, our bank details and the loading date in writing first.</li>
-<li><strong>Specify the goods exactly:</strong> model, power, plug, glass size, carton, and the inspection standard.</li>
-<li><strong>Pay to a verified company account</strong> (TT), never a personal WeChat/Alipay.</li>
-<li><strong>Verify the supplier</strong> — business license, export license, a live factory video call, and references from existing buyers.</li>
-<li><strong>Arrange a third-party pre-shipment inspection</strong> (you order it, you pay) before the container loads, so you confirm the goods before they ship.</li>
-</ol>
-<p>Full payment upfront is only risky with an unknown supplier. Lock the specs, verify the factory, and inspect before loading — then full payment is simply how the order runs.</p>""",
-        "faq": [
-            ("Do you accept payment after shipment?", "No. Vortix ships against full payment before loading. We keep it safe with a signed contract, exact specs in writing, and a third-party pre-shipment inspection you can arrange before the container leaves."),
-            ("How do I protect myself paying 100% before shipment?", "Verify the supplier (license, export license, video call, references), put model, spec, lead time and penalty in a contract, and order a third-party inspection before loading. Vortix allows a third-party pre-shipment inspection before loading."),
-            ("How do I pay Vortix?", "TT to our verified company account, full amount before shipment. The contract and pre-shipment inspection step keep the order transparent and verifiable."),
-        ],
-    },
+
     # ---------------- W4 (2026-08-27) ----------------
     {
         "slug": "pain-kazakhstan-eac",
@@ -552,7 +520,7 @@ ARTICLES = [
 <li><strong>EAC mark</strong> on the unit and the carton, plus declaration number on shipping docs.</li>
 <li><strong>Model match:</strong> declaration must cover the exact model number and power range you ship.</li>
 </ul>
-<p>A factory that only offers a CE sticker cannot clear EAEU customs. Ask for the EAC declaration before you pay.</p>""",
+<p>A factory that only offers a CE sticker cannot clear EAEU customs. Ask for the EAC declaration before you place the order.</p>""",
         "faq": [
             ("Is EAC the same as CE for Kazakhstan?", "No. CE is for the EU/EEA. EAC (Eurasian Conformity) is required in the EAEU — Kazakhstan, Russia, Belarus, Armenia, Kyrgyzstan."),
             ("Can we use the factory's EAC certificate?", "Only if the certificate lists your local importer/representative and the exact model. Otherwise customs may reject it."),
@@ -570,7 +538,7 @@ ARTICLES = [
         "title": "Your First MOQ Locks Your Margin — How Many Cookers Fit in a 20ft vs 40ft Container",
         "description": "Wrong first MOQ ties up cash or wastes freight space. The container-loading math and PO clause that protects your first order.",
         "excerpt": "Wrong first MOQ ties up cash or wastes freight space. Use the 20ft/40ft loading math and this PO clause.",
-        "related": ["pain-oem-brand", "pain-safe-payment", "article-product-showcase"],
+        "related": ["pain-oem-brand", "article-product-showcase"],
         "cta_title": "Planning your first container?",
         "cta_text": "Send your target models and market — we'll confirm carton dims, units per 20/40ft, so you fill the container at the right MOQ.",
         "wa_text": "Hi Vortix Kitchen, I'm planning my first container of cookers. Can you confirm carton dims and how many units fit in 20ft/40ft?",
@@ -584,7 +552,7 @@ ARTICLES = [
 <li><strong>Mixed load:</strong> plan carton outer dims before you commit — a few millimetres per box changes the count.</li>
 </ul>
 <h2>Put in your PO</h2>
-<p>"First order: 20ft or 40ft mixed. Supplier confirms carton dimensions and max units per container before full payment. MOQ per model: [X] units. Right to combine SKUs to hit container volume."</p>
+<p>"First order: 20ft or 40ft mixed. Supplier confirms carton dimensions and max units per container before production. MOQ per model: [X] units. Right to combine SKUs to hit container volume."</p>
 <p>Test one model, then fill the rest of the box with proven SKUs. A full container cuts freight cost per unit far more than a bigger discount.</p>""",
         "faq": [
             ("What is a safe first MOQ for a new cooker model?", "For standard models, 100–300 units is a common entry MOQ. A smarter first move is one mixed 20ft container covering several SKUs."),
@@ -602,7 +570,7 @@ ARTICLES = [
         "title": "OEM or ODM? Pick the Wrong One and You Pay for It Twice",
         "description": "OEM is fast and cheap. ODM is yours — but only if the mold and IP clauses are in writing. The cost and risk gap, and the contract terms that close it.",
         "excerpt": "OEM is fast and cheap. ODM is yours — but only if the mold and IP clauses are in writing. The terms that close the gap.",
-        "related": ["pain-oem-brand", "pain-moq-container-loading", "pain-safe-payment"],
+        "related": ["pain-oem-brand", "pain-moq-container-loading"],
         "cta_title": "Choosing between OEM and ODM for your brand?",
         "cta_text": "Tell us your target market, planned models and first-order volume — we'll lay out OEM vs ODM cost, lead time and the contract terms that protect your brand.",
         "wa_text": "Hi Vortix Kitchen, I'm launching my cooker brand. Can you compare OEM vs ODM cost, lead time and the IP/mold clauses I need?",
@@ -622,7 +590,6 @@ ARTICLES = [
 <li><strong>Exclusive design</strong> — supplier cannot resell your model.</li>
 <li><strong>Tooling refund</strong> tied to an annual volume (e.g. 5,000 units).</li>
 <li><strong>Drawing approval</strong> + pre-production sample sign-off, in writing.</li>
-<li><strong>Payment: 100% before shipment</strong>; pre-shipment inspection before loading.</li>
 </ol>
 <p>Wrong choice for your stage, or missing clauses — that's what kills the margin.</p>""",
         "faq": [
@@ -642,7 +609,7 @@ ARTICLES = [
         "title": "Your Big Order Shipped 60 Days Late — the Production Schedule Most Importers Don't Lock",
         "description": "A delayed shipment misses your selling season and ties up cash. How to lock factory capacity and milestones so a big cooker order ships on time.",
         "excerpt": "A delayed shipment misses your selling season and ties up cash. Lock the factory capacity and production milestones before you commit.",
-        "related": ["pain-moq-container-loading", "pain-oem-vs-odm", "pain-safe-payment"],
+        "related": ["pain-moq-container-loading", "pain-oem-vs-odm"],
         "cta_title": "Worried about late shipments on big orders?",
         "cta_text": "Tell us your target volume and delivery window — we'll confirm a locked production slot, milestone schedule and penalty clause before you commit.",
         "wa_text": "Hi Vortix Kitchen, I need a big cooker order delivered by [date]. Can you confirm production capacity, milestones and a late-delivery clause?",
@@ -652,7 +619,7 @@ ARTICLES = [
 <p>Factories often promise 30 days, then put your order behind bigger clients or run out of key components. The PO date becomes a suggestion.</p>
 <h2>Put in your PO</h2>
 <ol>
-<li><strong>Binding lead time:</strong> "Production completed and ready for loading within [X] days from full payment. Liquidated damages: $[Y] per day late, capped at [Z]%."</li>
+<li><strong>Binding lead time:</strong> "Production completed and ready for loading within [X] days from order confirmation. Liquidated damages: $[Y] per day late, capped at [Z]%."</li>
 <li><strong>Capacity allocation:</strong> "Dedicated production line / confirmed capacity slot for this order; no bumping by other clients."</li>
 <li><strong>Milestone schedule:</strong> PCB assembly, coil winding, glass fit, final assembly, QC — each with a confirmed date and photo/video proof.</li>
 <li><strong>Component buffer:</strong> Key parts (IGBT, glass, fan) locked in stock before production starts.</li>
@@ -660,7 +627,7 @@ ARTICLES = [
 </ol>
 <p>Schedule without teeth is just a wish. Lock the line, the milestones and the penalty before you place the order.</p>""",
         "faq": [
-            ("What is a normal lead time for a large cooker order?", "Standard models usually need 25-35 days after full payment; custom OEM/ODM often needs 40-55 days after sample approval. Always confirm in writing."),
+            ("What is a normal lead time for a large cooker order?", "Standard models usually need 25-35 days after order confirmation; custom OEM/ODM often needs 40-55 days after sample approval. Always confirm in writing."),
             ("How do I stop the factory bumping my order for a bigger client?", "Add a capacity-allocation clause to your PO: a confirmed production slot with milestone proof and a daily late penalty. The factory will protect your slot when delay costs money."),
             ("Which production milestones should I demand proof of?", "PCB assembly, coil/glass assembly, final assembly, burn-in/QC and carton loading. Ask for dated photos or short videos before the goods ship."),
         ],
