@@ -287,7 +287,7 @@ ARTICLES = [
         "excerpt": "Induction heats the pot, infrared heats any pot. Full comparison — cookware, speed, efficiency, durability — and how to pick the right mix for your market.",
         "related": ["article-cookware-magnetism", "article-switch-from-gas", "article-product-showcase"],
         "cta_title": "Not sure which mix your market will buy?",
-        "cta_text": "Tell us the cookware habits and price tier of your target customers — we'll propose an induction/infrared split and a small test-MOQ.",
+        "cta_text": "Tell us the cookware habits and price tier of your target customers — we'll propose an induction/infrared split matched to your market.",
         "wa_text": "Hi Vortix Kitchen, my market uses mostly [pot type] pots — should I lead with induction or infrared?",
         "mail_subject": "Induction vs Infrared Mix",
         "mail_body": "Hi Vortix Kitchen, please help me decide the right induction/infrared product mix for my market.",
@@ -313,7 +313,7 @@ ARTICLES = [
 <ul>
 <li>Your buyers want the <strong>lowest shelf price</strong> — infrared builds are simpler and cheaper.</li>
 <li>Your market uses <strong>round-bottom pots or clay pots</strong> that never sit flat on an induction zone.</li>
-<li>You need a <strong>low-risk first order</strong>: universal compatibility means fewer confused customers.</li>
+<li>Universal compatibility means fewer confused customers.</li>
 </ul>
 <p>The trade-offs: slower to reach temperature, more electricity for the same cooking result, and a surface that stays dangerously hot after cooking — worth a warning sticker and a line in your manual.</p>
 <h2>When induction is the right call</h2>
@@ -332,7 +332,7 @@ ARTICLES = [
 <ul>
 <li>Aluminum, clay or round-bottom pots dominant → <strong>lead with infrared</strong>.</li>
 <li>Magnetic-bottom pots common (much of Central Asia, Russia, modern urban retail) → <strong>lead with induction</strong> as your premium line.</li>
-<li>Mixed or unknown → <strong>carry both</strong>: infrared as the volume entry line, induction as the margin line, and let a small test order tell you.</li>
+<li>Mixed or unknown → <strong>carry both</strong>: infrared as the volume entry line, induction as the margin line.</li>
 </ul>
 <p>Importers who carry both rarely regret it. The two technologies rarely compete for the same customer — they cover different buyers, and together they cover the whole market.</p>
 <h2>What to write in your PO</h2>
@@ -510,7 +510,7 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I want to import cookers. What payment terms do you offer - deposit, balance on B/L or inspection?",
         "mail_subject": "Payment terms for cooker import",
         "mail_body": "Hi Vortix Kitchen, please advise on your payment structure - deposit ratio, balance on B/L copy or pre-shipment inspection, and any escrow option.",
-        "body": """<p>Paying 100% upfront to a China factory is the fastest way to lose everything - the unit ships late, the spec is wrong, or the supplier stops replying after the wire. The deposit you meant as trust becomes a blank cheque.</p>
+        "body": """<p>Paying 100% upfront leaves you exposed if the goods are late or wrong - keep a balance until the order is verified, so the deposit you meant as trust stays protected.</p>
 <h2>What to put in the PO / contract</h2>
 <ol>
 <li><strong>Deposit 30%</strong> to start; <strong>balance 70%</strong> against the <strong>B/L copy</strong> or a <strong>passed pre-shipment inspection</strong> - never before.</li>
@@ -523,7 +523,7 @@ ARTICLES = [
         "faq": [
             ("Is 100% upfront normal for China cooker factories?", "No. 30% deposit / 70% balance against B/L or inspection is standard for established suppliers. 100% upfront is a red flag."),
             ("What protects me if goods fail inspection?", "With the balance held until passed inspection, you keep leverage - the factory fixes or replaces before you pay the rest."),
-            ("TT or escrow for a first order?", "TT to a verified company account with inspection-gated balance is common; escrow adds cost but helps on a large first order with an unknown supplier."),
+            ("TT or escrow for a first order?", "TT to a verified company account with inspection-gated balance is common; escrow is an option for very large first orders."),
         ],
     },
     # ---------------- W4 (2026-08-27) ----------------
@@ -572,7 +572,7 @@ ARTICLES = [
         "excerpt": "Wrong first MOQ ties up cash or wastes freight space. Use the 20ft/40ft loading math and this PO clause.",
         "related": ["pain-oem-brand", "pain-safe-payment", "article-product-showcase"],
         "cta_title": "Planning your first container?",
-        "cta_text": "Send your target models and market — we'll confirm carton dims, units per 20/40ft, and a low-MOQ entry SKU to test.",
+        "cta_text": "Send your target models and market — we'll confirm carton dims, units per 20/40ft, so you fill the container at the right MOQ.",
         "wa_text": "Hi Vortix Kitchen, I'm planning my first container of cookers. Can you confirm carton dims and how many units fit in 20ft/40ft?",
         "mail_subject": "First container MOQ and loading",
         "mail_body": "Hi Vortix Kitchen, please advise on first-order MOQ, carton dimensions, and how many units fit in a 20ft vs 40ft container for my target models.",
@@ -584,12 +584,12 @@ ARTICLES = [
 <li><strong>Mixed load:</strong> plan carton outer dims before you commit — a few millimetres per box changes the count.</li>
 </ul>
 <h2>Put in your PO</h2>
-<p>"First order: 20ft trial or 40ft mixed. Supplier confirms carton dimensions and max units per container before deposit. MOQ per model: [X] units. Right to combine SKUs to hit container volume."</p>
+<p>"First order: 20ft or 40ft mixed. Supplier confirms carton dimensions and max units per container before deposit. MOQ per model: [X] units. Right to combine SKUs to hit container volume."</p>
 <p>Test one model, then fill the rest of the box with proven SKUs. A full container cuts freight cost per unit far more than a bigger discount.</p>""",
         "faq": [
-            ("What is a safe first MOQ for a new cooker model?", "For standard models, 100–300 units is a common entry MOQ. A smarter first move is one mixed 20ft container so you test multiple SKUs without overcommitting."),
+            ("What is a safe first MOQ for a new cooker model?", "For standard models, 100–300 units is a common entry MOQ. A smarter first move is one mixed 20ft container covering several SKUs."),
             ("How many induction cookers fit in a 40ft container?", "A 40ft HQ loads roughly 650–750 single-burner units or 300–350 double-burner units, depending on carton outer dimensions."),
-            ("Can I mix SKUs in one container?", "Yes — and you should. Mixing SKUs fills the container, lowers freight cost per unit, and lets you test which models sell before scaling."),
+            ("Can I mix SKUs in one container?", "Yes — and you should. Mixing SKUs fills the container, lowers freight cost per unit, across your range."),
         ],
     },
     {
@@ -613,7 +613,7 @@ ARTICLES = [
 <p><strong>ODM</strong> = co-developed, your mold, your specs. Higher tooling ($3k–$15k), longer lead time, but no competitor sells the same unit.</p>
 <h2>Match the choice to your stage</h2>
 <ul>
-<li><strong>New / cash-tight:</strong> start OEM — test the market, keep cash for marketing.</li>
+<li><strong>New / cash-tight:</strong> start with OEM — fastest path to market, lowest tooling cost.</li>
 <li><strong>Established / differentiation needed:</strong> move to ODM — the mold and IP are the moat.</li>
 </ul>
 <h2>Five clauses before you wire the deposit</h2>
@@ -1058,37 +1058,6 @@ ARTICLES = [
         "faq": [
             ("How do I stop a factory mixing my private-label models?", "Lock it in the PO: pre-approved signed proofs for logo, box art and label language before any production; cartons scanned and verified per PO before sealing; and a clause making the factory pay for any mislabeled or mixed batch. A random carton check right before container loading is the final gate."),
             ("What happens if the wrong logo ships on my private-label goods?", "If boxes arrive with the wrong logo, mixed models or bad translations, the buyer can reject the whole batch and your launch misses its season. Prevent it with signed pre-production proofs and pre-loading verification, with rework and freight cost assigned to the factory in the contract."),
-        ],
-    },
-    {
-        "slug": "pain-supplier-shutdown",
-        "series": "buying",
-        "cat": "BUYING DECISION",
-        "footer_label": "Supplier Shutdown Risk",
-        "image": "scene_kettle_breakfast.jpg",
-        "readtime": "2 min read",
-        "title": "Your Supplier Vanished — and So Did Your Season",
-        "description": "A factory closes or the owner disappears mid-order — your tooling is gone, supply stops, and your peak season ships empty. Four contract clauses keep your cooker brand covered.",
-        "excerpt": "Your supplier shuts down or vanishes and your season ships empty — tooling lost, supply cut. Four contract clauses keep your cooker brand covered.",
-        "related": ["pain-oem-brand", "pain-production-scheduling", "pain-bom-substitution"],
-        "cta_title": "Worried your supplier won't last?",
-        "cta_text": "Send us your order plan — we'll put tooling ownership, dual-sourcing and staged payment in the contract so a factory problem never becomes your problem.",
-        "wa_text": "Hi Vortix Kitchen, I'm concerned about supplier continuity. Can you put tooling ownership, backup sourcing and staged payment terms in the contract?",
-        "mail_subject": "Supplier continuity risk",
-        "mail_body": "Hi Vortix Kitchen, please help build supplier-continuity safeguards into our contract: tooling ownership, dual-sourcing of key parts, and staged payment.",
-        "body": """<p>You place a big order, pay the tooling fee, and the factory closes — or the owner disappears. Your molds are gone, production stops, and your peak season ships empty while a competitor takes your shelf space. The failure wasn't your product; it was your supplier.</p>
-<h2>Four clauses to put in every contract</h2>
-<ul>
-<li>"Paid tooling and molds are the buyer's property; the factory holds them in trust and releases them on request."</li>
-<li>"Key components (IGBT, glass, coil) have a named backup supplier approved by the buyer."</li>
-<li>"Before large orders, the buyer may verify the factory is operational — license, workforce, no major litigation."</li>
-<li>"Payment is staged; a holdback remains until goods are verified, so a shutdown can't take your full deposit."</li>
-</ul>
-<h2>One check before you commit</h2>
-<p>Confirm the factory is financially healthy and has run similar volumes before signing. That check turns a total loss into a managed risk.</p>""",
-        "faq": [
-            ("What happens if my cooker factory shuts down mid-order?", "If the factory closes or vanishes, you can lose paid tooling, face a broken supply line, and miss your selling season. Protect it in the contract: tooling you paid for is your property held in trust, key parts have a backup supplier, and payment is staged with a holdback so a shutdown can't take your full deposit."),
-            ("How do I make sure my molds aren't lost if the supplier fails?", "Write it into the contract: tooling and molds you paid for are the buyer's property, the factory holds them in trust, and must release them on request. Also require a named backup supplier for key components and verify the factory is operational before large orders. Staged payment with a holdback limits your exposure if the supplier fails."),
         ],
     },
 ]
