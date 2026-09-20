@@ -271,7 +271,7 @@ ARTICLES = [
         "mail_body": "Hi Vortix Kitchen, please confirm the local representative requirement for my market and include it in the contract.",
         "body": """<p>EAC, SNI, SIRIM, SONCAP, NRCS all require a named local entity to hold the certificate. Importers learn this at the port — after sailing.</p>
 <h2>Do this</h2>
-<p>Name the local rep in the contract before production, not a panic email at the port. If the supplier "can't name one," that's your answer before wiring the deposit.</p>""",
+<p>Name the local rep in the contract before production, not a panic email at the port. If the supplier "can't name one," that's your answer before wiring payment.</p>""",
     },
 
     # ---------------- BUYING / SELLING (single-topic, kept) ----------------
@@ -448,23 +448,23 @@ ARTICLES = [
         "image": "page6_img1.jpeg",
         "readtime": "2 min read",
         "title": "Launch Your Own Cooker Brand with a China Factory — Without Losing Your Shirt",
-        "description": "Want your own induction brand but fear MOQ, deposit and IP risk? The OEM/ODM path that gets importers to market fast.",
-        "excerpt": "Want your own cooker brand but fear MOQ, deposit and IP risk? The OEM/ODM path that gets importers to market.",
+        "description": "Want your own induction brand but fear MOQ, payment terms and IP risk? The OEM/ODM path that gets importers to market fast.",
+        "excerpt": "Want your own cooker brand but fear MOQ, payment terms and IP risk? The OEM/ODM path that gets importers to market.",
         "related": ["article-product-showcase", "article-induction-vs-infrared", "pain-ce-sticker"],
         "cta_title": "Ready to build your own brand?",
         "cta_text": "Send us your target market and planned models — we'll propose an OEM/ODM package with MOQ, tooling, certification and QA spelled out.",
         "wa_text": "Hi Vortix Kitchen, I want to launch my own cooker brand. Can you do OEM/ODM with my logo, color and packaging?",
         "mail_subject": "OEM/ODM brand launch",
         "mail_body": "Hi Vortix Kitchen, I want to launch my own induction cooker brand. Please advise on OEM/ODM, MOQ, tooling cost and certification support.",
-        "body": """<p>Why isn't your brand on the box? MOQ, deposit, "will they steal my design?" — real but manageable.</p>
+        "body": """<p>Why isn't your brand on the box? MOQ, payment terms, "will they steal my design?" — real but manageable.</p>
 <p><strong>OEM:</strong> factory's model plus your logo/carton. Fastest, lowest risk. <strong>ODM:</strong> co-develop — more differentiation, more tooling. Start OEM, move to ODM.</p>
 <h2>Five clauses that protect you</h2>
 <ol>
 <li>MOQ per model — a low-MOQ entry SKU lets you test.</li>
 <li>Tooling ownership — you own or lock the mold.</li>
-<li>Deposit 30/70; 100% upfront is a red flag.</li>
+<li>Payment: 100% before shipment, confirmed in the contract.</li>
 <li>Certification in your name, not the factory's.</li>
-<li>Pre-shipment inspection before balance.</li>
+<li>Pre-shipment inspection before loading.</li>
 </ol>
 <p>Those five in writing = a supplier you control.</p>""",
     },
@@ -501,29 +501,29 @@ ARTICLES = [
         "footer_label": "Pay Safely",
         "image": "page9_img2.jpeg",
         "readtime": "2 min read",
-        "title": "You Paid 100% Upfront - and the Factory Stopped Replying",
-        "description": "Paying a China factory 100% upfront is the fastest way to lose the order. The safe payment structure: 30% deposit, 70% balance against the B/L copy or a passed inspection.",
-        "excerpt": "100% upfront = the supplier can vanish. Safe structure: 30% deposit, 70% balance on B/L copy or passed inspection.",
+        "title": "Pay a China Factory Safely — Even with Full Payment Before Shipment",
+        "description": "Vortix ships against full payment before loading. Here's how to keep that safe: a signed contract, a third-party pre-shipment inspection, and a verified company account.",
+        "excerpt": "Vortix requires full payment before shipment. Stay safe with a clear contract, pre-shipment inspection, and a verified supplier.",
         "related": ["pain-oem-brand", "pain-no-local-rep", "pain-ce-sticker"],
-        "cta_title": "Want a payment structure that protects you?",
-        "cta_text": "Tell us your order size and market - we'll confirm the deposit ratio, inspection gate, and the exact condition that releases the balance.",
-        "wa_text": "Hi Vortix Kitchen, I want to import cookers. What payment terms do you offer - deposit, balance on B/L or inspection?",
-        "mail_subject": "Payment terms for cooker import",
-        "mail_body": "Hi Vortix Kitchen, please advise on your payment structure - deposit ratio, balance on B/L copy or pre-shipment inspection, and any escrow option.",
-        "body": """<p>Paying 100% upfront leaves you exposed if the goods are late or wrong - keep a balance until the order is verified, so the deposit you meant as trust stays protected.</p>
+        "cta_title": "Ready to place an order with Vortix?",
+        "cta_text": "Tell us your order size and market — we'll confirm the contract terms and our full-payment-before-shipment policy in writing.",
+        "wa_text": "Hi Vortix Kitchen, I want to import cookers. Can you share your contract terms and how you handle pre-shipment inspection?",
+        "mail_subject": "Order and payment terms for cooker import",
+        "mail_body": "Hi Vortix Kitchen, please share your order process — contract, pre-shipment inspection, and full-payment-before-shipment terms.",
+        "body": """<p>Vortix requires full payment before shipment — that is our standard. The way to make full upfront safe is not to hold a balance, but to lock the order in writing and verify the goods before they leave the factory.</p>
 <h2>What to put in the PO / contract</h2>
 <ol>
-<li><strong>Deposit 30%</strong> to start; <strong>balance 70%</strong> against the <strong>B/L copy</strong> or a <strong>passed pre-shipment inspection</strong> - never before.</li>
-<li><strong>100% upfront is a red flag.</strong> Walk away.</li>
-<li><strong>Pay to a company account</strong> (TT), not a personal WeChat/Alipay.</li>
-<li><strong>Verify the supplier</strong> - business license, factory address, a live video call. Use third-party inspection before the balance.</li>
-<li><strong>Specify in writing:</strong> model, power, plug, certification, and the inspection standard the balance releases against.</li>
+<li><strong>Full payment before shipment</strong> — confirm the amount, our bank details and the loading date in writing first.</li>
+<li><strong>Specify the goods exactly:</strong> model, power, plug, glass size, carton, and the inspection standard.</li>
+<li><strong>Pay to a verified company account</strong> (TT), never a personal WeChat/Alipay.</li>
+<li><strong>Verify the supplier</strong> — business license, export license, a live factory video call, and references from existing buyers.</li>
+<li><strong>Arrange a third-party pre-shipment inspection</strong> (you order it, you pay) before the container loads, so you confirm the goods before they ship.</li>
 </ol>
-<p>Release the last cent only when the goods are verified - not when the factory asks nicely.</p>""",
+<p>Full payment upfront is only risky with an unknown supplier. Lock the specs, verify the factory, and inspect before loading — then full payment is simply how the order runs.</p>""",
         "faq": [
-            ("Is 100% upfront normal for China cooker factories?", "No. 30% deposit / 70% balance against B/L or inspection is standard for established suppliers. 100% upfront is a red flag."),
-            ("What protects me if goods fail inspection?", "With the balance held until passed inspection, you keep leverage - the factory fixes or replaces before you pay the rest."),
-            ("TT or escrow for a first order?", "TT to a verified company account with inspection-gated balance is common; escrow is an option for very large first orders."),
+            ("Do you accept payment after shipment?", "No. Vortix ships against full payment before loading. We keep it safe with a signed contract, exact specs in writing, and a third-party pre-shipment inspection you can arrange before the container leaves."),
+            ("How do I protect myself paying 100% before shipment?", "Verify the supplier (license, export license, video call, references), put model, spec, lead time and penalty in a contract, and order a third-party inspection before loading. Vortix allows a third-party pre-shipment inspection before loading."),
+            ("How do I pay Vortix?", "TT to our verified company account, full amount before shipment. The contract and pre-shipment inspection step keep the order transparent and verifiable."),
         ],
     },
     # ---------------- W4 (2026-08-27) ----------------
@@ -552,7 +552,7 @@ ARTICLES = [
 <li><strong>EAC mark</strong> on the unit and the carton, plus declaration number on shipping docs.</li>
 <li><strong>Model match:</strong> declaration must cover the exact model number and power range you ship.</li>
 </ul>
-<p>A factory that only offers a CE sticker cannot clear EAEU customs. Ask for the EAC declaration before you pay the deposit.</p>""",
+<p>A factory that only offers a CE sticker cannot clear EAEU customs. Ask for the EAC declaration before you pay.</p>""",
         "faq": [
             ("Is EAC the same as CE for Kazakhstan?", "No. CE is for the EU/EEA. EAC (Eurasian Conformity) is required in the EAEU — Kazakhstan, Russia, Belarus, Armenia, Kyrgyzstan."),
             ("Can we use the factory's EAC certificate?", "Only if the certificate lists your local importer/representative and the exact model. Otherwise customs may reject it."),
@@ -584,7 +584,7 @@ ARTICLES = [
 <li><strong>Mixed load:</strong> plan carton outer dims before you commit — a few millimetres per box changes the count.</li>
 </ul>
 <h2>Put in your PO</h2>
-<p>"First order: 20ft or 40ft mixed. Supplier confirms carton dimensions and max units per container before deposit. MOQ per model: [X] units. Right to combine SKUs to hit container volume."</p>
+<p>"First order: 20ft or 40ft mixed. Supplier confirms carton dimensions and max units per container before full payment. MOQ per model: [X] units. Right to combine SKUs to hit container volume."</p>
 <p>Test one model, then fill the rest of the box with proven SKUs. A full container cuts freight cost per unit far more than a bigger discount.</p>""",
         "faq": [
             ("What is a safe first MOQ for a new cooker model?", "For standard models, 100–300 units is a common entry MOQ. A smarter first move is one mixed 20ft container covering several SKUs."),
@@ -616,13 +616,13 @@ ARTICLES = [
 <li><strong>New / cash-tight:</strong> start with OEM — fastest path to market, lowest tooling cost.</li>
 <li><strong>Established / differentiation needed:</strong> move to ODM — the mold and IP are the moat.</li>
 </ul>
-<h2>Five clauses before you wire the deposit</h2>
+<h2>Five clauses before you place the order</h2>
 <ol>
 <li><strong>Mold ownership</strong> in your name (or paid-in-full, locked at the supplier).</li>
 <li><strong>Exclusive design</strong> — supplier cannot resell your model.</li>
 <li><strong>Tooling refund</strong> tied to an annual volume (e.g. 5,000 units).</li>
 <li><strong>Drawing approval</strong> + pre-production sample sign-off, in writing.</li>
-<li><strong>30/70 payment</strong>, balance on passed pre-shipment inspection.</li>
+<li><strong>Payment: 100% before shipment</strong>; pre-shipment inspection before loading.</li>
 </ol>
 <p>Wrong choice for your stage, or missing clauses — that's what kills the margin.</p>""",
         "faq": [
@@ -641,7 +641,7 @@ ARTICLES = [
         "readtime": "2 min read",
         "title": "Your Big Order Shipped 60 Days Late — the Production Schedule Most Importers Don't Lock",
         "description": "A delayed shipment misses your selling season and ties up cash. How to lock factory capacity and milestones so a big cooker order ships on time.",
-        "excerpt": "A delayed shipment misses your selling season and ties up cash. Lock the factory capacity and production milestones before you pay the deposit.",
+        "excerpt": "A delayed shipment misses your selling season and ties up cash. Lock the factory capacity and production milestones before you commit.",
         "related": ["pain-moq-container-loading", "pain-oem-vs-odm", "pain-safe-payment"],
         "cta_title": "Worried about late shipments on big orders?",
         "cta_text": "Tell us your target volume and delivery window — we'll confirm a locked production slot, milestone schedule and penalty clause before you commit.",
@@ -652,17 +652,17 @@ ARTICLES = [
 <p>Factories often promise 30 days, then put your order behind bigger clients or run out of key components. The PO date becomes a suggestion.</p>
 <h2>Put in your PO</h2>
 <ol>
-<li><strong>Binding lead time:</strong> "Production completed and ready for loading within [X] days from deposit. Liquidated damages: $[Y] per day late, capped at [Z]%."</li>
+<li><strong>Binding lead time:</strong> "Production completed and ready for loading within [X] days from full payment. Liquidated damages: $[Y] per day late, capped at [Z]%."</li>
 <li><strong>Capacity allocation:</strong> "Dedicated production line / confirmed capacity slot for this order; no bumping by other clients."</li>
 <li><strong>Milestone schedule:</strong> PCB assembly, coil winding, glass fit, final assembly, QC — each with a confirmed date and photo/video proof.</li>
 <li><strong>Component buffer:</strong> Key parts (IGBT, glass, fan) locked in stock before production starts.</li>
-<li><strong>Pre-shipment inspection gate:</strong> Balance released only after passed inspection and confirmed booking.</li>
+<li><strong>Pre-shipment inspection gate:</strong> goods inspected and confirmed before loading and booking.</li>
 </ol>
-<p>Schedule without teeth is just a wish. Lock the line, the milestones and the penalty before you wire the deposit.</p>""",
+<p>Schedule without teeth is just a wish. Lock the line, the milestones and the penalty before you place the order.</p>""",
         "faq": [
-            ("What is a normal lead time for a large cooker order?", "Standard models usually need 25-35 days after deposit; custom OEM/ODM often needs 40-55 days after sample approval. Always confirm in writing."),
+            ("What is a normal lead time for a large cooker order?", "Standard models usually need 25-35 days after full payment; custom OEM/ODM often needs 40-55 days after sample approval. Always confirm in writing."),
             ("How do I stop the factory bumping my order for a bigger client?", "Add a capacity-allocation clause to your PO: a confirmed production slot with milestone proof and a daily late penalty. The factory will protect your slot when delay costs money."),
-            ("Which production milestones should I demand proof of?", "PCB assembly, coil/glass assembly, final assembly, burn-in/QC and carton loading. Ask for dated photos or short videos before releasing the balance."),
+            ("Which production milestones should I demand proof of?", "PCB assembly, coil/glass assembly, final assembly, burn-in/QC and carton loading. Ask for dated photos or short videos before the goods ship."),
         ],
     },
     # ---------------- W5 (2026-09-02) ----------------
