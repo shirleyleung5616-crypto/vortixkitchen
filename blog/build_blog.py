@@ -1091,36 +1091,6 @@ ARTICLES = [
             ("How do I make sure my molds aren't lost if the supplier fails?", "Write it into the contract: tooling and molds you paid for are the buyer's property, the factory holds them in trust, and must release them on request. Also require a named backup supplier for key components and verify the factory is operational before large orders. Staged payment with a holdback limits your exposure if the supplier fails."),
         ],
     },
-    {
-        "slug": "pain-small-first-order",
-        "series": "buying",
-        "cat": "BUYING DECISION",
-        "footer_label": "Trial Order Risk",
-        "image": "scene_clean_egg.jpg",
-        "readtime": "2 min read",
-        "title": "Don't Bet a Container on a Supplier You Haven't Tested",
-        "description": "A full container paid upfront can sit unsold or fail after 2,000 units ship. A small trial batch proves quality and sell-through before your cash is locked for a year.",
-        "excerpt": "A full container paid upfront can sit unsold or fail after 2,000 units ship. A small trial batch proves quality and sell-through first.",
-        "related": ["pain-production-scheduling", "pain-supplier-shutdown", "pain-safe-payment"],
-        "cta_title": "Want to de-risk your first order?",
-        "cta_text": "Send us your target market and volume — we'll scope a trial batch with a pre-shipment QA gate so your container only ships after the product is proven.",
-        "wa_text": "Hi Vortix Kitchen, I want to test with a small trial batch before a full container. Can you set a QA gate and staged scale-up?",
-        "mail_subject": "Trial order before full container",
-        "mail_body": "Hi Vortix Kitchen, please help structure a small trial order with a pre-shipment QA check and staged scale-up before we commit a full container.",
-        "body": """<p>You pay for a full container, it ships, and the units sit — either they don't sell in your market, or a quality slip shows up after 2,000 units are on the water. Your cash is locked for a year and your shelf space is wasted.</p>
-<h2>Three lines to put in your PO</h2>
-<ul>
-<li>"First order capped at a trial quantity (e.g. 200-500 units); scale-up only after sell-through and a random QA pass."</li>
-<li>"Factory provides a pre-shipment QA report on the trial batch; the full container is released only on pass."</li>
-<li>"If trial-batch failure rate exceeds [X]%, refund or rework is the factory's cost, not yours."</li>
-</ul>
-<h2>One check before you commit</h2>
-<p>Run the trial through your own channel for 30 days. Real sell-through beats any factory promise — and it tells you the container is worth the money.</p>""",
-        "faq": [
-            ("How small should my first cooker order be?", "Cap the first batch at a volume you can move in 30 to 60 days through your own channel, often a few hundred units rather than a container. Use it to confirm both product quality and real demand before locking container-scale capital."),
-            ("What should I put in the PO to protect a trial order?", "Limit the first order to a trial quantity, require a pre-shipment QA report on that batch, and state the full container is released only after the trial passes and sell-through is confirmed. Add refund or rework terms if the trial failure rate exceeds your agreed threshold."),
-        ],
-    },
 ]
 
 
