@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-19"
-DATE_HUMAN = "Sep 19, 2026"
+DATE_ISO = "2026-09-23"
+DATE_HUMAN = "Sep 23, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -1025,6 +1025,31 @@ ARTICLES = [
         "faq": [
             ("How do I stop a factory mixing my private-label models?", "Lock it in the PO: pre-approved signed proofs for logo, box art and label language before any production; cartons scanned and verified per PO before sealing; and a clause making the factory pay for any mislabeled or mixed batch. A random carton check right before container loading is the final gate."),
             ("What happens if the wrong logo ships on my private-label goods?", "If boxes arrive with the wrong logo, mixed models or bad translations, the buyer can reject the whole batch and your launch misses its season. Prevent it with signed pre-production proofs and pre-loading verification, with rework and freight cost assigned to the factory in the contract."),
+        ],
+    },
+    {
+        "slug": "pain-radiation-fear",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Radiation Fear",
+        "image": "scene_stirfry_shrimp.jpg",
+        "readtime": "2 min read",
+        "title": "Your Buyers Fear 'Radiation' — and Walk Away From the Sale",
+        "description": "End customers hear 'induction' and fear radiation, so they buy gas instead. One plain factual sentence on your listing dissolves the fear and recovers the order.",
+        "excerpt": "Your buyers hear 'induction' and think 'radiation' — and walk away. One plain factual line on your listing dissolves the fear and recovers the sale.",
+        "related": ["pain-induction-cookware-myth", "pain-induction-vs-lpg-cost", "article-switch-from-gas"],
+        "cta_title": "Losing sales to the 'radiation' fear?",
+        "cta_text": "Tell us your market and channel — we'll share a short, accurate line you can drop into your listings and sales chat to recover those orders.",
+        "wa_text": "Hi Vortix Kitchen, my customers worry induction cookers emit radiation and won't buy. Can you give me a short accurate line to reassure them?",
+        "mail_subject": "Radiation concern from customers",
+        "mail_body": "Hi Vortix Kitchen, end customers fear induction 'radiation' and avoid buying. Please share a short, factual line we can use on listings and in sales chats.",
+        "body": """<p>Your retail and end customers hear "induction" and picture radiation — so they back away and buy gas instead. You lose the sale before the cooker is even unboxed, and you rarely hear why.</p>
+<p>The fear is a misunderstanding. Induction uses non-ionizing fields that heat only the pan's metal; they don't radiate into the room, and they aren't the ionizing radiation people fear from X-rays. Everyday use sits far below international safety limits.</p>
+<p>The fix isn't a spec sheet — it's a sentence. Put one plain line on your product page and in your sales chat: induction heats the pan, not the air, and is safe for everyday family use. Buyers who understand it stop hesitating.</p>
+<p>Want a short, accurate line to drop into your listings? Reach Vortix on WhatsApp or email.</p>""",
+        "faq": [
+            ("Is induction cooker radiation dangerous to health?", "No. Induction uses non-ionizing electromagnetic fields that heat only the pan's metal. They are not the ionizing radiation found in X-rays, and everyday use sits far below international safety limits. The 'radiation fear' is a misunderstanding, not a real risk."),
+            ("How do I reassure customers who are afraid of induction radiation?", "Add one plain factual sentence to your product page and sales chat: induction heats the pan, not the air, and is safe for everyday family use. Clear, calm wording dissolves the fear and recovers sales you would otherwise lose."),
         ],
     },
 ]
