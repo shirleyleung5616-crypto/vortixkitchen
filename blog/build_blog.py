@@ -58,7 +58,7 @@ ARTICLES = [
         "series": "returns",
         "cat": "RETURNS",
         "footer_label": "Cracked Glass",
-        "image": "page7_img2.jpeg",
+        "image": "scene_stirfry_shrimp.jpg",
         "readtime": "2 min read",
         "title": "Cracked Glass on Arrival — Why Cheap Ceramic Glass Is Pure Loss",
         "description": "Cracked glass on arrival is pure loss with no repair and no resale. The fix is grade-A glass and a drop-tested carton specified up front.",
@@ -213,26 +213,7 @@ ARTICLES = [
 <p>No board short, no fire risk, no surprise claim.</p>""",
     },
     # ---------------- CUSTOMS / COMPLIANCE ----------------
-    {
-        "slug": "pain-ce-sticker",
-        "series": "customs",
-        "cat": "CUSTOMS",
-        "footer_label": "CE Won't Clear",
-        "image": "page6_img2.jpeg",
-        "readtime": "2 min read",
-        "title": "Your CE Sticker Won't Clear Customs — the Assumption That Strands Containers",
-        "description": "CE alone will not clear customs in your markets. Name the country and demand a real test report before you order.",
-        "excerpt": "CE alone won't clear customs in your markets. Name the country and demand a real test report.",
-        "related": ["pain-wrong-plug", "pain-no-local-rep", "article-induction-vs-infrared"],
-        "cta_title": "Not sure your paperwork is airtight?",
-        "cta_text": "Tell us your target countries and we'll map the certification path and show the real test reports before you commit to a PO.",
-        "wa_text": "Hi Vortix Kitchen, I import to [country]. Can you confirm the certification and plug I need before I order?",
-        "mail_subject": "Customs clearance check",
-        "mail_body": "Hi Vortix Kitchen, please help me avoid a customs hold — which marks and plug do I need for my target markets?",
-        "body": """<p>CE is the Europe mark — you don't sell to Europe. Your markets want their own: EAC, SNI, SIRIM, TISI, SONCAP, PVoC, NRCS. A missing mark holds the container; demurrage can exceed your margin.</p>
-<h2>Do this</h2>
-<p>Name the country on the PO. Ask for a real test report — lab, number, date, model — not a sticker photo. A CB report to IEC 60335 speeds approval in Malaysia, Vietnam, South Africa.</p>""",
-    },
+
     {
         "slug": "pain-wrong-plug",
         "series": "customs",
@@ -243,7 +224,7 @@ ARTICLES = [
         "title": "The Wrong Plug Held Your Whole Container — a $0.30 Decision Made Too Late",
         "description": "The wrong plug can hold your whole container. Lock the plug for your market at tooling — a small decision made in time.",
         "excerpt": "Wrong plug = a held container. Lock the plug at tooling — a $0.30 decision made in time.",
-        "related": ["pain-ce-sticker", "pain-no-local-rep", "article-induction-vs-infrared"],
+        "related": ["article-induction-vs-infrared", "pain-voltage-frequency", "pain-kazakhstan-eac"],
         "cta_title": "Don't let the plug hold your container?",
         "cta_text": "Name your market and we'll lock the correct plug at tooling — written into the spec, not left to chance.",
         "wa_text": "Hi Vortix Kitchen, which plug type do I need for [country]? Can you lock it at tooling?",
@@ -253,26 +234,7 @@ ARTICLES = [
 <h2>Do this</h2>
 <p>Lock the plug at tooling stage — a $0.30 call before production, not rework after. Write the plug type in the spec.</p>""",
     },
-    {
-        "slug": "pain-no-local-rep",
-        "series": "customs",
-        "cat": "CUSTOMS",
-        "footer_label": "No Local Rep",
-        "image": "page9_img1.jpeg",
-        "readtime": "2 min read",
-        "title": "No Local Rep Named, No Clearance — the Contract Gap That Stalls Perfect Goods",
-        "description": "Most certification schemes need a named local representative. Put it in the contract before the container sails.",
-        "excerpt": "Most schemes need a named local rep to hold the certificate. Put it in the contract before the container sails.",
-        "related": ["pain-ce-sticker", "pain-wrong-plug", "article-induction-vs-infrared"],
-        "cta_title": "Avoid the port surprise?",
-        "cta_text": "Tell us your destination and we'll confirm the local representative is named in the contract before production starts.",
-        "wa_text": "Hi Vortix Kitchen, who holds the certificate locally for [country]? Can you name the rep in the contract?",
-        "mail_subject": "Local representative for clearance",
-        "mail_body": "Hi Vortix Kitchen, please confirm the local representative requirement for my market and include it in the contract.",
-        "body": """<p>EAC, SNI, SIRIM, SONCAP, NRCS all require a named local entity to hold the certificate. Importers learn this at the port — after sailing.</p>
-<h2>Do this</h2>
-<p>Name the local rep in the contract before production, not a panic email at the port. If the supplier "can't name one," that's your answer before you commit.</p>""",
-    },
+
 
     # ---------------- BUYING / SELLING (single-topic, kept) ----------------
     {
@@ -280,79 +242,24 @@ ARTICLES = [
         "series": "buying",
         "cat": "BUYING DECISION",
         "footer_label": "Induction vs Infrared",
-        "image": "page7_img2.jpeg",
-        "readtime": "8 min read",
+        "image": "scene_stirfry_shrimp.jpg",
+        "readtime": "2 min read",
         "title": "Induction vs Infrared Cooker: Which One Fits Your Market?",
-        "description": "Induction heats the pot, infrared heats any pot. The real difference, a side-by-side comparison, and how importers pick the right mix for Africa, SE Asia and Central Asia.",
-        "excerpt": "Induction heats the pot, infrared heats any pot. Full comparison — cookware, speed, efficiency, durability — and how to pick the right mix for your market.",
+        "description": "Most induction returns come from one mistake: the wrong cookware for the market. Match the technology to the pots your buyers already own and cut returns.",
+        "excerpt": "Most induction returns trace to one mistake: wrong cookware for the market. Match the technology to the pots your buyers already use.",
         "related": ["article-cookware-magnetism", "article-switch-from-gas", "article-product-showcase"],
         "cta_title": "Not sure which mix your market will buy?",
         "cta_text": "Tell us the cookware habits and price tier of your target customers — we'll propose an induction/infrared split matched to your market.",
         "wa_text": "Hi Vortix Kitchen, my market uses mostly [pot type] pots — should I lead with induction or infrared?",
         "mail_subject": "Induction vs Infrared Mix",
         "mail_body": "Hi Vortix Kitchen, please help me decide the right induction/infrared product mix for my market.",
-        "body": """<p>Induction and infrared cookers look almost identical on a shelf: flat glass top, touch panel, same carton size. But inside they work in completely different ways — and that difference decides whether your container sells or sits. This guide gives you the full comparison: how each technology heats, where each one wins, and how importers across Africa, Southeast Asia, Central Asia and Russia decide the right mix.</p>
-<h2>The real difference: what actually heats the food</h2>
-<p><strong>Induction</strong> creates a rapidly changing magnetic field under the glass. When a magnetic-bottom pot (cast iron, enameled steel, most stainless steel) sits on the zone, the field induces currents inside the pot itself — <em>the pot becomes the heater</em>. The glass stays comparatively cool, and no energy is wasted heating the cooking surface first.</p>
-<p><strong>Infrared (ceramic/radiant)</strong> works like a giant glowing hotplate: electric resistance coils heat the glass-ceramic plate until it glows red, and the hot glass transfers heat to whatever you place on top. The technology does not care what the pot is made of.</p>
-<p>One heats the pot directly; the other heats a plate that heats the pot. Everything else in this comparison follows from that single mechanical difference.</p>
-<h2>Side-by-side comparison</h2>
-<table>
-<tr><th></th><th>Induction</th><th>Infrared</th></tr>
-<tr><td>Pot requirement</td><td>Magnetic bottoms only (cast iron, steel)</td><td>Any pot: aluminum, clay, glass, copper, round-bottom wok</td></tr>
-<tr><td>Heating speed</td><td>Fastest — the pot heats itself</td><td>Moderate — the plate must heat first</td></tr>
-<tr><td>Energy use</td><td>~85–90% efficient</td><td>~60–70% efficient</td></tr>
-<tr><td>Surface after use</td><td>Stays relatively cool</td><td>Stays hot for minutes</td></tr>
-<tr><td>Controls</td><td>Precise power control, error codes</td><td>Simple, familiar, few errors</td></tr>
-<tr><td>Unit price tier</td><td>Higher</td><td>Lower</td></tr>
-<tr><td>Key failure points</td><td>IGBT and control board quality</td><td>Simpler: coil and thermostat</td></tr>
-</table>
-<h2>When infrared is the right call</h2>
-<p>In much of <strong>Africa and Southeast Asia</strong>, the default pot is aluminum — and aluminum is not magnetic. Put it on an induction cooker and either nothing happens or the unit flashes an error code. To a first-time buyer that reads as "it doesn't work", and "it doesn't work" becomes your return. Infrared works with the pots people already own, which removes that entire return category.</p>
-<p>Infrared also wins when:</p>
-<ul>
-<li>Your buyers want the <strong>lowest shelf price</strong> — infrared builds are simpler and cheaper.</li>
-<li>Your market uses <strong>round-bottom pots or clay pots</strong> that never sit flat on an induction zone.</li>
-<li>Universal compatibility means fewer confused customers.</li>
-</ul>
-<p>The trade-offs: slower to reach temperature, more electricity for the same cooking result, and a surface that stays dangerously hot after cooking — worth a warning sticker and a line in your manual.</p>
-<h2>When induction is the right call</h2>
-<p><strong>Central Asia and Russia</strong> largely cook with magnetic-bottom pots, so induction's main barrier does not apply there. In those markets induction sells as the modern, premium option:</p>
-<ul>
-<li><strong>Speed</strong>: water boils noticeably faster — a shop demonstration that sells itself.</li>
-<li><strong>Efficiency</strong>: 85–90% of the electricity reaches the food, a real saving where power is billed by the kWh.</li>
-<li><strong>Safety story</strong>: no open glow, cool-touch surface, auto-off when the pot is removed — the features parents and restaurant owners both ask about.</li>
-<li><strong>Margin</strong>: higher perceived technology supports a higher price tier than infrared.</li>
-</ul>
-<p>The engineering requirement is inside the unit: induction runs on high-frequency electronics, and the IGBT and control board quality decide whether units survive unstable grids, dust and long duty cycles. That is why factory selection and burn-in testing matter more for induction than for infrared.</p>
-<h2>Commercial kitchens: a separate decision</h2>
-<p>Restaurants, canteens and street-food operators choose differently from households. Commercial buyers care about power (3.5 kW and up), duty cycle and repairability. High-power commercial induction dominates professional wok cooking because of speed and instant control; infrared flat-tops serve buffets and holding stations where any pot or pan must work. If you sell to foodservice, treat commercial induction and commercial infrared as two separate lines with separate specs — do not reuse consumer logic.</p>
-<h2>So which is better? The honest answer</h2>
-<p>Neither. The right question is: <strong>which pots does your market already own?</strong></p>
-<ul>
-<li>Aluminum, clay or round-bottom pots dominant → <strong>lead with infrared</strong>.</li>
-<li>Magnetic-bottom pots common (much of Central Asia, Russia, modern urban retail) → <strong>lead with induction</strong> as your premium line.</li>
-<li>Mixed or unknown → <strong>carry both</strong>: infrared as the volume entry line, induction as the margin line.</li>
-</ul>
-<p>Importers who carry both rarely regret it. The two technologies rarely compete for the same customer — they cover different buyers, and together they cover the whole market.</p>
-<h2>What to write in your PO</h2>
-<ul>
-<li><strong>Induction lines</strong>: "magnetic-bottom cookware only; no-pot / wrong-pot auto shutoff; branded IGBT; 100% power-on burn-in before packing; wide-voltage option (100–240V) for mixed markets."</li>
-<li><strong>Infrared lines</strong>: "any-cookware radiant plate; overheat protection; hot-surface warning label on glass and carton."</li>
-<li><strong>Both</strong>: confirm plug type and voltage/frequency per destination country before production — the cheapest fix to agree early, the most expensive to discover late.</li>
-</ul>
-<h2>Buyer questions we hear every week</h2>
-<p><strong>Can I use aluminum pots on an induction cooker?</strong> No — aluminum is not magnetic, so the unit detects no pot and shuts off (usually an E0-style code). The pot needs a magnetic flat bottom, or you use an infrared cooker instead.</p>
-<p><strong>Why does my induction cooker reject some steel pots?</strong> Some stainless mixes are not magnetic enough for the sensor. If a magnet sticks firmly to the pot bottom, the pot will work.</p>
-<p><strong>Do infrared cookers use more electricity?</strong> For the same cooking result, yes. Induction transfers roughly 85–90% of its power into the food; infrared around 60–70%, because the glass plate itself must be heated first.</p>
-<p><strong>Is the induction glass really safe to touch?</strong> It stays far cooler than an infrared plate because the glass is not the heater — but it warms from the pot sitting on it, so "cool" never means "cold".</p>
-<p><strong>Which should a first-time importer start with?</strong> Match your market's pots (see above). If you cannot confirm yet, start with a mixed test container: infrared for volume, induction for premium — small MOQ, real sell-through data before you scale.</p>""",
+        "body": """<p>The cooker that looks fine on your shelf can quietly become your biggest return driver — and most importers only find out after the container lands. The one factor that decides it is the cookware your market already owns.</p>
+<p>In much of Africa and Southeast Asia the default pot is aluminum, which is not magnetic. Put it on an induction cooker and the unit reads "no pot" and shuts off. To the customer that reads as "broken," and "broken" becomes a return and a bad review. Infrared heats any pot, so it removes that entire return category.</p>
+<p>In Central Asia and Russia, magnetic-bottom pots dominate, so induction sells as the modern, premium, faster, more efficient option. The mistake is mixing the logic: don't pitch induction where aluminum rules, and don't pitch infrared where buyers expect the induction story.</p>
+<p>Match the technology to the pots your customers already use. Your return rate — not your spec sheet — tells you which one fit.</p>""",
         "faq": [
-            ("Which is better, an induction cooker or an infrared cooker?", "Neither is universally better. Induction is faster and about 85-90% efficient but needs magnetic-bottom pots; infrared works with any pot, including aluminum and clay. Match the technology to the cookware your market already owns."),
-            ("Can I use aluminum pots on an induction cooker?", "No. Aluminum is not magnetic, so an induction cooker detects no pot and shuts off with an error code. Use magnetic-bottom pots, or choose an infrared cooker for aluminum cookware."),
-            ("Why does my induction cooker show an error with some pots?", "The pot bottom is not magnetic enough for the sensor. If a magnet sticks firmly to the bottom, the pot will work; otherwise the cooker reads it as no pot and stops heating."),
-            ("Do infrared cookers use more electricity?", "For the same cooking result, yes. Induction transfers roughly 85-90% of its power into the food; infrared around 60-70%, because the glass plate must be heated first."),
-            ("Which cooker type should a first-time importer stock?", "Check the dominant cookware in your market. Aluminum-dominant markets lead with infrared; magnetic-cookware markets take induction as the premium line. If unsure, start with a small mixed test order."),
+            ("Can aluminum pots work on an induction cooker?", "No. Aluminum is not magnetic, so the unit detects no pot and shuts off. Use magnetic-bottom pots, or choose an infrared cooker for aluminum cookware."),
+            ("Which type should I stock for my market?", "Match your market's dominant cookware. Aluminum-dominant markets lead with infrared; magnetic-cookware markets take induction as the premium line. If unsure, start with a small mixed test order."),
         ],
     },
     {
@@ -450,7 +357,7 @@ ARTICLES = [
         "title": "Launch Your Own Cooker Brand with a China Factory — Without Losing Your Shirt",
         "description": "Want your own induction brand but fear MOQ and IP risk? The OEM/ODM path that gets importers to market fast.",
         "excerpt": "Want your own cooker brand but fear MOQ and IP risk? The OEM/ODM path that gets importers to market.",
-        "related": ["article-product-showcase", "article-induction-vs-infrared", "pain-ce-sticker"],
+        "related": ["article-product-showcase", "article-induction-vs-infrared"],
         "cta_title": "Ready to build your own brand?",
         "cta_text": "Send us your target market and planned models — we'll propose an OEM/ODM package with MOQ, tooling, certification and QA spelled out.",
         "wa_text": "Hi Vortix Kitchen, I want to launch my own cooker brand. Can you do OEM/ODM with my logo, color and packaging?",
@@ -505,7 +412,7 @@ ARTICLES = [
         "title": "Your Container Is Held at Khorgos — the EAC Mark Most Central Asia Importers Miss",
         "description": "A Kazakhstan-bound container held at the border because EAC certification wasn't done. The EAC (TR CU) conformity step that clears the Eurasian Economic Union.",
         "excerpt": "A Central Asia container held at the border for missing EAC. The TR CU mark that clears Kazakhstan and the EAEU.",
-        "related": ["pain-ce-sticker", "pain-no-local-rep"],
+        "related": ["pain-wrong-plug"],
         "cta_title": "Clearing Kazakhstan and EAEU customs without surprises?",
         "cta_text": "Tell us your destination in Central Asia or Russia — we'll confirm the EAC (TR CU) documentation and marking before production.",
         "wa_text": "Hi Vortix Kitchen, I import to Kazakhstan/Russia. Can you provide EAC (TR CU) certification and marking for cookers?",
