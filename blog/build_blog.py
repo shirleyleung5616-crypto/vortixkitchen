@@ -40,8 +40,8 @@ ARTICLES = [
         "image": "page5_img1.jpeg",
         "readtime": "2 min read",
         "title": "Your Cookers Arrive Dead — the IGBT Shortcut Behind 100% Refunds",
-        "description": "A dead-on-arrival induction cooker is a 100% refund. The cause is usually a cheap IGBT or bad solder, and the PO line that stops it.",
-        "excerpt": "A dead-on-arrival unit is a 100% refund. The cause is usually a cheap IGBT or bad solder — and one line in your PO prevents it.",
+        "description": "A dead-on-arrival induction cooker is a 100% refund. The cause is usually a cheap IGBT or bad solder, and a pre-shipment burn-in that stops it.",
+        "excerpt": "A dead-on-arrival unit is a 100% refund. The cause is usually a cheap IGBT or bad solder — and a burn-in test before shipment prevents it.",
         "related": ["pain-cracked-glass", "pain-slow-heating", "pain-igbt-overheat"],
         "cta_title": "Tired of dead-on-arrival units?",
         "cta_text": "Tell us your market and volume — we'll spec a branded IGBT with 100% burn-in and show you the batch test record before you order.",
@@ -49,9 +49,7 @@ ARTICLES = [
         "mail_subject": "Dead-on-arrival cookers",
         "mail_body": "Hi Vortix Kitchen, I need cookers that arrive alive. Please advise on branded IGBT, 100% burn-in and batch test records for my market.",
         "body": """<p>A dead-on-arrival cooker is a 100% refund plus return freight — you lose the whole sale.</p>
-<p>Cause: under-specced IGBT or poor soldering. The factory saves cents; you lose the margin.</p>
-<h2>Put in your PO</h2>
-<p>"IGBT: branded module (Infineon/ST); 100% power-on burn-in ≥30 min/unit; AOI soldering; batch burn-in record with shipment."</p>""",
+<p>Cause: under-specced IGBT or poor soldering. The factory saves cents; you lose the margin. Branded IGBT modules, a power-on burn-in for every unit and automated solder inspection are what separate a clean launch from a container of returns — and the burn-in records should travel with the shipment, not live in a promise.</p>""",
     },
     {
         "slug": "pain-cracked-glass",
@@ -70,9 +68,7 @@ ARTICLES = [
         "mail_subject": "Cracked glass on arrival",
         "mail_body": "Hi Vortix Kitchen, please advise on tempered microcrystalline glass and drop-tested carton to stop cracked-glass returns.",
         "body": """<p>Cracked glass on arrival = pure loss. No repair, no resale — full refund and a dent in your name.</p>
-<p>Cause: cheap ceramic glass or a carton that never passed a drop test.</p>
-<h2>Put in your PO</h2>
-<p>"Glass: tempered microcrystalline (Schott/Eurokera grade); sea-freight carton drop-test validated; corner protectors." Ask for the drop-test record.</p>""",
+<p>The cause is cheap ceramic glass or a carton that never passed a drop test. Good glass costs a little more per unit; a cracked batch costs you the season. Ask which glass grade goes into your order, and make sure the sea-freight carton has a real drop-test record and corner protection behind it.</p>""",
     },
     {
         "slug": "pain-slow-heating",
@@ -91,9 +87,7 @@ ARTICLES = [
         "mail_subject": "Slow heating complaints",
         "mail_body": "Hi Vortix Kitchen, please advise on 100% copper coil and coil-to-glass tolerance to stop slow-heating returns.",
         "body": """<p>"Doesn't heat properly" triggers a return even when the unit works — it's a build shortcut.</p>
-<p>Aluminum-clad or badly wound coils lose efficiency and run hot. The buyer returns it.</p>
-<h2>Put in your PO</h2>
-<p>"Heating coil: 100% copper; winding spec verified per batch; coil-to-glass gap checked at QC."</p>""",
+<p>Aluminum-clad or badly wound coils lose efficiency and run hot, and the buyer blames the stove, not the factory. A full copper coil with the winding spec verified per batch keeps the heat where it belongs and the returns off your books.</p>""",
     },
 
     # ---------------- RELIABILITY ----------------
@@ -419,15 +413,8 @@ ARTICLES = [
         "mail_subject": "EAC TR CU certification for Kazakhstan/EAEU",
         "mail_body": "Hi Vortix Kitchen, please advise on EAC (TR CU) certification requirements for induction cookers exported to Kazakhstan and the Eurasian Economic Union.",
         "body": """<p>A container stopped at Khorgos or Almaty = demurrage, missed season, lost customers. The usual cause: no EAC mark.</p>
-<p>Kazakhstan, Russia, Belarus, Armenia and Kyrgyzstan share the Eurasian Economic Union. For low-voltage appliances, the EAC mark under TR CU 004 is mandatory. No EAC declaration = customs refusal.</p>
-<h2>Put this in your PO</h2>
-<ul>
-<li><strong>EAC declaration</strong> to TR CU 004/2011, issued by an accredited body in the EAEU.</li>
-<li><strong>Local representative</strong> named on the certificate (your importer or an authorised local entity).</li>
-<li><strong>EAC mark</strong> on the unit and the carton, plus declaration number on shipping docs.</li>
-<li><strong>Model match:</strong> declaration must cover the exact model number and power range you ship.</li>
-</ul>
-<p>A factory that only offers a CE sticker cannot clear EAEU customs. Ask for the EAC declaration before you place the order.</p>""",
+<p>Kazakhstan, Russia, Belarus, Armenia and Kyrgyzstan share the Eurasian Economic Union. For low-voltage appliances the EAC mark under TR CU 004 is mandatory — no declaration, no clearance. The declaration must come from an accredited body inside the EAEU, name a local representative, cover your exact model and power range, and the mark must sit on both the unit and the carton with the declaration number on the shipping documents.</p>
+<p>A factory that only offers a CE sticker cannot clear EAEU customs. Ask for the EAC declaration before you place the order, not after the container arrives.</p>""",
         "faq": [
             ("Is EAC the same as CE for Kazakhstan?", "No. CE is for the EU/EEA. EAC (Eurasian Conformity) is required in the EAEU — Kazakhstan, Russia, Belarus, Armenia, Kyrgyzstan."),
             ("Can we use the factory's EAC certificate?", "Only if the certificate lists your local importer/representative and the exact model. Otherwise customs may reject it."),
@@ -458,9 +445,7 @@ ARTICLES = [
 <li><strong>40ft HQ container:</strong> ~650–750 single-burner units, or 300–350 double-burner units.</li>
 <li><strong>Mixed load:</strong> plan carton outer dims before you commit — a few millimetres per box changes the count.</li>
 </ul>
-<h2>Put in your PO</h2>
-<p>"First order: 20ft or 40ft mixed. Supplier confirms carton dimensions and max units per container before production. MOQ per model: [X] units. Right to combine SKUs to hit container volume."</p>
-<p>Test one model, then fill the rest of the box with proven SKUs. A full container cuts freight cost per unit far more than a bigger discount.</p>""",
+<p>Get carton dimensions and the maximum units per container confirmed before production starts, and keep the flexibility to combine models so the box sails full. A full container cuts freight cost per unit far more than a bigger discount.</p>""",
         "faq": [
             ("What is a safe first MOQ for a new cooker model?", "For standard models, 100–300 units is a common entry MOQ. A smarter first move is one mixed 20ft container covering several SKUs."),
             ("How many induction cookers fit in a 40ft container?", "A 40ft HQ loads roughly 650–750 single-burner units or 300–350 double-burner units, depending on carton outer dimensions."),
@@ -523,16 +508,8 @@ ARTICLES = [
         "mail_subject": "Production schedule and lead time for large order",
         "mail_body": "Hi Vortix Kitchen, I am planning a large order and need to confirm production capacity, milestone schedule and lead time before committing. Please advise.",
         "body": """<p>A 60-day delay doesn't just push delivery — it kills your selling season. By the time cookers arrive, your buyers have bought from someone else, and your cash has been locked for months.</p>
-<p>Factories often promise 30 days, then put your order behind bigger clients or run out of key components. The PO date becomes a suggestion.</p>
-<h2>Put in your PO</h2>
-<ol>
-<li><strong>Binding lead time:</strong> "Production completed and ready for loading within [X] days from order confirmation. Liquidated damages: $[Y] per day late, capped at [Z]%."</li>
-<li><strong>Capacity allocation:</strong> "Dedicated production line / confirmed capacity slot for this order; no bumping by other clients."</li>
-<li><strong>Milestone schedule:</strong> PCB assembly, coil winding, glass fit, final assembly, QC — each with a confirmed date and photo/video proof.</li>
-<li><strong>Component buffer:</strong> Key parts (IGBT, glass, fan) locked in stock before production starts.</li>
-<li><strong>Pre-shipment inspection gate:</strong> goods inspected and confirmed before loading and booking.</li>
-</ol>
-<p>Schedule without teeth is just a wish. Lock the line, the milestones and the penalty before you place the order.</p>""",
+<p>Factories often promise 30 days, then put your order behind bigger clients or run out of key components. What protects the date is simple: a lead time both sides treat as binding, a confirmed capacity slot so the order is never bumped, milestones with photo proof from PCB to final QC, and key parts like the IGBT and glass in stock before production starts. A pre-shipment inspection before loading closes the loop.</p>
+<p>Schedule without teeth is just a wish. Ask how the line is booked before you place the order.</p>""",
         "faq": [
             ("What is a normal lead time for a large cooker order?", "Standard models usually need 25-35 days after order confirmation; custom OEM/ODM often needs 40-55 days after sample approval. Always confirm in writing."),
             ("How do I stop the factory bumping my order for a bigger client?", "Add a capacity-allocation clause to your PO: a confirmed production slot with milestone proof and a daily late penalty. The factory will protect your slot when delay costs money."),
@@ -548,29 +525,21 @@ ARTICLES = [
         "image": "page5_img2.jpeg",
         "readtime": "2 min read",
         "title": "Your Cooker Died After Warranty - and the Spare Part Doesn't Exist",
-        "description": "A 2-year-old cooker dies and the spare part isn't available. The spare-parts clause that turns a warranty claim into a 20-minute fix.",
-        "excerpt": "A 2-year-old cooker dies and the spare part isn't available. The clause that turns a warranty claim into a 20-minute fix.",
+        "description": "A 2-year-old cooker dies and the spare part isn't available. The spare-parts plan that turns a warranty claim into a 20-minute fix.",
+        "excerpt": "A 2-year-old cooker dies and the spare part isn't available. The spare-parts plan that turns a warranty claim into a 20-minute fix.",
         "related": ["pain-dusty-fan", "pain-igbt-overheat", "pain-oem-vs-odm"],
         "cta_title": "Want a real spare-parts pool, not a paper warranty?",
-        "cta_text": "Name your market and order size - we'll lock a spare-parts price list, supply commitment and lead time into the PO, with a service kit shipped with your order.",
-        "wa_text": "Hi Vortix Kitchen, I need a real spare-parts pool and supply commitment for cookers in [market]. Can you lock spares pricing and lead time in the PO?",
+        "cta_text": "Name your market and order size - we'll agree a spare-parts price list, supply commitment and lead time up front, with a service kit shipped with your order.",
+        "wa_text": "Hi Vortix Kitchen, I need a real spare-parts pool and supply commitment for cookers in [market]. Can you share spares pricing and lead time?",
         "mail_subject": "Spare parts pool for cooker after-sales",
-        "mail_body": "Hi Vortix Kitchen, please advise on a spare-parts price list, 5-year supply commitment, and lead time to build a service pool for my cooker orders.",
+        "mail_body": "Hi Vortix Kitchen, please advise on a spare-parts price list, supply commitment, and lead time to build a service pool for my cooker orders.",
         "body": """<p>A 2-year-old cooker dies. The fan is $1, but the factory doesn't stock it. You refund the unit, eat the freight, and your client remembers.</p>
-<p>Most factories quote a 1-year warranty - then "no spare parts available" the moment you need one. The warranty exists on paper only.</p>
-<h2>Put this in the PO</h2>
-<ol>
-<li><strong>Spare-parts price list locked at order</strong> - fan, IGBT, control board, glass, knob, NTC, with unit price and MOQ.</li>
-<li><strong>Spares kit with shipment</strong> - 2-3% of the order as a service kit, or priced as a separate line.</li>
-<li><strong>5-year spares supply commitment</strong> - even for discontinued models, from ship date.</li>
-<li><strong>Spares lead time in writing</strong> - e.g. 7-15 days, not "when we have stock."</li>
-<li><strong>Exploded diagram + repair manual</strong> - so your local tech fixes it, not a refund.</li>
-</ol>
-<p>A $1 fan and a 20-minute fix, or a full refund and a lost customer. The PO decides which one.</p>""",
+<p>Most factories quote a 1-year warranty — then say "no spare parts available" the moment you need one. The warranty exists on paper only. What makes it real: a spare-parts price list agreed when you order (fan, board, glass, knob, NTC), a small spares kit shipped with the container, a written lead time for parts, and an exploded diagram so your local tech fixes it instead of refunding it.</p>
+<p>A $1 fan and a 20-minute fix, or a full refund and a lost customer. The difference is decided the day you order.</p>""",
         "faq": [
-            ("Do factories actually supply spare parts after warranty?", "Good ones do, with a locked price list and a 5-year supply commitment. If the supplier only offers a warranty card and no spares, the warranty is paper only."),
+            ("Do factories actually supply spare parts after warranty?", "Good ones do, with a locked price list and parts kept in stock even for discontinued models. If the supplier only offers a warranty card and no spares, the warranty is paper only."),
             ("How big a spare-parts kit should I keep in stock?", "A common rule is 2-3% of order volume for the first 12 months - top-selling SKUs first, trim the long tail. Pre-price the kit at order so it's a line item, not a favour."),
-            ("Can I get spare parts years after the model is discontinued?", "Only if the PO says so. Add a 5-year spares supply clause tied to the model number, not 'current production.' Without it, you're at the factory's mercy when you need a part."),
+            ("Can I get spare parts years after the model is discontinued?", "Only if the supplier commits to it when you order — parts tied to the model number, not 'current production.' Without that commitment, you're at the factory's mercy when you need a part."),
         ],
     },
     # ---------------- DAILY (2026-09-03) ----------------
@@ -590,15 +559,8 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I sell to [restaurants/retail]. Can you spec commercial-grade cookers with a warranty covering commercial use?",
         "mail_subject": "Commercial vs home grade cookers",
         "mail_body": "Hi Vortix Kitchen, please advise how to spec commercial-grade durability and a commercial-covering warranty for my buyer type.",
-        "body": """<p>A restaurant buyer installs the cheap home unit you sold - and it dies in 3 months under continuous duty. You refund it, and lose the account.</p>
-<p>Home units are rated for 1-2 hours/day. Commercial kitchens run 8-12. Same label, completely different life.</p>
-<h2>Put this in your PO</h2>
-<ul>
-<li><strong>Commercial-grade:</strong> continuous-duty rated (tested 2-hr load), not peak-only.</li>
-<li>IGBT with thermal margin; dual-fan + NTC at 40°C.</li>
-<li>Reinforced glass + metal housing, not plastic.</li>
-<li><strong>Warranty:</strong> 12 months covering continuous commercial use - not "home use only" fine print.</li>
-</ul>
+        "body": """<p>A restaurant buyer installs the cheap home unit you sold — and it dies in 3 months under continuous duty. You refund it, and lose the account.</p>
+<p>Home units are rated for 1-2 hours/day. Commercial kitchens run 8-12. Same label, completely different life. A true commercial-grade unit means a continuous-duty rating, an IGBT with thermal margin, dual cooling, reinforced glass and a metal housing — and a warranty that covers commercial use instead of hiding behind "home use only" fine print.</p>
 <p>Match the grade to the buyer: home resellers get home-grade; foodservice gets commercial. Right grade = fewer returns, real reorder.</p>""",
         "faq": [
             ("Can I sell a home-grade cooker to restaurants?", "You can, but it fails fast under 8-12 hr daily duty. For foodservice, spec commercial-grade with a continuous-duty rating or expect returns."),
@@ -614,7 +576,7 @@ ARTICLES = [
         "image": "scene_kettle_pour.jpg",
         "readtime": "2 min read",
         "title": "Selling Cookers to High-Altitude Markets? Why 'Food Won't Cook' Isn't a Defect",
-        "description": "Importers shipping to Almaty, Bishkek or the Kyrgyz highlands get 'food won't cook' complaints. The cause is altitude, not the unit — and the PO lines that stop the returns.",
+        "description": "Importers shipping to Almaty, Bishkek or the Kyrgyz highlands get 'food won't cook' complaints. The cause is altitude, not the unit — and the spec that stops the returns.",
         "excerpt": "Ship cookers above 1500 m and buyers say food won't cook. It's altitude, not a defect — spec higher wattage and stop the returns.",
         "related": ["pain-slow-heating", "article-induction-vs-infrared", "pain-commercial-vs-home"],
         "cta_title": "Selling into mountain markets?",
@@ -623,14 +585,7 @@ ARTICLES = [
         "mail_subject": "Cookers for high-altitude markets",
         "mail_body": "Hi Vortix Kitchen, I import to high-altitude regions (Central Asia). Please advise on wattage, boost mode and altitude labelling to avoid undercooking complaints.",
         "body": """<p>Ship cookers to Almaty, Bishkek or the Kyrgyz highlands and buyers call: "food won't cook." You refund — but the unit is fine. It's physics.</p>
-<p>Above 1,500 m water boils near 95°C; above 3,000 m near 90°C. Lower boil = longer cooking, undercooked rice and stews, and a warranty claim you didn't earn.</p>
-<h2>Put this in your PO for altitude markets</h2>
-<ul>
-<li><strong>Higher wattage:</strong> spec 3000–3500W+ so water recovers heat fast after food goes in — less time stuck at the low boil.</li>
-<li><strong>Boost / max-power mode:</strong> a high setting for altitude, not just an eco mode.</li>
-<li><strong>Altitude note on the carton</strong> for Central Asia highlands: "boils at lower temp above 1500 m — use higher power." Stops the "defect" call before it starts.</li>
-<li><strong>Lead with induction:</strong> ~90% of energy hits the pot, so more reaches the food than gas at altitude.</li>
-</ul>
+<p>Above 1,500 m water boils near 95°C; above 3,000 m near 90°C. Lower boil = longer cooking, undercooked rice and stews, and a warranty claim you didn't earn. The fix is in the spec: higher wattage so the water recovers heat fast, a real boost mode for altitude, and a carton note that boiling temperature drops above 1,500 m — that one line stops the "defect" call before it starts. Induction helps too: around 90% of its energy reaches the pot, more than gas manages at altitude.</p>
 <p>Right spec = fewer altitude returns, real reorder in mountain markets.</p>""",
         "faq": [
             ("Why does food undercook on a cooker at high altitude?", "Lower air pressure drops water's boiling point — near 95°C at 1,500 m and ~90°C above 3,000 m. Water-based cooking takes longer, so food can come out undercooked even though the cooker works fine."),
@@ -655,20 +610,14 @@ ARTICLES = [
         "mail_subject": "Commercial cooker power by venue",
         "mail_body": "Hi Vortix Kitchen, please advise on per-venue wattage (cafe/restaurant/wok), circuit requirements and a mixed-power bundle for my market.",
         "body": """<p>Order the wrong wattage and the unit fails where it matters — or you over-pay for power the venue never uses. A 2000W unit on a wok station can't keep up at dinner rush; a 5000W unit in a small cafe trips the breaker and sits unsold.</p>
-<h2>Match power to venue before production</h2>
+<h2>Match power to venue</h2>
 <ul>
 <li><strong>Cafe / light:</strong> 2000–3500W countertop.</li>
 <li><strong>Restaurant / buffet:</strong> 3500–5000W, twin-zone.</li>
 <li><strong>Wok / stir-fry:</strong> 5000W+ concave coil, boost mode.</li>
 <li><strong>Catering / street:</strong> 2000–3000W portable.</li>
 </ul>
-<h2>Put this in your PO</h2>
-<ul>
-<li>Wattage per model matched to the stated venue — not one size for all.</li>
-<li>Circuit check: confirm the site's amp rating; 3500W+ needs a dedicated line or it trips.</li>
-<li>Boost mode for peak loads.</li>
-<li>Mixed-power bundle so one container covers cafe to wok.</li>
-</ul>
+<p>One thing catches buyers out: the site's circuit. Anything above 3500W needs a dedicated line or it trips, so confirm the amperage before production. A mixed-power container covers a portfolio from cafe to wok.</p>
 <p>Right power = no tripped breakers, no "can't keep up" complaints, real reorders.</p>""",
         "faq": [
             ("What wattage induction cooker does a restaurant need?", "It depends on the menu: cafes 2000–3500W, full restaurants/buffets 3500–5000W twin-zone, and wok stations 5000W+ with a concave coil and boost mode. Match the wattage to the busiest dish, not the cheapest unit."),
@@ -698,12 +647,7 @@ ARTICLES = [
 <li><strong>Ceramic (infrared):</strong> heats the glass first, then the pan; residual heat lingers. Boils in 5–6 min; spills bake on and scratch the surface.</li>
 <li><strong>Cookware:</strong> most modern pans are universal. A fridge magnet on the base confirms it — buyers rarely need new pots.</li>
 </ul>
-<h2>Put this in your PO / carton</h2>
-<ul>
-<li>State cooktop type clearly on the box and in the manual — stop "wrong type" returns.</li>
-<li>Print a one-line magnet test so end users stop assuming they must re-buy cookware.</li>
-</ul>
-<p>Right type named up front = fewer "it doesn't work with my pot" returns.</p>""",
+<p>The fix is mostly labeling: the cooktop type stated clearly on the box and in the manual, plus a one-line magnet test so end users stop assuming they must re-buy cookware. That kills the "wrong type" return before it happens.</p>""",
         "faq": [
             ("Do induction cookers require special cookware?", "Most modern pans are compatible — if a magnet sticks to the base, it works. Buyers rarely need to replace pots, so the 'must change everything' assumption behind many returns is false."),
             ("Induction or ceramic — which gives fewer returns?", "Name the type clearly on the carton. Induction's cool-surface cleanup and universal cookware mean fewer 'doesn't fit my pot' complaints than ceramic's hot-panel scrubbing."),
@@ -717,21 +661,16 @@ ARTICLES = [
         "image": "scene_stirfry_shrimp.jpg",
         "readtime": "2 min read",
         "title": "Your Samples Pass, Your Bulk Fails — the BOM Swap You Never Signed",
-        "description": "Returns peak 2-3 months after launch. The cause is rarely bad luck — it's the factory swapping materials in mass production. Three PO clauses stop it.",
+        "description": "Returns peak 2-3 months after launch. The cause is rarely bad luck — it's the factory swapping materials in mass production. The fix is locking the BOM before production starts.",
         "excerpt": "Returns spike months after launch because the factory swaps materials in bulk. Lock the BOM, seal a golden sample, and make substitution a breach.",
         "related": ["pain-dead-on-arrival", "pain-slow-heating", "pain-commercial-vs-home"],
         "cta_title": "Tired of good samples, bad bulk?",
-        "cta_text": "Send us your target market and we'll lock key components in the BOM, seal a signed golden sample, and put a no-substitution clause in your PO.",
+        "cta_text": "Send us your target market and we'll lock key components in the BOM, seal a signed golden sample, and treat any material substitution as a breach.",
         "wa_text": "Hi Vortix Kitchen, my bulk shipments fail after good samples. Can you lock components in the BOM and seal a signed golden sample?",
         "mail_subject": "Mass-production material swaps",
-        "mail_body": "Hi Vortix Kitchen, I keep getting returns months after approval. Please advise on locking key parts in the BOM, a sealed golden sample, and a no-substitution clause.",
+        "mail_body": "Hi Vortix Kitchen, I keep getting returns months after approval. Please advise on locking key parts in the BOM, a sealed golden sample, and your no-substitution policy.",
         "body": """<p>Returns peak 2-3 months after launch. The cause is rarely bad luck — it's the factory swapping materials in mass production: copper coil to aluminum, thinner glass, cheaper cable, downgraded fan. The factory saves $1 a unit; you lose the returns, the reviews, and the brand.</p>
-<h2>Put three lines in your PO</h2>
-<ul>
-<li>"Key parts (coil, glass, cable, fan) brand &amp; model locked in the BOM — no substitution."</li>
-<li>"Golden sample sealed and signed by both parties; bulk must match it."</li>
-<li>"Unilateral material change = breach; supplier reworks or refunds affected units."</li>
-</ul>
+<p>Protection comes from three habits: key parts (coil, glass, cable, fan) locked by brand and model in the BOM with no substitution allowed, a sealed golden sample signed by both sides that bulk must match, and a unilateral material change treated as a breach with rework or refund.</p>
 <h2>On arrival, check in 10 minutes</h2>
 <ul>
 <li>Weigh the whole container against the bill of lading.</li>
@@ -740,7 +679,7 @@ ARTICLES = [
 </ul>""",
         "faq": [
             ("Why do returns appear months after a good sample?", "Because mass production often uses different materials than the approved sample — cheaper coil, glass or fan. The failure shows up only after customers use the units daily, long after you've paid."),
-            ("How do I stop a factory from swapping parts?", "Lock key components by brand and model in the BOM, seal a signed golden sample, and state that any unilateral change is a breach with rework or refund. Three PO lines remove the factory's incentive to cut."),
+            ("How do I stop a factory from swapping parts?", "Lock key components by brand and model in the BOM, seal a signed golden sample, and state that any unilateral change is a breach with rework or refund. That removes the factory's incentive to cut."),
         ],
     },
     {
@@ -760,18 +699,7 @@ ARTICLES = [
         "mail_subject": "Warranty reserve math for cooker quotes",
         "mail_body": "Hi Vortix Kitchen, I'm comparing cooker suppliers. Please help me build a warranty-reserve comparison (failure rate, burn-in test, defect freight) before I sign.",
         "body": """<p>The lower quote usually wins the PO. What the comparison skips is warranty cost: a cooker with a 1% failure rate and one with 5% can look identical on paper — and behave nothing alike in your first season. Every defective unit costs you a replacement, double freight, and an angry retailer.</p>
-<h2>Price the warranty before you sign</h2>
-<ul>
-<li>Warranty reserve = annual units &times; failure rate &times; (replacement unit + two-way freight + handling hours).</li>
-<li>Add the reserve to each quote — compare true cost, not sticker cost.</li>
-<li>A supplier with triple the failure rate is never the cheaper one.</li>
-</ul>
-<h2>Lock the failure terms in the PO</h2>
-<ul>
-<li>"Target defect rate &le; 1%, verified by burn-in testing before shipment."</li>
-<li>"Defect freight both ways paid by the supplier; replacement or credit within 15 days."</li>
-<li>"Early-life failures (first 90 days in service) count as supplier defects."</li>
-</ul>""",
+<p>So price the warranty before you sign: annual units &times; failure rate &times; (replacement unit + two-way freight + handling hours), added to each quote. Compare true cost, not sticker cost — a supplier with triple the failure rate is never the cheaper one. Then ask how defects are handled in practice: the target defect rate verified by burn-in testing, who pays the return freight, and how fast a replacement ships. A warranty that only lives in a PDF is not a warranty.</p>""",
         "faq": [
             ("How do I compare two cooker quotes fairly?", "Add the warranty reserve to each quote: annual units × failure rate × (replacement unit + two-way freight + handling hours). The lower total cost wins, not the lower sticker price."),
             ("What failure terms should the purchase order contain?", "A written target defect rate, burn-in testing before shipment, supplier-paid freight on confirmed defects, and a window (for example 90 days in service) in which early-life failures count as supplier defects."),
@@ -860,14 +788,7 @@ ARTICLES = [
         "mail_subject": "Cold-climate winter shipping",
         "mail_body": "Hi Vortix Kitchen, please advise on −25/−30°C storage rating, low-temperature cartons and a receiving warm-up SOP for winter shipments to cold markets.",
         "body": """<p>Winter sea-and-land shipments into Russia and Central Asia can sit at −30°C for days. Units arrive with black or scrambled LCDs and brittle plastic — your buyer calls it a defect, files a return, and your brand takes the hit. It isn't a quality failure; the components fell below their rated storage temperature.</p>
-<h2>Three specs to put in your PO</h2>
-<ul>
-<li>"Rated storage temperature: −25°C (or −30°C) for the whole unit; LCD and capacitors rated to match."</li>
-<li>"Carton and inner box certified for low-temperature brittleness (cold-crack test on file)."</li>
-<li>"Sealed, desiccant-packed carton to stop condensation during the warm-up."</li>
-</ul>
-<h2>One receiving rule</h2>
-<p>On arrival, let units warm to room temperature 12–24 hours before powering on. Cold starts fake the "dead screen" across a whole batch.</p>""",
+<p>The whole unit — LCD and capacitors included — needs a storage rating down to −25°C or −30°C, the carton needs a cold-crack test on file, and sealed desiccant packing stops condensation while the units warm up. On arrival, let them return to room temperature for 12–24 hours before powering on; cold starts fake the "dead screen" across a whole batch.</p>""",
         "faq": [
             ("Why do cookers arrive with a black or scrambled screen in winter?", "They were stored below their rated temperature during winter transit to Russia and Central Asia. The LCD and capacitors fail temporarily — not permanently. Specifying a −25/−30°C storage rating and a cold-crack-tested carton prevents it; warming units 12–24h before power-on avoids false 'dead' reports."),
             ("Is cracked plastic on arrival a quality defect?", "Not usually in winter. Below rated temperature, plastics go brittle and snap in handling. Ask for low-temperature-brittleness-certified cartons and desiccant packing. The breakage is a cold-chain gap, not a factory flaw — but it still costs you the return if you don't spec it."),
@@ -912,26 +833,19 @@ ARTICLES = [
         "image": "scene_clean_egg.jpg",
         "readtime": "2 min read",
         "title": "Your Logo on the Wrong Box: the Private-Label Mix-Up That Sinks a Launch",
-        "description": "A private-label run ships with the wrong logo, mixed models, or mistranslated labels — and the whole container is rejected at arrival. Three PO clauses and one pre-loading gate stop it.",
-        "excerpt": "Your logo ends up on the wrong box, or mixed models ship in one container — the whole batch gets rejected. Three PO clauses and one loading gate stop the private-label mix-up.",
+        "description": "A private-label run ships with the wrong logo, mixed models, or mistranslated labels — and the whole container is rejected at arrival. Signed pre-production proofs and one pre-loading gate stop it.",
+        "excerpt": "Your logo ends up on the wrong box, or mixed models ship in one container — the whole batch gets rejected. Signed proofs and one loading gate stop the private-label mix-up.",
         "related": ["pain-oem-brand", "pain-oem-vs-odm", "pain-bom-substitution"],
         "cta_title": "Launching your own cooker brand?",
-        "cta_text": "Send us your branding and model list — we'll lock label and box specs in the PO and run pre-loading verification so every unit ships correct.",
-        "wa_text": "Hi Vortix Kitchen, I'm launching a private-label cooker line. Can you lock logo/label specs in the PO and verify before container loading to avoid mix-ups?",
+        "cta_text": "Send us your branding and model list — we'll confirm label and box specs before production and run pre-loading verification so every unit ships correct.",
+        "wa_text": "Hi Vortix Kitchen, I'm launching a private-label cooker line. Can you confirm logo/label specs before production and verify before container loading to avoid mix-ups?",
         "mail_subject": "Private-label mix-up prevention",
-        "mail_body": "Hi Vortix Kitchen, please help lock our logo, label and model specs into the PO and arrange pre-loading verification to prevent private-label mix-ups.",
+        "mail_body": "Hi Vortix Kitchen, please confirm our logo, label and model specs before production and arrange pre-loading verification to prevent private-label mix-ups.",
         "body": """<p>You launch your own cooker brand. The container arrives — and half the boxes show the wrong logo, two models are mixed in one carton, or the Russian/Arabic label is mistranslated. The buyer rejects the batch, your launch slips a season, and the factory shrugs. It's a private-label mix-up, and you paid for it.</p>
-<h2>Three clauses to lock in the PO</h2>
-<ul>
-<li>"Each model's logo, box art and label language are pre-approved by signed proof; no production without it."</li>
-<li>"Cartons are scanned and verified per PO before sealing; mixed models in one carton are a reject."</li>
-<li>"Factory bears the cost of any mislabeled or mixed batch — including rework and freight."</li>
-</ul>
-<h2>One gate before loading</h2>
-<p>Hold loading until a random carton check confirms logo, model and label match the signed proof. That ten-minute gate saves a season.</p>""",
+<p>Every logo, box art and label language should be approved as a signed proof before production starts — no proof, no production. Cartons get scanned before sealing so mixed models never leave the line, and a mislabeled batch is reworked at the factory's cost, not refunded at yours. Hold loading until a random carton check matches the signed proof. That ten-minute gate saves a season.</p>""",
         "faq": [
-            ("How do I stop a factory mixing my private-label models?", "Lock it in the PO: pre-approved signed proofs for logo, box art and label language before any production; cartons scanned and verified per PO before sealing; and a clause making the factory pay for any mislabeled or mixed batch. A random carton check right before container loading is the final gate."),
-            ("What happens if the wrong logo ships on my private-label goods?", "If boxes arrive with the wrong logo, mixed models or bad translations, the buyer can reject the whole batch and your launch misses its season. Prevent it with signed pre-production proofs and pre-loading verification, with rework and freight cost assigned to the factory in the contract."),
+            ("How do I stop a factory mixing my private-label models?", "Signed pre-production proofs for logo, box art and label language before any production; cartons scanned and verified before sealing; and rework on any mislabeled batch at the factory's cost. A random carton check right before container loading is the final gate."),
+            ("What happens if the wrong logo ships on my private-label goods?", "If boxes arrive with the wrong logo, mixed models or bad translations, the buyer can reject the whole batch and your launch misses its season. Prevent it with signed pre-production proofs and pre-loading verification, with rework and freight covered by the factory."),
         ],
     },
     {
