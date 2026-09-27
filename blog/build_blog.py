@@ -671,12 +671,7 @@ ARTICLES = [
         "mail_body": "Hi Vortix Kitchen, I keep getting returns months after approval. Please advise on locking key parts in the BOM, a sealed golden sample, and your no-substitution policy.",
         "body": """<p>Returns peak 2-3 months after launch. The cause is rarely bad luck — it's the factory swapping materials in mass production: copper coil to aluminum, thinner glass, cheaper cable, downgraded fan. The factory saves $1 a unit; you lose the returns, the reviews, and the brand.</p>
 <p>Protection comes from three habits: key parts (coil, glass, cable, fan) locked by brand and model in the BOM with no substitution allowed, a sealed golden sample signed by both sides that bulk must match, and a unilateral material change treated as a breach with rework or refund.</p>
-<h2>On arrival, check in 10 minutes</h2>
-<ul>
-<li>Weigh the whole container against the bill of lading.</li>
-<li>Open one unit and compare it to the sealed sample.</li>
-<li>Photograph key parts as evidence before distribution.</li>
-</ul>""",
+<p>When the container lands, the ten-minute check that pays for itself: weigh the whole shipment against the bill of lading, open one unit and match it to the sealed sample, and photograph the key parts before they leave the warehouse. Catch any substitution at the dock — not through your end customer's return.</p>""",
         "faq": [
             ("Why do returns appear months after a good sample?", "Because mass production often uses different materials than the approved sample — cheaper coil, glass or fan. The failure shows up only after customers use the units daily, long after you've paid."),
             ("How do I stop a factory from swapping parts?", "Lock key components by brand and model in the BOM, seal a signed golden sample, and state that any unilateral change is a breach with rework or refund. That removes the factory's incentive to cut."),
