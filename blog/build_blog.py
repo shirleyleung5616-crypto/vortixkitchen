@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-23"
-DATE_HUMAN = "Sep 23, 2026"
+DATE_ISO = "2026-09-28"
+DATE_HUMAN = "Sep 28, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -866,6 +866,30 @@ ARTICLES = [
         "faq": [
             ("Is induction cooker radiation dangerous to health?", "No. Induction uses non-ionizing electromagnetic fields that heat only the pan's metal. They are not the ionizing radiation found in X-rays, and everyday use sits far below international safety limits. The 'radiation fear' is a misunderstanding, not a real risk."),
             ("How do I reassure customers who are afraid of induction radiation?", "Add one plain factual sentence to your product page and sales chat: induction heats the pan, not the air, and is safe for everyday family use. Clear, calm wording dissolves the fear and recovers sales you would otherwise lose."),
+        ],
+    },
+    {
+        "slug": "pain-reorder-stockout",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Reorder Stockout",
+        "image": "scene_kettle_breakfast.jpg",
+        "readtime": "2 min read",
+        "title": "Your Shelf Goes Empty in Week Two — and the Season Is Gone",
+        "description": "Peak season opens and your cooker shelf goes empty by week two — retailers switch to a competitor and the quarter's sales vanish. A safety-stock buffer sized to weekly sell-through, reordered on a fixed rhythm, keeps the shelf full through the rush.",
+        "excerpt": "Your shelf empties in week two of peak season and the sales vanish. A safety buffer sized to weekly sell-through, reordered on a fixed rhythm, keeps you stocked through the rush.",
+        "related": ["pain-season-timing", "pain-moq-container-loading", "pain-induction-vs-lpg-cost"],
+        "cta_title": "Running out during peak season?",
+        "cta_text": "Tell us your market and weekly sell-through — we'll help you size a safety-stock buffer and a reorder rhythm so your shelf stays full through the rush.",
+        "wa_text": "Hi Vortix Kitchen, I keep stocking out during peak season. Can you help me size a safety-stock buffer and a reorder schedule based on my weekly sell-through?",
+        "mail_subject": "Peak-season stockout / reorder buffer",
+        "mail_body": "Hi Vortix Kitchen, we keep running out of stock during peak season. Please help us size a safety-stock buffer and set a reorder schedule based on our weekly sell-through.",
+        "body": """<p>The peak season opens and your cooker shelf goes empty by week two. Retailers switch to a competitor who kept stock, and the sales you planned for the whole quarter disappear in days. You didn't lose a shipment — you lost the season.</p>
+<p>Most stockouts aren't a demand surprise. They're the gap between when you reorder and when the next container lands: production plus ocean freight easily runs 60 to 90 days, longer than the selling window itself. If you reorder only after stock looks low, the new goods arrive after peak is over. A safety buffer sized to your weekly sell-through, reordered on a fixed schedule instead of on panic, keeps the shelf filled through the rush. Track units out the door each week, not just whether the warehouse looks full, and you stop guessing.</p>
+<p>Want a simple reorder worksheet sized to your market? Reach Vortix on WhatsApp or email.</p>""",
+        "faq": [
+            ("How much safety stock should an importer keep for peak season?", "Size it to your weekly sell-through, not to a guess. If a container takes 60 to 90 days to arrive, your buffer should cover that whole window plus a demand spike. Reorder on a fixed schedule tied to units sold, not when the shelf looks empty — by then it's too late for peak."),
+            ("Why do cooker importers stock out during peak even with a full warehouse?", "A full warehouse in August doesn't help if the next container lands in November. Production plus ocean freight often runs 60 to 90 days, longer than the selling season. Stockouts come from the reorder-to-arrival gap, not from low starting inventory. A scheduled safety buffer tied to weekly sell-through keeps shelves filled through the rush."),
         ],
     },
 ]
