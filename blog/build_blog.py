@@ -19,8 +19,8 @@ ROOT = os.path.dirname(HERE)
 
 WA_NUMBER = "8613790093901"
 EMAIL = "Shirley20193@163.com"
-DATE_ISO = "2026-09-28"
-DATE_HUMAN = "Sep 28, 2026"
+DATE_ISO = "2026-09-30"
+DATE_HUMAN = "Sep 30, 2026"
 
 # Series order used on the blog index.
 SERIES = [
@@ -890,6 +890,30 @@ ARTICLES = [
         "faq": [
             ("How much safety stock should an importer keep for peak season?", "Size it to your weekly sell-through, not to a guess. If a container takes 60 to 90 days to arrive, your buffer should cover that whole window plus a demand spike. Reorder on a fixed schedule tied to units sold, not when the shelf looks empty — by then it's too late for peak."),
             ("Why do cooker importers stock out during peak even with a full warehouse?", "A full warehouse in August doesn't help if the next container lands in November. Production plus ocean freight often runs 60 to 90 days, longer than the selling season. Stockouts come from the reorder-to-arrival gap, not from low starting inventory. A scheduled safety buffer tied to weekly sell-through keeps shelves filled through the rush."),
+        ],
+    },
+    {
+        "slug": "pain-retail-demo-fail",
+        "series": "buying",
+        "cat": "BUYING DECISION",
+        "footer_label": "Retail Demo Fail",
+        "image": "scene_clean_egg.jpg",
+        "readtime": "2 min read",
+        "title": "Your Demo Crashes in Front of the Buyer — and the Order Dies",
+        "description": "A sample unit sent to a retailer for a live demo won't heat or mis-touches in front of the buyer — the deal dies and the unit returns as a 'defect'. A ten-minute pre-show test run turns the sample into a closing tool, not a return.",
+        "excerpt": "A live demo crashes in front of the buyer and the order dies. A ten-minute pre-show test run — power on, heat water, match voltage and language — turns the sample into a closing tool, not a return.",
+        "related": ["pain-voltage-frequency", "pain-commercial-power", "pain-bom-substitution"],
+        "cta_title": "Demo keeps crashing?",
+        "cta_text": "Tell us your target market and we'll match the demo unit's voltage, plug, and language before it leaves the factory — so your sample closes the order instead of returning it.",
+        "wa_text": "Hi Vortix Kitchen, our live demos keep crashing in front of buyers. Can you help match the demo unit's voltage, plug, and display language to our market before it ships?",
+        "mail_subject": "Retail demo failure / sample matching",
+        "mail_body": "Hi Vortix Kitchen, our sample units sometimes crash during live retail demos. Please help us match the demo unit's voltage, plug, and display language to our target market before shipment.",
+        "body": """<p>The sample unit ships to your retailer or dealer for a live demo, and it won't heat, the panel mis-touches, or the power surges up and down — in front of the buyer. The deal dies on the spot, and the unit comes back as a "defect" instead of a sale.</p>
+<p>Most demo crashes aren't product faults. They come from skipping a test run before the show: shipping vibration loosens a connector, the demo unit was built for 220V but the market runs 110V, the pot on the counter doesn't sit on the coil, or the interface is in the wrong language. A ten-minute trial at your desk — power on, heat a pot of water, switch the display to the local language, confirm the plug and voltage — turns the sample into a closing tool instead of a return.</p>
+<p>Send us your target market and we'll match the demo unit's voltage, plug, and language before it leaves the factory. Reach Vortix on WhatsApp or email.</p>""",
+        "faq": [
+            ("Why does a cooker sample crash during a live retail demo?", "It's rarely a product fault. The unit ships without a pre-show test run, so shipping vibration has loosened a connector, the sample was built for 220V but the market is 110V, the pot doesn't sit on the coil, or the interface shows the wrong language. A ten-minute trial at your desk — power on, heat water, switch the display language, confirm plug and voltage — prevents almost every crash."),
+            ("How do I turn a sample unit into a closing tool instead of a return?", "Test it before it leaves you. Power it on, boil a pot of water, set the display to the buyer's language, and confirm the plug and voltage match the local market. Matching the demo unit to the market turns the sample into the reason the order is signed, not the reason it's returned."),
         ],
     },
 ]
