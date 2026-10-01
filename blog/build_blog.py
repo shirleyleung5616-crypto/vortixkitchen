@@ -48,7 +48,7 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I keep getting dead-on-arrival cookers in [market]. Can you spec branded IGBT with 100% burn-in and share the test record?",
         "mail_subject": "Dead-on-arrival cookers",
         "mail_body": "Hi Vortix Kitchen, I need cookers that arrive alive. Please advise on branded IGBT, 100% burn-in and batch test records for my market.",
-        "body": """<p>A dead-on-arrival cooker is a 100% refund plus return freight — you lose the whole sale.</p>
+        "body": """<p>A dead-on-arrival cooker is a 100% refund — and you lose the whole sale.</p>
 <p>Cause: under-specced IGBT or poor soldering. The factory saves cents; you lose the margin. Branded IGBT modules, a power-on burn-in for every unit and automated solder inspection are what separate a clean launch from a container of returns — and the burn-in records should travel with the shipment, not live in a promise.</p>""",
     },
     {
@@ -68,7 +68,7 @@ ARTICLES = [
         "mail_subject": "Cracked glass on arrival",
         "mail_body": "Hi Vortix Kitchen, please advise on tempered microcrystalline glass and drop-tested carton to stop cracked-glass returns.",
         "body": """<p>Cracked glass on arrival = pure loss. No repair, no resale — full refund and a dent in your name.</p>
-<p>The cause is cheap ceramic glass or a carton that never passed a drop test. Good glass costs a little more per unit; a cracked batch costs you the season. Ask which glass grade goes into your order, and make sure the sea-freight carton has a real drop-test record and corner protection behind it.</p>""",
+<p>The cause is cheap ceramic glass or a carton that never passed a drop test. Good glass costs a little more per unit; a cracked batch costs you the season. Ask which glass grade goes into your order, and make sure the carton has a real drop-test record and corner protection behind it.</p>""",
     },
     {
         "slug": "pain-slow-heating",
@@ -430,26 +430,26 @@ ARTICLES = [
         "image": "page5_img2.jpeg",
         "readtime": "2 min read",
         "title": "Your First MOQ Locks Your Margin — How Many Cookers Fit in a 20ft vs 40ft Container",
-        "description": "Wrong first MOQ ties up cash or wastes freight space. The container-loading math and PO clause that protects your first order.",
-        "excerpt": "Wrong first MOQ ties up cash or wastes freight space. Use the 20ft/40ft loading math and this PO clause.",
+        "description": "Wrong first MOQ ties up cash or wastes container space. The container-loading math and PO clause that protects your first order.",
+        "excerpt": "Wrong first MOQ ties up cash or wastes container space. Use the 20ft/40ft loading math and this PO clause.",
         "related": ["pain-oem-brand", "article-product-showcase"],
         "cta_title": "Planning your first container?",
         "cta_text": "Send your target models and market — we'll confirm carton dims, units per 20/40ft, so you fill the container at the right MOQ.",
         "wa_text": "Hi Vortix Kitchen, I'm planning my first container of cookers. Can you confirm carton dims and how many units fit in 20ft/40ft?",
         "mail_subject": "First container MOQ and loading",
         "mail_body": "Hi Vortix Kitchen, please advise on first-order MOQ, carton dimensions, and how many units fit in a 20ft vs 40ft container for my target models.",
-        "body": """<p>Agree the wrong MOQ and you either tie up cash in dead stock or pay air-freight rates for a half-empty box. First orders are where margin is made or lost before the container sails.</p>
+        "body": """<p>Agree the wrong MOQ and you either tie up cash in dead stock or pay premium rates for a half-empty box. First orders are where margin is made or lost before the container sails.</p>
 <h2>Size your first order with this math</h2>
 <ul>
 <li><strong>20ft container:</strong> ~300–350 single-burner induction cookers.</li>
 <li><strong>40ft HQ container:</strong> ~650–750 single-burner units, or 300–350 double-burner units.</li>
 <li><strong>Mixed load:</strong> plan carton outer dims before you commit — a few millimetres per box changes the count.</li>
 </ul>
-<p>Get carton dimensions and the maximum units per container confirmed before production starts, and keep the flexibility to combine models so the box sails full. A full container cuts freight cost per unit far more than a bigger discount.</p>""",
+<p>Get carton dimensions and the maximum units per container confirmed before production starts, and keep the flexibility to combine models so the box sails full. A full container lowers your cost per unit far more than a bigger discount.</p>""",
         "faq": [
             ("What is a safe first MOQ for a new cooker model?", "For standard models, 100–300 units is a common entry MOQ. A smarter first move is one mixed 20ft container covering several SKUs."),
             ("How many induction cookers fit in a 40ft container?", "A 40ft HQ loads roughly 650–750 single-burner units or 300–350 double-burner units, depending on carton outer dimensions."),
-            ("Can I mix SKUs in one container?", "Yes — and you should. Mixing SKUs fills the container, lowers freight cost per unit, across your range."),
+            ("Can I mix SKUs in one container?", "Yes — and you should. Mixing SKUs fills the container, lowers your cost per unit, across your range."),
         ],
     },
     {
@@ -533,7 +533,7 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I need a real spare-parts pool and supply commitment for cookers in [market]. Can you share spares pricing and lead time?",
         "mail_subject": "Spare parts pool for cooker after-sales",
         "mail_body": "Hi Vortix Kitchen, please advise on a spare-parts price list, supply commitment, and lead time to build a service pool for my cooker orders.",
-        "body": """<p>A 2-year-old cooker dies. The fan is $1, but the factory doesn't stock it. You refund the unit, eat the freight, and your client remembers.</p>
+        "body": """<p>A 2-year-old cooker dies. The fan is $1, but the factory doesn't stock it. You refund the unit and your client remembers.</p>
 <p>Most factories quote a 1-year warranty — then say "no spare parts available" the moment you need one. The warranty exists on paper only. What makes it real: a spare-parts price list agreed when you order (fan, board, glass, knob, NTC), a small spares kit shipped with the container, a written lead time for parts, and an exploded diagram so your local tech fixes it instead of refunding it.</p>
 <p>A $1 fan and a 20-minute fix, or a full refund and a lost customer. The difference is decided the day you order.</p>""",
         "faq": [
@@ -690,14 +690,14 @@ ARTICLES = [
         "related": ["pain-dead-on-arrival", "pain-spare-parts-pool", "pain-commercial-vs-home"],
         "cta_title": "Want warranty math that holds up?",
         "cta_text": "Send us your annual volume and market. We'll run the warranty-reserve math with you and quote cookers that pass burn-in before they ship.",
-        "wa_text": "Hi Vortix Kitchen, please help me compare cooker quotes with warranty cost included — failure rate, burn-in testing and defect freight terms.",
+        "wa_text": "Hi Vortix Kitchen, please help me compare cooker quotes with warranty cost included — failure rate, burn-in testing and defect handling.",
         "mail_subject": "Warranty reserve math for cooker quotes",
-        "mail_body": "Hi Vortix Kitchen, I'm comparing cooker suppliers. Please help me build a warranty-reserve comparison (failure rate, burn-in test, defect freight) before I sign.",
-        "body": """<p>The lower quote usually wins the PO. What the comparison skips is warranty cost: a cooker with a 1% failure rate and one with 5% can look identical on paper — and behave nothing alike in your first season. Every defective unit costs you a replacement, double freight, and an angry retailer.</p>
-<p>So price the warranty before you sign: annual units &times; failure rate &times; (replacement unit + two-way freight + handling hours), added to each quote. Compare true cost, not sticker cost — a supplier with triple the failure rate is never the cheaper one. Then ask how defects are handled in practice: the target defect rate verified by burn-in testing, who pays the return freight, and how fast a replacement ships. A warranty that only lives in a PDF is not a warranty.</p>""",
+        "mail_body": "Hi Vortix Kitchen, I'm comparing cooker suppliers. Please help me build a warranty-reserve comparison (failure rate, burn-in test, defect handling) before I sign.",
+        "body": """<p>The lower quote usually wins the PO. What the comparison skips is warranty cost: a cooker with a 1% failure rate and one with 5% can look identical on paper — and behave nothing alike in your first season. Every defective unit costs you a replacement and an angry retailer.</p>
+<p>So price the warranty before you sign: annual units &times; failure rate &times; (replacement unit + handling hours), added to each quote. Compare true cost, not sticker cost — a supplier with triple the failure rate is never the cheaper one. Then ask how defects are handled in practice: the target defect rate verified by burn-in testing, who pays the return shipping, and how fast a replacement ships. A warranty that only lives in a PDF is not a warranty.</p>""",
         "faq": [
-            ("How do I compare two cooker quotes fairly?", "Add the warranty reserve to each quote: annual units × failure rate × (replacement unit + two-way freight + handling hours). The lower total cost wins, not the lower sticker price."),
-            ("What failure terms should the purchase order contain?", "A written target defect rate, burn-in testing before shipment, supplier-paid freight on confirmed defects, and a window (for example 90 days in service) in which early-life failures count as supplier defects."),
+            ("How do I compare two cooker quotes fairly?", "Add the warranty reserve to each quote: annual units × failure rate × (replacement unit + handling hours). The lower total cost wins, not the lower sticker price."),
+            ("What failure terms should the purchase order contain?", "A written target defect rate, burn-in testing before shipment, supplier-paid returns on confirmed defects, and a window (for example 90 days in service) in which early-life failures count as supplier defects."),
         ],
     },
     {
@@ -708,7 +708,7 @@ ARTICLES = [
         "image": "scene_kettle_breakfast.jpg",
         "readtime": "2 min read",
         "title": "Order Too Late, Miss the Season: the 90-Day Cooker Buying Calendar",
-        "description": "Peak-season orders placed too late land after the selling window. Back-plan 90 days from the shelf date — production 30-45, sea freight 30-45, setup 7 — and split the year into batches.",
+        "description": "Peak-season orders placed too late land after the selling window. Back-plan 90 days from the shelf date — production 30-45, ocean transit 30-45, setup 7 — and split the year into batches.",
         "excerpt": "Cash sits frozen for a year when cookers land after the season. Back-plan 90 days from the shelf date and split the year into two or three batches.",
         "related": ["pain-production-scheduling", "pain-moq-container-loading", "pain-bom-substitution"],
         "cta_title": "Counting down to your peak season?",
@@ -716,10 +716,10 @@ ARTICLES = [
         "wa_text": "Hi Vortix Kitchen, I need cookers on shelves before the peak season. Can you confirm lead time and lock production capacity for my market?",
         "mail_subject": "Peak season delivery plan for cookers",
         "mail_body": "Hi Vortix Kitchen, my peak selling season starts soon. Please help me plan the ordering window so the containers land before the season begins.",
-        "body": """<p>Order in the last two weeks before peak season and the calendar beats you: 30-45 days of production, 30-45 days of sea freight, a week to clear and shelve — the containers land after your customers have already bought elsewhere. The cash and the warehouse space stay frozen until next year.</p>
+        "body": """<p>Order in the last two weeks before peak season and the calendar beats you: 30-45 days of production, 30-45 days of ocean transit, a week to clear and shelve — the containers land after your customers have already bought elsewhere. The cash and the warehouse space stay frozen until next year.</p>
 <h2>Work backward from the shelf date</h2>
 <ul>
-<li>Target shelf date − 90 days = latest order date (production 30-45 + sea freight 30-45 + receiving 7).</li>
+<li>Target shelf date − 90 days = latest order date (production 30-45 + ocean transit 30-45 + receiving 7).</li>
 <li>Peak windows: Central Asia / Russia — autumn weddings and New Year; Indonesia / Malaysia — the weeks before Ramadan; Africa — the year-end holiday season.</li>
 <li>Add 15 days of buffer for port or customs delays, and confirm factory capacity in writing when you order.</li>
 </ul>
@@ -729,7 +729,7 @@ ARTICLES = [
 <li>Reorder trigger: when a best seller drops to 4 weeks of cover, place the next batch.</li>
 </ul>""",
         "faq": [
-            ("When should I order cookers for the peak season?", "Work back 90 days from the target shelf date: 30-45 days of production, 30-45 days of sea freight, and about a week to clear customs and shelve. Order earlier if your lane has port congestion."),
+            ("When should I order cookers for the peak season?", "Work back 90 days from the target shelf date: 30-45 days of production, 30-45 days of ocean transit, and about a week to clear customs and shelve. Order earlier if your lane has port congestion."),
             ("How many batches should I import per year?", "Two or three: one before each peak window (autumn weddings and New Year in Central Asia and Russia, the weeks before Ramadan in Indonesia and Malaysia, the year-end season in Africa) plus a mid-year filler batch for fast sellers."),
         ],
     },
@@ -840,7 +840,7 @@ ARTICLES = [
 <p>Every logo, box art and label language should be approved as a signed proof before production starts — no proof, no production. Cartons get scanned before sealing so mixed models never leave the line, and a mislabeled batch is reworked at the factory's cost, not refunded at yours. Hold loading until a random carton check matches the signed proof. That ten-minute gate saves a season.</p>""",
         "faq": [
             ("How do I stop a factory mixing my private-label models?", "Signed pre-production proofs for logo, box art and label language before any production; cartons scanned and verified before sealing; and rework on any mislabeled batch at the factory's cost. A random carton check right before container loading is the final gate."),
-            ("What happens if the wrong logo ships on my private-label goods?", "If boxes arrive with the wrong logo, mixed models or bad translations, the buyer can reject the whole batch and your launch misses its season. Prevent it with signed pre-production proofs and pre-loading verification, with rework and freight covered by the factory."),
+            ("What happens if the wrong logo ships on my private-label goods?", "If boxes arrive with the wrong logo, mixed models or bad translations, the buyer can reject the whole batch and your launch misses its season. Prevent it with signed pre-production proofs and pre-loading verification, with rework covered by the factory."),
         ],
     },
     {
@@ -885,11 +885,11 @@ ARTICLES = [
         "mail_subject": "Peak-season stockout / reorder buffer",
         "mail_body": "Hi Vortix Kitchen, we keep running out of stock during peak season. Please help us size a safety-stock buffer and set a reorder schedule based on our weekly sell-through.",
         "body": """<p>The peak season opens and your cooker shelf goes empty by week two. Retailers switch to a competitor who kept stock, and the sales you planned for the whole quarter disappear in days. You didn't lose a shipment — you lost the season.</p>
-<p>Most stockouts aren't a demand surprise. They're the gap between when you reorder and when the next container lands: production plus ocean freight easily runs 60 to 90 days, longer than the selling window itself. If you reorder only after stock looks low, the new goods arrive after peak is over. A safety buffer sized to your weekly sell-through, reordered on a fixed schedule instead of on panic, keeps the shelf filled through the rush. Track units out the door each week, not just whether the warehouse looks full, and you stop guessing.</p>
+<p>Most stockouts aren't a demand surprise. They're the gap between when you reorder and when the next container lands: production plus transit easily runs 60 to 90 days, longer than the selling window itself. If you reorder only after stock looks low, the new goods arrive after peak is over. A safety buffer sized to your weekly sell-through, reordered on a fixed schedule instead of on panic, keeps the shelf filled through the rush. Track units out the door each week, not just whether the warehouse looks full, and you stop guessing.</p>
 <p>Want a simple reorder worksheet sized to your market? Reach Vortix on WhatsApp or email.</p>""",
         "faq": [
             ("How much safety stock should an importer keep for peak season?", "Size it to your weekly sell-through, not to a guess. If a container takes 60 to 90 days to arrive, your buffer should cover that whole window plus a demand spike. Reorder on a fixed schedule tied to units sold, not when the shelf looks empty — by then it's too late for peak."),
-            ("Why do cooker importers stock out during peak even with a full warehouse?", "A full warehouse in August doesn't help if the next container lands in November. Production plus ocean freight often runs 60 to 90 days, longer than the selling season. Stockouts come from the reorder-to-arrival gap, not from low starting inventory. A scheduled safety buffer tied to weekly sell-through keeps shelves filled through the rush."),
+            ("Why do cooker importers stock out during peak even with a full warehouse?", "A full warehouse in August doesn't help if the next container lands in November. Production plus transit often runs 60 to 90 days, longer than the selling season. Stockouts come from the reorder-to-arrival gap, not from low starting inventory. A scheduled safety buffer tied to weekly sell-through keeps shelves filled through the rush."),
         ],
     },
     {
