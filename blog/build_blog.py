@@ -916,30 +916,6 @@ ARTICLES = [
             ("How do I turn a sample unit into a closing tool instead of a return?", "Test it before it leaves you. Power it on, boil a pot of water, set the display to the buyer's language, and confirm the plug and voltage match the local market. Matching the demo unit to the market turns the sample into the reason the order is signed, not the reason it's returned."),
         ],
     },
-    {
-        "slug": "pain-freight-hidden-fee",
-        "series": "buying",
-        "cat": "BUYING DECISION",
-        "footer_label": "Freight Hidden Fee",
-        "image": "scene_kettle_breakfast.jpg",
-        "readtime": "2 min read",
-        "title": "The Freight Quote Was Cheap — the Arrival Bill Wasn't",
-        "description": "A booking-rate quote that looks 30% cheaper hides THC, documentation, seal, and destination surcharges that appear only at your port. Demand an all-in door-to-door quote with every line item fixed in writing, or the container doubles in cost on arrival.",
-        "excerpt": "A cheap freight quote hides port charges that surface only on arrival — often doubling the bill while your cargo sits on the dock. An all-in door-to-door quote with every fee named and fixed in writing keeps the landed cost honest.",
-        "related": ["pain-moq-container-loading", "pain-season-timing", "pain-warranty-math"],
-        "cta_title": "Freight bill doubled on arrival?",
-        "cta_text": "Send us your lane and volume and we'll help you build a freight spec that locks the landed cost before you commit — so the container pays for itself instead of surprising you.",
-        "wa_text": "Hi Vortix Kitchen, our freight bills keep doubling with port charges on arrival. Can you help us build a freight spec that locks the landed cost before we book?",
-        "mail_subject": "Freight hidden fees / landed-cost spec",
-        "mail_body": "Hi Vortix Kitchen, our freight quotes look cheap but port charges double the bill on arrival. Please help us build a freight spec that names and fixes every fee before we book containers.",
-        "body": """<p>A freight quote that looks 30% cheaper at the booking desk often isn't. By the time the container reaches your port, the carrier and terminal add THC, documentation, seal, amendment, and destination surcharges that never appeared in the quote. The final invoice runs double the number you agreed on.</p>
-<p>Worse, the cargo sits on the dock accruing demurrage while you argue the bill. In peak season that means missed shelves and lost sales, not just a fee. A cheap headline rate that doubles on arrival costs more than a steady price that holds at the port.</p>
-<p>Before you sign, ask the forwarder for an all-in door-to-door quote that names every line item and fixes the destination charges in writing. Send us your lane and volume and we'll help you build a freight spec that locks the landed cost before you commit — so the container pays for itself instead of surprising you. Reach Vortix on WhatsApp or email.</p>""",
-        "faq": [
-            ("Why does my final freight bill run double the quoted rate?", "The booking quote usually covers only the ocean rate. THC, documentation, seal, amendment, and destination surcharges are added at the port and never shown up front. Ask for an all-in door-to-door quote that names every line item and fixes the destination charges in writing before you book."),
-            ("How do I stop port charges from surprising me after the container sails?", "Lock the landed cost before you commit. Get the forwarder's all-in quote in writing with each fee named, and confirm the destination charges are fixed, not 'estimated'. A price that holds at the port beats a headline rate that doubles on arrival while your cargo accrues demurrage on the dock."),
-        ],
-    },
 ]
 
 
